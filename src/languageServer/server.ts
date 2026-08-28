@@ -17,6 +17,11 @@ import { getCodeActions } from "./codeActions";
 import { getColorPresentations, getDocumentColors } from "./colors";
 import { getCompletionList } from "./completions";
 import { clearDocumentCompletionData } from "./completionState";
+import {
+    localizeCompletionList,
+    localizeHover,
+    localizeSignatureHelp,
+} from "./documentationLocalization";
 import { getWorkspaceDefinition, invalidateOpyFileCache } from "./definition";
 import { getDiagnosticUrisToClear } from "./documentLifecycle";
 import { getDocumentLinks } from "./documentLinks";
@@ -157,31 +162,40 @@ documents.onDidClose((event) => {
     connection.sendDiagnostics({ uri: closedUri, diagnostics: [] });
 });
 
-connection.onCompletion((params): CompletionList | null => {
+connection.onCompletion(async (params): Promise<CompletionList | null> => {
     const document = documents.get(params.textDocument.uri);
     if (!document) {
         return null;
     }
 
-    return getCompletionList(document, params.position, params.context?.triggerCharacter);
+    const settings = await getDocumentSettings(document.uri);
+    return localizeCompletionList(
+        getCompletionList(document, params.position, params.context?.triggerCharacter),
+        settings.workshopLanguage,
+    );
 });
 
-connection.onSignatureHelp((params): SignatureHelp | null => {
+connection.onSignatureHelp(async (params): Promise<SignatureHelp | null> => {
     const document = documents.get(params.textDocument.uri);
     if (!document) {
         return null;
     }
 
-    return getSignatureHelp(document, params.position, params.context?.triggerCharacter) ?? null;
+    const settings = await getDocumentSettings(document.uri);
+    return localizeSignatureHelp(
+        getSignatureHelp(document, params.position, params.context?.triggerCharacter),
+        settings.workshopLanguage,
+    ) ?? null;
 });
 
-connection.onHover((params) => {
+connection.onHover(async (params) => {
     const document = documents.get(params.textDocument.uri);
     if (!document) {
         return null;
     }
 
-    return getHover(document, params.position);
+    const settings = await getDocumentSettings(document.uri);
+    return localizeHover(getHover(document, params.position), settings.workshopLanguage);
 });
 
 connection.languages.inlayHint.on(async (params) => {
