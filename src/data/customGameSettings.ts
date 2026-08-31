@@ -31,7 +31,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "beamEffects": {
                 "points": 2,
                 "guid": "0000000129FF",
-
                 "en-US": "Beam Effects",
                 "de-DE": "Strahleffekte",
                 "es-ES": "Efectos de haz",
@@ -51,7 +50,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "beamSounds": {
                 "points": 1,
                 "guid": "000000012D9B",
-
                 "en-US": "Beam Sounds",
                 "de-DE": "Sounds von Strahlen",
                 "es-ES": "Sonidos de haz",
@@ -71,7 +69,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "buffAndDebuffSounds": {
                 "points": 2,
                 "guid": "000000012E70",
-
                 "en-US": "Buff and Debuff Sounds",
                 "de-DE": "Sounds von Stärkungs- und Schwächungseffekten",
                 "es-ES": "Sonidos de beneficios y perjuicios",
@@ -91,7 +88,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "buffStatusEffects": {
                 "points": 2,
                 "guid": "000000012A02",
-
                 "en-US": "Buff Status Effects",
                 "de-DE": "Effekte von Stärkungseffekten",
                 "es-ES": "Efectos de estados de mejoras",
@@ -111,7 +107,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "debuffStatusEffects": {
                 "points": 2,
                 "guid": "000000012BFB",
-
                 "en-US": "Debuff Status Effects",
                 "de-DE": "Effekte von Schwächungseffekten",
                 "es-ES": "Efectos de estados de perjuicios",
@@ -131,7 +126,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "energyExplosionEffects": {
                 "points": 4,
                 "guid": "000000012D79",
-
                 "en-US": "Energy Explosion Effects",
                 "de-DE": "Effekte von Energieexplosionen",
                 "es-ES": "Efectos de explosión de energía",
@@ -151,7 +145,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "explosionSounds": {
                 "points": 2,
                 "guid": "000000012EB2",
-
                 "en-US": "Explosion Sounds",
                 "de-DE": "Sounds von Explosionen",
                 "es-ES": "Sonidos de explosiones",
@@ -171,7 +164,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "kineticExplosionEffects": {
                 "points": 4,
                 "guid": "000000012D22",
-
                 "en-US": "Kinetic Explosion Effects",
                 "de-DE": "Effekte von kinetischen Explosionen",
                 "es-ES": "Efectos de explosión cinética",
@@ -191,7 +183,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "playMoreEffects": {
                 "points": 1,
                 "guid": "0000000128E9",
-
                 "en-US": "Play More Effects",
                 "de-DE": "Mehr Effekte abspielen",
                 "es-ES": "Reproducir más efectos",
@@ -210,7 +201,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             },
             "projectiles": {
                 "points": 4,
-
                 "guid": "000000019736",
                 "en-US": "Projectiles",
                 "de-DE": "Projektile",
@@ -220,18 +210,17 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                 "ja-JP": "投射物",
                 "pl-PL": "Pociski",
                 "pt-BR": "Projéteis",
-                "ru-RU": "Снаряды",
+                "ru-RU": "Projectiles",
                 "th-TH": "โพรเจกไทล์",
                 "tr-TR": "Atılır Cisimler",
                 "zh-CN": "弹道",
                 "zh-TW": "拋射物",
                 "fr-FR": "Projectiles",
-                "ko-KR": "Projectiles"
+                "ko-KR": "투사체"
             },
             "spawnMoreDummyBots": {
                 "points": 2,
                 "guid": "0000000128E7",
-
                 "en-US": "Spawn More Dummy Bots",
                 "de-DE": "Mehr Bots erschaffen",
                 "es-ES": "Generar más robots",
@@ -776,12 +765,12 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     },
                     "perkEliminationCatchupLevelAmount%": {
                         "values": "__percent__",
-                        "en-US": "Perk Elimination Catchup Level Amount",
+                        "en-US": "Perk Elimination Catchup Level Amount"
                     },
                     "perkGeneration%": {
                         "values": "__percent__",
                         "en-US": "Perk Generation",
-                        "zh-CN": "威能充能速度",
+                        "zh-CN": "威能充能速度"
                     },
                     "tankPassiveHealthBonus": {
                         "values": {
@@ -860,6 +849,21 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     "teamOverlay": {
                         "values": "__boolOnOff__",
                         "en-US": "Team Overlay",
+                        "guid": "0000000233C1",
+                        "de-DE": "Team-Overlay",
+                        "es-ES": "Superposición de equipo",
+                        "es-MX": "Superposición de equipo",
+                        "fr-FR": "Interface d’équipe",
+                        "it-IT": "Overlay squadra",
+                        "ja-JP": "チーム・オーバーレイ",
+                        "ko-KR": "팀 오버레이",
+                        "pl-PL": "Nakładka drużynowa",
+                        "pt-BR": "Sobreposição de Equipe",
+                        "ru-RU": "Индикаторы команды",
+                        "th-TH": "โอเวอร์เลย์ทีม",
+                        "tr-TR": "Takım Arayüzü",
+                        "zh-CN": "队伍界面",
+                        "zh-TW": "隊伍介面"
                     },
                     "disabledMaps": {
                         "guid": "000000010041",
@@ -1167,7 +1171,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                 }
             },
             "controlAprilFools": {
-
                 "values": {
                     "captureSpeed%": {
                         "values": "__percent__",
@@ -4612,7 +4615,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     "guid": "000000005B4B",
                     "values": "__boolOnOff__",
                     "exclude": [
-                        "mauga",
+                        "mauga"
                     ],
                     "en-US": "Primary Fire",
                     "de-DE": "Primärer Feuermodus",
@@ -4641,7 +4644,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                         "kiriko",
                         "moira",
                         "reinhardt",
-                        "sigma",
+                        "sigma"
                     ],
                     "guid": "000000005ECC",
                     "en-US": "Ammunition Clip Size Scalar",
@@ -5048,7 +5051,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                 "secondaryFireMaximumTime%": {
                     "values": "__percent__",
                     "include": [
-                        "dva",
+                        "dva"
                     ],
                     "guid": "000000005B45",
                     "en-US": "%1$s Maximum Time",
@@ -5386,23 +5389,23 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                 "values": {
                     "assembleMechKb%": {
                         "values": "__percent__",
-                        "en-US": "[PH] Assemble Mech Knockback Scalar",
+                        "en-US": "[PH] Assemble Mech Knockback Scalar"
                     },
                     "ability1Kb%": {
                         "values": "__percent__",
-                        "en-US": "[PH] Propulsion Knockback Scalar",
+                        "en-US": "[PH] Propulsion Knockback Scalar"
                     },
                     "ability1MaxTime%": {
                         "values": "__percent__",
-                        "en-US": "Propulsors Maximum Time",
+                        "en-US": "Propulsors Maximum Time"
                     },
                     "ability1RechargeRate%": {
                         "values": "__percent__",
-                        "en-US": "Propulsors Recharge Rate",
+                        "en-US": "Propulsors Recharge Rate"
                     },
                     "ability3Kb%": {
                         "values": "__percent__",
-                        "en-US": "[PH] Skewer Knockback Scalar",
+                        "en-US": "[PH] Skewer Knockback Scalar"
                     },
                     "spawnWithoutMech": {
                         "values": "__boolOnOff__",
@@ -5762,7 +5765,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     "secondaryFireMaximumTime%": {
                         "values": "__percent__",
                         "en-US": "Frenetic Flight Maximum Time",
-                        "zh-CN": "咻咻飞最大时间",
+                        "zh-CN": "咻咻飞最大时间"
                     },
                     "enablePassiveUnlimitedFuel": {
                         "values": "__boolOnOff__",
@@ -6306,7 +6309,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                         "ru-RU": "Скорость восполнения биотической энергии",
                         "th-TH": "อัตราการรีชาร์จพลังงานชีวภาพ",
                         "tr-TR": "Biyotik Enerji Dolum Oranı",
-                        "zh-CN": "生化能量恢复速度",
+                        "zh-CN": "生化能量回复速度",
                         "zh-TW": "生化能量恢復速率"
                     }
                 }
@@ -6622,7 +6625,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     "ability2Kb%": {
                         "values": "__percent__",
                         "en-US": "Tremor Charge Knockback Scalar",
-                        "zh-CN": "震地手雷击退倍率",
+                        "zh-CN": "震地手雷击退倍率"
                     }
                 }
             },
@@ -7084,8 +7087,8 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                         "values": "__percent__",
                         "en-US": "Soaring Slice Distance",
                         "zh-CN": "飞空斩击距离"
-                    },
-                },
+                    }
+                }
             },
             "venture": {
                 "values": {
@@ -7105,7 +7108,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                         "ru-RU": "Длительность закапывания",
                         "th-TH": "ปรับระยะเวลาเบอร์โรว์",
                         "tr-TR": "Battıçıktı Süresi Skaleri",
-                        "zh-CN": "钻地持续时间倍率",
+                        "zh-CN": "钻地持续时间",
                         "zh-TW": "鑽地持續時間"
                     }
                 }
@@ -7128,7 +7131,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                         "ru-RU": "Усиление планирования",
                         "th-TH": "ปรับระยะเวลาไกลด์บูสต์",
                         "tr-TR": "Süzülme Desteği Süresi Skaleri",
-                        "zh-CN": "滑翔推进持续时间倍率",
+                        "zh-CN": "滑翔推进持续时间",
                         "zh-TW": "滑翔加速持續時間"
                     }
                 }
@@ -7137,7 +7140,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                 "values": {
                     "ability2Kb%": {
                         "values": "__percent__",
-                        "en-US": "Jagged Wall Knockback",
+                        "en-US": "Jagged Wall Knockback Scalar",
                         "guid": "00000002356E",
                         "de-DE": "Zackenwall – Rückstoß",
                         "es-ES": "Repulsión de Muro afilado",
@@ -7156,7 +7159,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     },
                     "ability2Health%": {
                         "values": "__percent__",
-                        "en-US": "Jagged Wall Health",
+                        "en-US": "Jagged Wall Health Scalar",
                         "guid": "00000002356D",
                         "de-DE": "Zackenwall – Trefferpunkte",
                         "es-ES": "Salud de Muro afilado",
@@ -7176,10 +7179,25 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     "secondaryFireMovementSpeedPenalty%": {
                         "values": "__percent__",
                         "en-US": "Spike Guard Movement Speed Penalty",
+                        "guid": "000000023573",
+                        "de-DE": "Durch Stachelschutz verringerte Bewegungsgeschwindigkeit",
+                        "es-ES": "Penalización de velocidad de movimiento de Protección de púas",
+                        "es-MX": "Penalización de velocidad de movimiento de Protección de púas",
+                        "fr-FR": "Pénalité de déplacement de Garde hérissée",
+                        "it-IT": "Guardia Affilata - Penalità alla velocità di movimento",
+                        "ja-JP": "スパイク・ガード移動速度ペナルティ",
+                        "ko-KR": "날카로운 저항 이동 속도 불이익",
+                        "pl-PL": "Kara do szybkości ruchu za Kolcoobronę",
+                        "pt-BR": "Penalidade de Velocidade de Movimento da Defesa Ouriçada",
+                        "ru-RU": "Шипастая оборона: штраф к скорости передвижения",
+                        "th-TH": "การลดความเร็วในการเคลื่อนที่ของสไปค์การ์ด",
+                        "tr-TR": "Emniyet Dikeni Hareket Hızı Cezası",
+                        "zh-CN": "尖刺护体移动速度惩罚",
+                        "zh-TW": "尖刺防禦的移動速度降低量"
                     },
                     "secondaryFireCost%": {
                         "values": "__percent__",
-                        "en-US": "Spike Guard Resource Cost",
+                        "en-US": "Spike Guard Resource Cost Scalar",
                         "guid": "000000023571",
                         "de-DE": "Stachelschutz – Ressourcenkosten",
                         "es-ES": "Coste de recursos de Protección de púas",
@@ -7198,7 +7216,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     },
                     "secondaryFireRegen%": {
                         "values": "__percent__",
-                        "en-US": "Spike Guard Resource Regeneration",
+                        "en-US": "Spike Guard Resource Regeneration Scalar",
                         "guid": "000000023574",
                         "de-DE": "Stachelschutz – Regenerierte Ressourcen",
                         "es-ES": "Regeneración de recursos de Protección de púas",
@@ -7217,7 +7235,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                     },
                     "ability1Distance%": {
                         "values": "__percent__",
-                        "en-US": "Violent Leap Distance",
+                        "en-US": "Violent Leap Distance Scalar",
                         "guid": "00000002356B",
                         "de-DE": "Sturzsprung – Distanz",
                         "es-ES": "Distancia de Salto violento",
@@ -7240,7 +7258,7 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
                 "values": {
                     "primaryFireOrbTurnRate%": {
                         "values": "__percent__",
-                        "en-US": "Water Staff Orb Turn Rate",
+                        "en-US": "Water Staff Orb Turn Rate"
                     },
                     "secondaryFireCost%": {
                         "values": "__percent__",
@@ -7599,8 +7617,9 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
             "allowPlayersInQueue": {
                 "values": "__boolYesNo__",
                 "guid": "00000000F25B",
-                "description": "Whether to allow players in 'While you wait'.",
-
+                "description": {
+                    "en-US": "Whether to allow players in 'While you wait'."
+                },
                 "en-US": "Allow Players Who Are In Queue",
                 "de-DE": "Spieler in der Spielsuche zulassen",
                 "es-ES": "Permitir jugadores que estén en cola",
@@ -8364,7 +8383,6 @@ export const customGameSettingsSchema: CustomGameSettingSchema =
     "main": {
         "values": {
             "description": {
-                "guid": "00000001007F",
                 "values": "__string__",
                 "maxChars": 512,
                 "en-US": "Description",
@@ -8502,7 +8520,7 @@ export type CustomGameSettingSchema = {
         }
     } & Partial<LocalizableString>,
     lobby: {
-        values: Record<string, CustomGameSetting & { description?: string }>
+        values: Record<string, CustomGameSetting & { description?: import("../types").LocalizableString }>
     } & Partial<LocalizableString>,
     main: {
         values: Record<string, LocalizableString & {

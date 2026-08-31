@@ -77,7 +77,7 @@ export const gamemodeKw: Record<string, LocalizableString & {
         "fr-FR": "Clash",
         "it-IT": "Scontro",
         "ja-JP": "クラッシュ",
-        "ko-KR": "격돌",
+        "ko-KR": "대격돌",
         "pl-PL": "Starcie",
         "pt-BR": "Embate",
         "ru-RU": "Битва",
@@ -109,12 +109,12 @@ export const gamemodeKw: Record<string, LocalizableString & {
     "controlAprilFools": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Control April Fools",
+        "en-US": "Control April Fools"
     },
     "controlCommunity": {
-        "defaultTeam1Players": 5, //actually idk, it's removed anyway
+        "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Control Community",
+        "en-US": "Control Community"
     },
     "ctf": {
         "defaultTeam1Players": 5,
@@ -179,12 +179,12 @@ export const gamemodeKw: Record<string, LocalizableString & {
     "escortCommunity": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Escort Community",
+        "en-US": "Escort Community"
     },
     "escortAprilFools": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Escort April Fools",
+        "en-US": "Escort April Fools"
     },
     "ffa": {
         "guid": "000000006853",
@@ -228,7 +228,7 @@ export const gamemodeKw: Record<string, LocalizableString & {
     "flashpointAprilFools": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Flashpoint April Fools",
+        "en-US": "Flashpoint April Fools"
     },
     "freezethawElimination": {
         "defaultTeam1Players": 6,
@@ -273,12 +273,12 @@ export const gamemodeKw: Record<string, LocalizableString & {
     "hybridAprilFools": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Hybrid April Fools",
+        "en-US": "Hybrid April Fools"
     },
     "hybridCommunity": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Hybrid Community",
+        "en-US": "Hybrid Community"
     },
     "junkenstein": {
         "defaultTeam1Players": 6,
@@ -379,12 +379,12 @@ export const gamemodeKw: Record<string, LocalizableString & {
     "pushAprilFools": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Push April Fools",
+        "en-US": "Push April Fools"
     },
     "pushCommunity": {
         "defaultTeam1Players": 5,
         "defaultTeam2Players": 5,
-        "en-US": "Push Community",
+        "en-US": "Push Community"
     },
     "skirmish": {
         "defaultTeam1Players": 5,
@@ -427,8 +427,8 @@ export const gamemodeKw: Record<string, LocalizableString & {
     },
     "stadiumPracticeRange": {
         "en-US": "Stadium Practice Range",
-        "zh-CN": "决斗领域",
-    }, 
+        "zh-CN": "决斗领域"
+    },
     "tdm": {
         "defaultTeam1Players": 4,
         "defaultTeam2Players": 4,
@@ -470,20 +470,20 @@ export const gamemodeKw: Record<string, LocalizableString & {
         "zh-TW": "雪怪大作戰"
     },
     "assaultBalancedOverwatch": {
-        "en-US": "Assault Balanced Overwatch",
+        "en-US": "Assault Balanced Overwatch"
     },
     "controlBalancedOverwatch": {
-        "en-US": "Control Balanced Overwatch",
+        "en-US": "Control Balanced Overwatch"
     },
     "escortBalancedOverwatch": {
-        "en-US": "Escort Balanced Overwatch",
+        "en-US": "Escort Balanced Overwatch"
     },
     "hybridBalancedOverwatch": {
-        "en-US": "Hybrid Balanced Overwatch",
+        "en-US": "Hybrid Balanced Overwatch"
     },
     "pushBalancedOverwatch": {
-        "en-US": "Push Balanced Overwatch",
-    },
+        "en-US": "Push Balanced Overwatch"
+    }
 }
 //end-json
 ;

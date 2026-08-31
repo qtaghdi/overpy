@@ -31,10 +31,10 @@ export const mapKw: Record<string, import("../types").Map> =
     "aatlis": {
         "gamemodes": [
             "skirmish",
-            "flashpoint",
+            "flashpoint"
         ],
         "variants": {
-            "default": "972777519512068153",
+            "default": "972777519512068153"
         },
         "en-US": "Aatlis",
         "zh-CN": "阿特利斯"
@@ -98,41 +98,43 @@ export const mapKw: Record<string, import("../types").Map> =
     },
     "arenaVictoriae": {
         "gamemodes": [
-            "control",
+            "control"
         ],
         "variants": {
             "sunset": "972777519512068292",
-            "night": "972777519512068153",
+            "night": "972777519512068153"
         },
         "en-US": "Arena Victoriae"
     },
     "gogadoro": {
         "gamemodes": [
-            "control",
+            "control"
         ],
         "variants": {
             "night": "972777519512068153",
-            "morning": "972777519512068154",
+            "morning": "972777519512068154"
         },
-        "en-US": "Gogadoro",
+        "en-US": "Gogadoro"
     },
     "redwoodDam": {
         "gamemodes": [
-            "push",
+            "push"
         ],
         "variants": {
             "morning": "972777519512068154",
-            "sunset": "972777519512068292",
+            "sunset": "972777519512068292"
         },
-        "en-US": "Redwood Dam",
+        "en-US": "Redwood Dam"
     },
     "placeLacroix": {
-        "gamemodes": ["push"],
+        "gamemodes": [
+            "push"
+        ],
         "variants": {
             "morning": "972777519512055904",
-            "sunset": "972777519512068292",
+            "sunset": "972777519512068292"
         },
-        "en-US": "Place Lacroix",
+        "en-US": "Place Lacroix"
     },
     "blackForest": {
         "guid": "0000000059C3",
@@ -777,7 +779,7 @@ export const mapKw: Record<string, import("../types").Map> =
             "skirmish"
         ],
         "variants": {
-            "default": "972777519512068154",
+            "default": "972777519512068154"
         },
         "en-US": "Hanaoka",
         "de-DE": "Hanaoka",
@@ -1491,10 +1493,10 @@ export const mapKw: Record<string, import("../types").Map> =
     "neonJunction": {
         "gamemodes": [
             "skirmish",
-            "hybrid",
+            "hybrid"
         ],
         "en-US": "Neon Junction",
-        "zh-CN": "霓虹枢纽",
+        "zh-CN": "霓虹枢纽"
     },
     "nepal": {
         "guid": "00000000138A",
@@ -1648,7 +1650,7 @@ export const mapKw: Record<string, import("../types").Map> =
             "flashpoint"
         ],
         "variants": {
-            "default": "972777519512068154",
+            "default": "972777519512068154"
         },
         "guid": "000000014012",
         "en-US": "New Junk City",
@@ -2175,7 +2177,7 @@ export const mapKw: Record<string, import("../types").Map> =
             "skirmish"
         ],
         "variants": {
-            "default": "972777519512068154",
+            "default": "972777519512068154"
         },
         "en-US": "Throne of Anubis",
         "de-DE": "Thron des Anubis",
@@ -2228,7 +2230,7 @@ export const mapKw: Record<string, import("../types").Map> =
             "skirmish"
         ],
         "variants": {
-            "default": "972777519512099996",
+            "default": "972777519512099996"
         },
         "en-US": "Watchpoint: Gibraltar",
         "es-ES": "Observatorio: Gibraltar",
