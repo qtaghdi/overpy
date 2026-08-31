@@ -23,6 +23,7 @@ jobs:
       - run: node scripts/patch-description-generator.mjs
       - run: node scripts/refactor-lsp-documentation.mjs
       - run: node scripts/refactor-lsp-documentation-extra.mjs
+      - run: node scripts/fix-generated-lsp.mjs
       - run: node generate-the-other-languages-doc.js
       - run: git diff > migration.patch
       - run: git diff --check
