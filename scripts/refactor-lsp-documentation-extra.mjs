@@ -163,6 +163,27 @@ fs.writeFileSync(packagePath, JSON.stringify(pkg, null, 4) + "\n");
 fs.rmSync(path.join(root, "src", "languageServer", "documentationLocalization.ts"), { force: true });
 
 const testPath = path.join(root, "src", "test", "documentationLocalization.test.ts");
-fs.writeFileSync(testPath, `import assert from "node:assert/strict";\n\nimport { actionKw } from "../data/actions";\nimport { formatDocumentation, getLocalizedString, localizableDocumentation } from "../data/opy/documentation";\n\nassert.equal(formatDocumentation("arguments", "ko-KR"), "인자:");\nassert.equal(formatDocumentation("returns", "ko-KR"), "반환값:");\nassert.equal(formatDocumentation("defaultValue", "ko-KR", "0.016"), "생략하면 기본값은 \\`0.016\\`입니다.");\nassert.equal(formatDocumentation("arguments", "ja-JP"), "Arguments:");\n\nconst localized = localizableDocumentation("globalVariableIndex", 3);\nassert.equal(getLocalizedString(localized, "ko-KR"), "전역 변수입니다. (인덱스: 3)");\nassert.equal(getLocalizedString(localized, "fr-FR"), "A global variable. (index: 3)");\n\nassert.equal(typeof actionKw.wait.description, "object");\nassert.ok(actionKw.wait.description["en-US"]);\nassert.ok(actionKw.wait.description["ko-KR"]);\n\nconsole.log("Documentation localization tests passed.");\n`);
+const testLines = [
+    'import assert from "node:assert/strict";',
+    '',
+    'import { actionKw } from "../data/actions";',
+    'import { formatDocumentation, getLocalizedString, localizableDocumentation } from "../data/opy/documentation";',
+    '',
+    'assert.equal(formatDocumentation("arguments", "ko-KR"), "인자:");',
+    'assert.equal(formatDocumentation("returns", "ko-KR"), "반환값:");',
+    'assert.equal(formatDocumentation("defaultValue", "ko-KR", "0.016"), "생략하면 기본값은 `0.016`입니다.");',
+    'assert.equal(formatDocumentation("arguments", "ja-JP"), "Arguments:");',
+    '',
+    'const localized = localizableDocumentation("globalVariableIndex", 3);',
+    'assert.equal(getLocalizedString(localized, "ko-KR"), "전역 변수입니다. (인덱스: 3)");',
+    'assert.equal(getLocalizedString(localized, "fr-FR"), "A global variable. (index: 3)");',
+    '',
+    'assert.equal(typeof actionKw.wait.description, "object");',
+    'assert.ok(actionKw.wait.description["en-US"]);',
+    'assert.ok(actionKw.wait.description["ko-KR"]);',
+    '',
+    'console.log("Documentation localization tests passed.");',
+];
+fs.writeFileSync(testPath, testLines.join("\n") + "\n");
 
 console.log("Additional documentation localization refactor prepared.");
