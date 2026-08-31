@@ -20,6 +20,7 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: node scripts/migrate-localizable-descriptions.mjs
+      - run: node scripts/refactor-lsp-documentation.mjs
       - run: node generate-the-other-languages-doc.js
       - run: git diff > migration.patch
       - run: git diff --check
