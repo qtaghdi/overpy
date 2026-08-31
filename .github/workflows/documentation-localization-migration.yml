@@ -21,11 +21,11 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: node scripts/migrate-localizable-descriptions.mjs
       - run: node generate-the-other-languages-doc.js
+      - run: git diff > migration.patch
       - run: git diff --check
       - run: pnpm run check-types
       - run: pnpm run lint
       - run: pnpm run test:lsp
-      - run: git diff > migration.patch
       - uses: actions/upload-artifact@v4
         if: always()
         with:
