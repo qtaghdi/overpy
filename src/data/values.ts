@@ -23,9 +23,7 @@ export const valueFuncKw: Record<string, Value> =
 {
     "Vector.BACKWARD": {
         "guid": "00000000B11B",
-        "description": {
-            "en-US": "Shorthand for the directional vector(0, 0, -1), which points backward."
-        },
+        "description": { "en-US": "Shorthand for the directional vector(0, 0, -1), which points backward." },
         "args": null,
         "return": {
             "Direction": [
@@ -54,9 +52,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "Vector.DOWN": {
         "guid": "00000000B119",
-        "description": {
-            "en-US": "Shorthand for the directional vector(0, -1, 0), which points downward."
-        },
+        "description": { "en-US": "Shorthand for the directional vector(0, -1, 0), which points downward." },
         "args": null,
         "return": {
             "Direction": [
@@ -85,9 +81,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "Vector.FORWARD": {
         "guid": "00000000B11A",
-        "description": {
-            "en-US": "Shorthand for the directional vector(0, 0, 1), which points forward."
-        },
+        "description": { "en-US": "Shorthand for the directional vector(0, 0, 1), which points forward." },
         "args": null,
         "isConstant": true,
         "return": {
@@ -116,9 +110,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "Vector.LEFT": {
         "guid": "00000000B116",
-        "description": {
-            "en-US": "Shorthand for the directional vector(1, 0, 0), which points to the left."
-        },
+        "description": { "en-US": "Shorthand for the directional vector(1, 0, 0), which points to the left." },
         "args": null,
         "isConstant": true,
         "return": {
@@ -147,9 +139,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "Vector.RIGHT": {
         "guid": "00000000B117",
-        "description": {
-            "en-US": "Shorthand for the directional vector(-1, 0, 0), which points to the right."
-        },
+        "description": { "en-US": "Shorthand for the directional vector(-1, 0, 0), which points to the right." },
         "args": null,
         "isConstant": true,
         "return": {
@@ -178,9 +168,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "Vector.UP": {
         "guid": "00000000B118",
-        "description": {
-            "en-US": "Shorthand for the directional vector(0, 1, 0), which points upward."
-        },
+        "description": { "en-US": "Shorthand for the directional vector(0, 1, 0), which points upward." },
         "args": null,
         "isConstant": true,
         "return": {
@@ -208,37 +196,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Up"
     },
     ".getAbilityCharge": {
-        "description": {
-            "en-US": "The ability charge count for a player associated by button."
-        },
+        "description": { "en-US": "The ability charge count for a player associated by button." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ability to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ability to check." },
+                "type": "Player",
             },
             {
                 "name": "button",
-                "description": {
-                    "en-US": "The ability to check associated by button.",
-                    "de-DE": "Die per Taste zugeordnete zu prüfende Fähigkeit.",
-                    "es-ES": "Habilidad que se comprueba asociada por botón.",
-                    "es-MX": "La habilidad que se verificará asociada por botón",
-                    "fr-FR": "La capacité à vérifier associée à un bouton.",
-                    "it-IT": "L'abilità da controllare associata al tasto.",
-                    "ja-JP": "チェックするボタンに割り当てられたアビリティ",
-                    "ko-KR": "버튼으로 확인할 기술입니다.",
-                    "pl-PL": "Zdolność która zostanie sprawdzona; powiązana z przyciskiem.",
-                    "pt-BR": "A habilidade a ser verificada associada por botão.",
-                    "ru-RU": "Проверяемая способность сопоставленная с кнопкой.",
-                    "th-TH": "The ability to check associated by button.",
-                    "tr-TR": "Düğmeyle ilişkili kontrol edilecek kabiliyet.",
-                    "zh-CN": "检测此按键对应的技能状态。",
-                    "zh-TW": "The ability to check associated by button."
-                },
-                "type": "Button"
+                "description": { "en-US": "The ability to check associated by button." },
+                "type": "Button",
             }
         ],
         "return": "unsigned int",
@@ -260,37 +228,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ability Charge"
     },
     ".getAbilityCooldown": {
-        "description": {
-            "en-US": "The ability cooldown time in seconds for a player associated by button."
-        },
+        "description": { "en-US": "The ability cooldown time in seconds for a player associated by button." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ability to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ability to check." },
+                "type": "Player",
             },
             {
                 "name": "button",
-                "description": {
-                    "en-US": "The ability to check associated by button.",
-                    "de-DE": "Die per Taste zugeordnete zu prüfende Fähigkeit.",
-                    "es-ES": "Habilidad que se comprueba asociada por botón.",
-                    "es-MX": "La habilidad que se verificará asociada por botón",
-                    "fr-FR": "La capacité à vérifier associée à un bouton.",
-                    "it-IT": "L'abilità da controllare associata al tasto.",
-                    "ja-JP": "チェックするボタンに割り当てられたアビリティ",
-                    "ko-KR": "버튼으로 확인할 기술입니다.",
-                    "pl-PL": "Zdolność która zostanie sprawdzona; powiązana z przyciskiem.",
-                    "pt-BR": "A habilidade a ser verificada associada por botão.",
-                    "ru-RU": "Проверяемая способность сопоставленная с кнопкой.",
-                    "th-TH": "The ability to check associated by button.",
-                    "tr-TR": "Düğmeyle ilişkili kontrol edilecek kabiliyet.",
-                    "zh-CN": "检测此按键对应的技能状态。",
-                    "zh-TW": "The ability to check associated by button."
-                },
-                "type": "Button"
+                "description": { "en-US": "The ability to check associated by button." },
+                "type": "Button",
             }
         ],
         "return": "unsigned float",
@@ -312,37 +260,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ability Cooldown"
     },
     ".getAbilityResource": {
-        "description": {
-            "en-US": "The ability resource percent for a player associated by button."
-        },
+        "description": { "en-US": "The ability resource percent for a player associated by button." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ability to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ability to check." },
+                "type": "Player",
             },
             {
                 "name": "button",
-                "description": {
-                    "en-US": "The ability to check associated by button.",
-                    "de-DE": "Die per Taste zugeordnete zu prüfende Fähigkeit.",
-                    "es-ES": "Habilidad que se comprueba asociada por botón.",
-                    "es-MX": "La habilidad que se verificará asociada por botón",
-                    "fr-FR": "La capacité à vérifier associée à un bouton.",
-                    "it-IT": "L'abilità da controllare associata al tasto.",
-                    "ja-JP": "チェックするボタンに割り当てられたアビリティ",
-                    "ko-KR": "버튼으로 확인할 기술입니다.",
-                    "pl-PL": "Zdolność która zostanie sprawdzona; powiązana z przyciskiem.",
-                    "pt-BR": "A habilidade a ser verificada associada por botão.",
-                    "ru-RU": "Проверяемая способность сопоставленная с кнопкой.",
-                    "th-TH": "The ability to check associated by button.",
-                    "tr-TR": "Düğmeyle ilişkili kontrol edilecek kabiliyet.",
-                    "zh-CN": "检测此按键对应的技能状态。",
-                    "zh-TW": "The ability to check associated by button."
-                },
-                "type": "Button"
+                "description": { "en-US": "The ability to check associated by button." },
+                "type": "Button",
             }
         ],
         "return": "unsigned float",
@@ -364,16 +292,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ability Resource"
     },
     ".getAllowedHeroes": {
-        "description": {
-            "en-US": "The array of heroes from which the specified player is currently allowed to select."
-        },
+        "description": { "en-US": "The array of heroes from which the specified player is currently allowed to select." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose allowed heroes to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose allowed heroes to acquire." },
+                "type": "Player",
             }
         ],
         "return": {
@@ -398,16 +322,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Allowed Heroes"
     },
     ".getAltitude": {
-        "description": {
-            "en-US": "The player's current height in meters above a surface. Results in 0 whenever the player is on a surface."
-        },
+        "description": { "en-US": "The player's current height in meters above a surface. Results in 0 whenever the player is on a surface." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose altitude to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose altitude to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -429,22 +349,16 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Altitude Of"
     },
     ".getAmmo": {
-        "description": {
-            "en-US": "The current ammo of a player."
-        },
+        "description": { "en-US": "The current ammo of a player." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ammo to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ammo to acquire." },
+                "type": "Player",
             },
             {
                 "name": "clip",
-                "description": {
-                    "en-US": "The index of the clip to be acquired. 0 is the first clip, and 1 is the second (only used for Bastion's Sentry gun and Baptiste's Heal Grenades)."
-                },
+                "description": { "en-US": "The index of the clip to be acquired. 0 is the first clip, and 1 is the second (only used for Bastion's Sentry gun and Baptiste's Heal Grenades)." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
                 "canReplace1ByTrue": true,
@@ -470,16 +384,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ammo"
     },
     ".getHero": {
-        "description": {
-            "en-US": "The current hero of a player."
-        },
+        "description": { "en-US": "The current hero of a player." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose hero to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose hero to acquire." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -502,16 +412,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Hero Of"
     },
     ".getCurrentWeapon": {
-        "description": {
-            "en-US": "The currently held weapon of a player. Returns 2 for Baby Dva's gun, Torbjorn's hammer, and Mercy's pistol; 1 otherwise."
-        },
+        "description": { "en-US": "The currently held weapon of a player. Returns 2 for Baby Dva's gun, Torbjorn's hammer, and Mercy's pistol; 1 otherwise." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose weapon to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose weapon to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned int",
@@ -534,16 +440,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     ".getEyePosition": {
         "guid": "00000000C595",
-        "description": {
-            "en-US": "The position of a player's first person view (used for aiming)"
-        },
+        "description": { "en-US": "The position of a player's first person view (used for aiming)" },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The position of a player's first person view (used for aiming)"
-                },
-                "type": "Player"
+                "description": { "en-US": "The position of a player's first person view (used for aiming)" },
+                "type": "Player",
             }
         ],
         "return": "Position",
@@ -565,16 +467,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Eye Position"
     },
     ".getFacingDirection": {
-        "description": {
-            "en-US": "The unit-length directional vector of a player's current facing relative to the world. This value includes both horizontal and vertical facing."
-        },
+        "description": { "en-US": "The unit-length directional vector of a player's current facing relative to the world. This value includes both horizontal and vertical facing." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose facing direction to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose facing direction to acquire." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -598,16 +496,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     ".getHealth": {
         "guid": "0000000081C2",
-        "description": {
-            "en-US": "The current health of a player, including armor and shields."
-        },
+        "description": { "en-US": "The current health of a player, including armor and shields." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose health to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose health to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -628,37 +522,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Health"
     },
     ".getHealthOfType": {
-        "description": {
-            "en-US": "The current health of the specified player, filtered by the given health type."
-        },
+        "description": { "en-US": "The current health of the specified player, filtered by the given health type." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose health to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose health to acquire." },
+                "type": "Player",
             },
             {
                 "name": "health",
-                "description": {
-                    "en-US": "The type of health to acquire.",
-                    "de-DE": "Der Typ der Trefferpunkte die abgerufen werden sollen.",
-                    "es-ES": "Tipo de salud que se adquiere.",
-                    "es-MX": "El tipo de salud que se adquirirá.",
-                    "fr-FR": "Le type de points de vie à acquérir.",
-                    "it-IT": "Il tipo di salute che sarà acquisita.",
-                    "ja-JP": "取得するライフの種類",
-                    "ko-KR": "가져올 생명력의 유형입니다.",
-                    "pl-PL": "Typ zdrowia do pozyskania.",
-                    "pt-BR": "O tipo de vida que será adquirido.",
-                    "ru-RU": "Тип запаса здоровья который нужно определить.",
-                    "th-TH": "The type of health to acquire.",
-                    "tr-TR": "Edinilecek can türü.",
-                    "zh-CN": "获取此类型的生命值。",
-                    "zh-TW": "The type of health to acquire."
-                },
-                "type": "Health"
+                "description": { "en-US": "The type of health to acquire." },
+                "type": "Health",
             }
         ],
         "return": "unsigned float",
@@ -680,16 +554,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Health Of Type"
     },
     ".getHeroOfDuplication": {
-        "description": {
-            "en-US": "The hero currently being duplicated by the specified player. If no hero is being duplicated, the resulting value is 0."
-        },
+        "description": { "en-US": "The hero currently being duplicated by the specified player. If no hero is being duplicated, the resulting value is 0." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player performing the duplication."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player performing the duplication." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -712,58 +582,22 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Hero Being Duplicated"
     },
     ".getHeroStatistic": {
-        "description": {
-            "en-US": "Provides a statistic of the specified player's time playing a specific hero (limited to the current match). Statistics are only gathered when the game is in progress. Dummy bots do not gather statistics."
-        },
+        "description": { "en-US": "Provides a statistic of the specified player's time playing a specific hero (limited to the current match). Statistics are only gathered when the game is in progress. Dummy bots do not gather statistics." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The Player whose statistic to acquire.",
-                    "de-DE": "Der Spieler dessen Statistikwert abgerufen werden soll.",
-                    "es-ES": "Jugador cuyas estadísticas se adquieren.",
-                    "es-MX": "El jugador cuya estadística se adquirirá.",
-                    "fr-FR": "Le joueur dont il faut acquérir les statistiques.",
-                    "it-IT": "Il giocatore del quale acquisire la statistica.",
-                    "ja-JP": "統計を取得するプレイヤー",
-                    "ko-KR": "통계치를 가져올 플레이어입니다.",
-                    "pl-PL": "Gracz którego statystykę należy pozyskać.",
-                    "pt-BR": "O Jogador cuja estatística será obtida.",
-                    "ru-RU": "Игрок статистику которого нужно определить.",
-                    "th-TH": "The Player whose statistic to acquire.",
-                    "tr-TR": "İstatistiği alınacak Oyuncu.",
-                    "zh-CN": "获取此玩家的数据。",
-                    "zh-TW": "The Player whose statistic to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The Player whose statistic to acquire." },
+                "type": "Player",
             },
             {
                 "name": "hero",
-                "description": {
-                    "en-US": "The hero whose statistic to acquire"
-                },
-                "type": "Hero"
+                "description": { "en-US": "The hero whose statistic to acquire" },
+                "type": "Hero",
             },
             {
                 "name": "stat",
-                "description": {
-                    "en-US": "The statistic to acquire.",
-                    "de-DE": "Der Statistikwert der abgerufen werden soll.",
-                    "es-ES": "Las estadísticas que se adquieren.",
-                    "es-MX": "La estadística que se adquirirá.",
-                    "fr-FR": "Les statistiques à acquérir.",
-                    "it-IT": "La statistica da acquisire.",
-                    "ja-JP": "取得する統計",
-                    "ko-KR": "가져올 통계치입니다.",
-                    "pl-PL": "Statystyka która zostanie pozyskana.",
-                    "pt-BR": "A estatística a ser obtida.",
-                    "ru-RU": "Статистика которую нужно определить.",
-                    "th-TH": "The statistic to acquire.",
-                    "tr-TR": "Alınacak istatistik.",
-                    "zh-CN": "获取数据。",
-                    "zh-TW": "The statistic to acquire."
-                },
-                "type": "HeroStat"
+                "description": { "en-US": "The statistic to acquire." },
+                "type": "HeroStat",
             }
         ],
         "return": "unsigned float",
@@ -785,16 +619,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Player Hero Stat"
     },
     ".getHorizontalFacingAngle": {
-        "description": {
-            "en-US": "The horizontal angle in degrees of a player's current facing relative to the world. This value increases as the player rotates to the left (wrapping around at +/- 180)."
-        },
+        "description": { "en-US": "The horizontal angle in degrees of a player's current facing relative to the world. This value increases as the player rotates to the left (wrapping around at +/- 180)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose horizontal facing angle to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose horizontal facing angle to acquire." },
+                "type": "Player",
             }
         ],
         "return": "float",
@@ -816,16 +646,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Horizontal Facing Angle Of"
     },
     ".getHorizontalSpeed": {
-        "description": {
-            "en-US": "The current horizontal speed of a player in meters per second. This measurement excludes all vertical motion."
-        },
+        "description": { "en-US": "The current horizontal speed of a player in meters per second. This measurement excludes all vertical motion." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose horizontal speed to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose horizontal speed to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -847,22 +673,16 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Horizontal Speed Of"
     },
     ".getMaxAmmo": {
-        "description": {
-            "en-US": "The current max ammo of a player."
-        },
+        "description": { "en-US": "The current max ammo of a player." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose max ammo to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose max ammo to acquire." },
+                "type": "Player",
             },
             {
                 "name": "clip",
-                "description": {
-                    "en-US": "The index of the clip to be acquired. 0 is the first clip, and 1 is the second (only used for Bastion's Sentry gun and Baptiste's Heal Grenades)."
-                },
+                "description": { "en-US": "The index of the clip to be acquired. 0 is the first clip, and 1 is the second (only used for Bastion's Sentry gun and Baptiste's Heal Grenades)." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
                 "canReplace1ByTrue": true,
@@ -888,16 +708,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Max Ammo"
     },
     ".getMaxHealth": {
-        "description": {
-            "en-US": "The max health of a player, including armor and shields."
-        },
+        "description": { "en-US": "The max health of a player, including armor and shields." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose max health to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose max health to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -919,37 +735,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Max Health"
     },
     ".getMaxHealthOfType": {
-        "description": {
-            "en-US": "The max health of the specified player, filtered by the given health type."
-        },
+        "description": { "en-US": "The max health of the specified player, filtered by the given health type." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose max health to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose max health to acquire." },
+                "type": "Player",
             },
             {
                 "name": "health",
-                "description": {
-                    "en-US": "The type of max health to acquire.",
-                    "de-DE": "Der Typ der maximalen Trefferpunkte die abgerufen werden sollen.",
-                    "es-ES": "Tipo de salud máxima que se adquiere.",
-                    "es-MX": "El tipo de salud máxima que se adquirirá.",
-                    "fr-FR": "Le type de points de vie maximum à acquérir.",
-                    "it-IT": "Il tipo di salute massima che sarà acquisita.",
-                    "ja-JP": "取得する最大ライフの種類",
-                    "ko-KR": "가져올 최대 생명력의 유형입니다.",
-                    "pl-PL": "Typ maksimum zdrowia do pozyskania.",
-                    "pt-BR": "O tipo de vida máxima que será adquirido.",
-                    "ru-RU": "Тип максимального запаса здоровья который нужно определить.",
-                    "th-TH": "ประเภทของพลังชีวิตสูงสุดที่จะได้รับ",
-                    "tr-TR": "Edinilecek maksimum can türü.",
-                    "zh-CN": "获取此类型的最大生命值。",
-                    "zh-TW": "The type of max health to acquire."
-                },
-                "type": "Health"
+                "description": { "en-US": "The type of max health to acquire." },
+                "type": "Health",
             }
         ],
         "return": "unsigned float",
@@ -971,16 +767,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Max Health Of Type"
     },
     ".getNormalizedHealth": {
-        "description": {
-            "en-US": "The current health of a player, including armor and shields, normalized between 0 and 1. (for example, 0 is no health, 0.5 is half health, 1 is full health, etc.)"
-        },
+        "description": { "en-US": "The current health of a player, including armor and shields, normalized between 0 and 1. (for example, 0 is no health, 0.5 is half health, 1 is full health, etc.)" },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose normalized health to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose normalized health to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -1002,16 +794,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Normalized Health"
     },
     ".getNumberOfDeaths": {
-        "description": {
-            "en-US": "The number of deaths a specific player has earned. This value only accumulates while a game is in progress."
-        },
+        "description": { "en-US": "The number of deaths a specific player has earned. This value only accumulates while a game is in progress." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose death count to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose death count to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned int",
@@ -1033,16 +821,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Deaths"
     },
     ".getNumberOfElims": {
-        "description": {
-            "en-US": "The number of eliminations a specific player has earned. This value only accumulates while a game is in progress."
-        },
+        "description": { "en-US": "The number of eliminations a specific player has earned. This value only accumulates while a game is in progress." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose elimination count to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose elimination count to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned int",
@@ -1064,16 +848,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Eliminations"
     },
     ".getNumberOfFinalBlows": {
-        "description": {
-            "en-US": "The number of final blows a specific player has earned. This value only accumulates while a game is in progress."
-        },
+        "description": { "en-US": "The number of final blows a specific player has earned. This value only accumulates while a game is in progress." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose final blow count to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose final blow count to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned int",
@@ -1095,23 +875,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Final Blows"
     },
     ".getPlayerClosestToReticle": {
-        "description": {
-            "en-US": "The player closest to the reticle of the specified player, optionally restricted by team."
-        },
+        "description": { "en-US": "The player closest to the reticle of the specified player, optionally restricted by team." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player from whose reticle to search for the closest player."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player from whose reticle to search for the closest player." },
+                "type": "Player",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to search for the closest player."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team or teams on which to search for the closest player." },
+                "type": "Team",
             }
         ],
         "return": "Player",
@@ -1134,36 +908,28 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Player Closest To Reticle"
     },
     ".getPlayersInViewAngle": {
-        "description": {
-            "en-US": "The players who are within a specific view angle of a specific player's reticle, optionally restricted by team.\n\n**Note**: This function picks up dead and unspawned players. Use `.getRealPlayersInViewAngle()` instead."
-        },
+        "description": { "en-US": "The players who are within a specific view angle of a specific player's reticle, optionally restricted by team.\n\n**Note**: This function picks up dead and unspawned players. Use `.getRealPlayersInViewAngle()` instead." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose view to use for the check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose view to use for the check." },
+                "type": "Player",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to consider players."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team or teams on which to consider players." },
+                "type": "Team",
             },
             {
                 "name": "viewAngle",
-                "description": {
-                    "en-US": "The view angle to compare against in degrees."
-                },
-                "type": "float"
+                "description": { "en-US": "The view angle to compare against in degrees." },
+                "type": "float",
             }
         ],
         "return": {
             "Array": "Player"
         },
-        "hideFromAutocomplete": true,
+        hideFromAutocomplete: true,
         "guid": "00000000C32F",
         "en-US": "Players in View Angle",
         "es-MX": "Jugadores en el ángulo de vista",
@@ -1182,16 +948,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Players in View Angle"
     },
     ".getPosition": {
-        "description": {
-            "en-US": "The current position of a player as a vector."
-        },
+        "description": { "en-US": "The current position of a player as a vector." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose position to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose position to acquire." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -1214,16 +976,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Position Of"
     },
     ".getScore": {
-        "description": {
-            "en-US": "The current score of a player. Results in 0 if the game mode is not free-for-all."
-        },
+        "description": { "en-US": "The current score of a player. Results in 0 if the game mode is not free-for-all." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose score to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose score to acquire." },
+                "type": "Player",
             }
         ],
         "return": "int",
@@ -1245,30 +1003,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Score Of"
     },
     ".getSlot": {
-        "description": {
-            "en-US": "The slot number of the specified player. In team games, each team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11."
-        },
+        "description": { "en-US": "The slot number of the specified player. In team games, each team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose slot number to acquire.",
-                    "de-DE": "Der Spieler dessen Slot-Nummer abgerufen werden soll.",
-                    "es-ES": "Jugador cuyo número de ranura se adquiere.",
-                    "es-MX": "El jugador cuyo número de puesto se adquirirá.",
-                    "fr-FR": "Le joueur dont il faut acquérir le numéro d’emplacement.",
-                    "it-IT": "Il Giocatore il cui numero dello slot sarà acquisito.",
-                    "ja-JP": "スロット番号を取得するプレイヤー",
-                    "ko-KR": "슬롯 번호 정보를 가져올 플레이어입니다.",
-                    "pl-PL": "Gracz którego miejsce należy pozyskać.",
-                    "pt-BR": "O Jogador cujo número de espaço será adquirido.",
-                    "ru-RU": "Игрок номер ячейки которого нужно получить.",
-                    "th-TH": "The player whose slot number to acquire.",
-                    "tr-TR": "Yuva numarası alınacak Oyuncu.",
-                    "zh-CN": "获取此玩家的栏位编号。",
-                    "zh-TW": "The player whose slot number to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose slot number to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned int",
@@ -1290,16 +1030,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Slot Of"
     },
     ".getSpeed": {
-        "description": {
-            "en-US": "The current speed of a player in meters per second."
-        },
+        "description": { "en-US": "The current speed of a player in meters per second." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose speed to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose speed to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -1321,23 +1057,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Speed Of"
     },
     ".getSpeedInDirection": {
-        "description": {
-            "en-US": "The current speed of a player in a specific direction in meters per second."
-        },
+        "description": { "en-US": "The current speed of a player in a specific direction in meters per second." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose speed to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose speed to acquire." },
+                "type": "Player",
             },
             {
                 "name": "direction",
-                "description": {
-                    "en-US": "The direction of travel in which to measure the player's speed."
-                },
-                "type": "Direction"
+                "description": { "en-US": "The direction of travel in which to measure the player's speed." },
+                "type": "Direction",
             }
         ],
         "return": "unsigned float",
@@ -1359,51 +1089,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Speed Of In Direction"
     },
     ".getStatistic": {
-        "description": {
-            "en-US": "Provides a statistic of the specified player (limited to the current match). Statistics are only gathered when the game is in progress. Dummy bots do not gather statistics."
-        },
+        "description": { "en-US": "Provides a statistic of the specified player (limited to the current match). Statistics are only gathered when the game is in progress. Dummy bots do not gather statistics." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The Player whose statistic to acquire.",
-                    "de-DE": "Der Spieler dessen Statistikwert abgerufen werden soll.",
-                    "es-ES": "Jugador cuyas estadísticas se adquieren.",
-                    "es-MX": "El jugador cuya estadística se adquirirá.",
-                    "fr-FR": "Le joueur dont il faut acquérir les statistiques.",
-                    "it-IT": "Il giocatore del quale acquisire la statistica.",
-                    "ja-JP": "統計を取得するプレイヤー",
-                    "ko-KR": "통계치를 가져올 플레이어입니다.",
-                    "pl-PL": "Gracz którego statystykę należy pozyskać.",
-                    "pt-BR": "O Jogador cuja estatística será obtida.",
-                    "ru-RU": "Игрок статистику которого нужно определить.",
-                    "th-TH": "The Player whose statistic to acquire.",
-                    "tr-TR": "İstatistiği alınacak Oyuncu.",
-                    "zh-CN": "获取此玩家的数据。",
-                    "zh-TW": "The Player whose statistic to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The Player whose statistic to acquire." },
+                "type": "Player",
             },
             {
                 "name": "statistic",
-                "description": {
-                    "en-US": "The statistic to acquire.",
-                    "de-DE": "Der Statistikwert der abgerufen werden soll.",
-                    "es-ES": "Las estadísticas que se adquieren.",
-                    "es-MX": "La estadística que se adquirirá.",
-                    "fr-FR": "Les statistiques à acquérir.",
-                    "it-IT": "La statistica da acquisire.",
-                    "ja-JP": "取得する統計",
-                    "ko-KR": "가져올 통계치입니다.",
-                    "pl-PL": "Statystyka która zostanie pozyskana.",
-                    "pt-BR": "A estatística a ser obtida.",
-                    "ru-RU": "Статистика которую нужно определить.",
-                    "th-TH": "The statistic to acquire.",
-                    "tr-TR": "Alınacak istatistik.",
-                    "zh-CN": "获取数据。",
-                    "zh-TW": "The statistic to acquire."
-                },
-                "type": "Stat"
+                "description": { "en-US": "The statistic to acquire." },
+                "type": "Stat",
             }
         ],
         "return": "unsigned float",
@@ -1425,16 +1121,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Player Stat"
     },
     ".getTeam": {
-        "description": {
-            "en-US": "The team of a player. If the game mode is free-for-all, the team is considered to be all."
-        },
+        "description": { "en-US": "The team of a player. If the game mode is free-for-all, the team is considered to be all." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose team to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose team to acquire." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -1457,16 +1149,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Team Of"
     },
     ".getThrottle": {
-        "description": {
-            "en-US": "The directional input of a player, represented by a vector with horizontal input on the x component (positive to the left) and vertical input on the z component (positive upward)."
-        },
+        "description": { "en-US": "The directional input of a player, represented by a vector with horizontal input on the x component (positive to the left) and vertical input on the z component (positive upward)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose directional input to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose directional input to acquire." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -1489,16 +1177,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Throttle Of"
     },
     ".getUltCharge": {
-        "description": {
-            "en-US": "The current ultimate ability charge percentage of a player."
-        },
+        "description": { "en-US": "The current ultimate ability charge percentage of a player." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ultimate charge percentage to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ultimate charge percentage to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned int",
@@ -1520,16 +1204,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ultimate Charge Percent"
     },
     ".getVelocity": {
-        "description": {
-            "en-US": "The current velocity of a player as a vector. If the player is on a surface, the y component of this velocity will be 0, even when traveling up or down a slope."
-        },
+        "description": { "en-US": "The current velocity of a player as a vector. If the player is on a surface, the y component of this velocity will be 0, even when traveling up or down a slope." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose velocity to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose velocity to acquire." },
+                "type": "Player",
             }
         ],
         "canBePutInBoolean": false,
@@ -1552,16 +1232,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Velocity Of"
     },
     ".getVerticalFacingAngle": {
-        "description": {
-            "en-US": "The vertical angle in degrees of a player's current facing relative to the world. This value increases as the player looks down."
-        },
+        "description": { "en-US": "The vertical angle in degrees of a player's current facing relative to the world. This value increases as the player looks down." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose vertical facing angle to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose vertical facing angle to acquire." },
+                "type": "Player",
             }
         ],
         "return": "float",
@@ -1583,16 +1259,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Vertical Facing Angle Of"
     },
     ".getVerticalSpeed": {
-        "description": {
-            "en-US": "The current vertical speed of a player in meters per second. This measurement excludes all horizontal motion, including motion while traveling up and down slopes."
-        },
+        "description": { "en-US": "The current vertical speed of a player in meters per second. This measurement excludes all horizontal motion, including motion while traveling up and down slopes." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose vertical speed to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose vertical speed to acquire." },
+                "type": "Player",
             }
         ],
         "return": "unsigned float",
@@ -1614,16 +1286,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Vertical Speed Of"
     },
     ".hasSpawned": {
-        "description": {
-            "en-US": "Whether an entity has spawned in the world. Results in false for players who have not chosen a hero yet."
-        },
+        "description": { "en-US": "Whether an entity has spawned in the world. Results in false for players who have not chosen a hero yet." },
         "args": [
             {
                 "name": "entity",
-                "description": {
-                    "en-US": "The player, icon entity, or effect entity whose presence in world to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player, icon entity, or effect entity whose presence in world to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1645,37 +1313,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Has Spawned"
     },
     ".hasStatus": {
-        "description": {
-            "en-US": "Whether the specified player has the specified status, either from the set status action or from a non-scripted game mechanic."
-        },
+        "description": { "en-US": "Whether the specified player has the specified status, either from the set status action or from a non-scripted game mechanic." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose status to check." },
+                "type": "Player",
             },
             {
                 "name": "status",
-                "description": {
-                    "en-US": "The status to check for.",
-                    "de-DE": "Der Status auf den geprüft werden soll.",
-                    "es-ES": "Estado que se comprueba.",
-                    "es-MX": "El estado que se verificará.",
-                    "fr-FR": "Le statut à vérifier.",
-                    "it-IT": "Lo stato da controllare.",
-                    "ja-JP": "チェックするステータス",
-                    "ko-KR": "확인할 상태입니다.",
-                    "pl-PL": "Status do sprawdzenia.",
-                    "pt-BR": "O status a ser verificado.",
-                    "ru-RU": "Проверяемый статус.",
-                    "th-TH": "The status to check for.",
-                    "tr-TR": "Kontrol edilecek durum.",
-                    "zh-CN": "要检测的状态。",
-                    "zh-TW": "The status to check for."
-                },
-                "type": "Status"
+                "description": { "en-US": "The status to check for." },
+                "type": "Status",
             }
         ],
         "return": "bool",
@@ -1697,16 +1345,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Has Status"
     },
     ".isAlive": {
-        "description": {
-            "en-US": "Whether a player is alive."
-        },
+        "description": { "en-US": "Whether a player is alive." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose life to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose life to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1728,37 +1372,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Alive"
     },
     ".isCommunicating": {
-        "description": {
-            "en-US": "Whether a player is using a specific communication type (such as emoting, using a voice line, using a spray, etc.)."
-        },
+        "description": { "en-US": "Whether a player is using a specific communication type (such as emoting, using a voice line, using a spray, etc.)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose communication status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose communication status to check." },
+                "type": "Player",
             },
             {
                 "name": "type",
-                "description": {
-                    "en-US": "The type of communication to consider. The duration of emotes is exact the duration of voice lines is assumed to be 4 seconds and all other durations are assumed to be 2 seconds.",
-                    "de-DE": "Der Typ der zu berücksichtigenden Kommunikation. Die Dauer von Emotes ist genau als Dauer von Sprüchen werden 4 Sekunden angenommen. Für jede andere Dauer werden 2 Sekunden angenommen.",
-                    "es-ES": "Tipo de comunicación que se considera. La duración de los gestos es exacta la duración de las frases se presupone que es 4 segundos y las demás duraciones se presuponen de 2 segundos.",
-                    "es-MX": "El tipo de comunicación que se considerará. La duración de los gestos es exacta se calcula que la duración de las líneas de voz es de 4 segundos y que las demás duraciones son de 2 segundos.",
-                    "fr-FR": "Le type de communication à prendre en compte. La durée des emotes est exacte la durée des répliques est supposée être de 4 secondes et toutes les autres durées sont supposées être de 2 secondes.",
-                    "it-IT": "Il tipo di comunicazione da considerare. La durata delle emote è esatta la durata delle battute audio è impostata a 4 secondi mentre tutte le altre durate sono impostate a 2 secondi.",
-                    "ja-JP": "検討されるコミュニケーションのタイプ。エモートの持続時間は固定、ボイス・ラインは4秒を想定、その他の所要時間は2秒を想定している",
-                    "ko-KR": "고려할 의사소통 유형입니다. 감정 표현의 지속 시간은 정확하게 적용되며 음성 대사의 지속 시간은 4초로 간주합니다. 그 이외의 지속 시간은 2초로 간주합니다.",
-                    "pl-PL": "Typ komunikacji do uwzględnienia. Czas działania emotek jest dokładny domyślny czas trwania kwestii to 4 sekundy a pozostałe czasy to domyślnie 2 sekundy.",
-                    "pt-BR": "O tipo de comunicação a ser considerado. A duração dos emotes é exata presume-se que a duração das falas seja de 4 segundos e presume-se que todas as outras durações sejam de 2 segundos.",
-                    "ru-RU": "Рассматриваемый тип коммуникации. Длительность эмоций ограничена жестко длительность реплик приравнивается к 4 секундам длительность остальных видов коммуникации приравнивается к 2 секундам.",
-                    "th-TH": "The type of communication to consider. The duration of emotes is exact the duration of voice lines is assumed to be 4 seconds and all other durations are assumed to be 2 seconds.",
-                    "tr-TR": "Değerlendirilecek iletişim türü. İfadelerin süresi aynıyken repliklerin süresi 4 saniye diğer tüm süreler ise 2 saniye olarak kabul edilmektedir.",
-                    "zh-CN": "考察的交流类型。表情的持续时间为准确值，语音的播放时间视为4秒，其他所有交流类型的持续时间视为2秒。",
-                    "zh-TW": "The type of communication to consider. The duration of emotes is exact the duration of voice lines is assumed to be 4 seconds and all other durations are assumed to be 2 seconds."
-                },
-                "type": "Comms"
+                "description": { "en-US": "The type of communication to consider. The duration of emotes is exact, the duration of voice lines is assumed to be 4 seconds, and all other durations are assumed to be 2 seconds." },
+                "type": "Comms",
             }
         ],
         "return": "bool",
@@ -1780,16 +1404,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Communicating"
     },
     ".isCommunicatingAnything": {
-        "description": {
-            "en-US": "Whether a player is using any communication type (such as emoting, using a voice line, using a spray, etc.)."
-        },
+        "description": { "en-US": "Whether a player is using any communication type (such as emoting, using a voice line, using a spray, etc.)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose communication status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose communication status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1811,16 +1431,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Communicating Any"
     },
     ".isCommunicatingEmote": {
-        "description": {
-            "en-US": "Whether a player is using an emote."
-        },
+        "description": { "en-US": "Whether a player is using an emote." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose emoting status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose emoting status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1842,44 +1458,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Communicating Any Emote"
     },
     ".isCommunicatingSpray": {
-        "description": {
-            "en-US": "Whether a Player is using a spray.",
-            "de-DE": "Ob ein Spieler ein Spray verwendet.",
-            "es-ES": "Si un jugador está usando un grafiti.",
-            "es-MX": "Verifica si un jugador está utilizando un spray.",
-            "fr-FR": "Si une personne utilise un tag.",
-            "it-IT": "Specifica se un Giocatore sta usando uno spray.",
-            "ja-JP": "プレイヤーがスプレーを使用しているかどうか",
-            "ko-KR": "플레이어가 스프레이를 사용하는지 여부입니다.",
-            "pl-PL": "Czy gracz korzysta z graffiti.",
-            "pt-BR": "Se um Jogador está usando um spray ou não.",
-            "ru-RU": "Определяет использует ли игрок граффити.",
-            "th-TH": "Whether a Player is using a spray.",
-            "tr-TR": "Bir Oyuncu'nun grafiti kullanıp kullanmadığı.",
-            "zh-CN": "玩家是否在使用喷漆。",
-            "zh-TW": "Whether a Player is using a spray."
-        },
+        "description": { "en-US": "Whether a Player is using a spray." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The Player whose spray status to check.",
-                    "de-DE": "Der Spieler dessen Spray-Status geprüft werden soll.",
-                    "es-ES": "Jugador cuyo estado de grafiti se comprueba.",
-                    "es-MX": "El jugador cuyo estado de spray se verificará.",
-                    "fr-FR": "La personne dont il faut vérifier le statut d’utilisation de tags.",
-                    "it-IT": "Il Giocatore il cui stato dello spray sarà controllato.",
-                    "ja-JP": "スプレー・ステータスを確認するプレイヤー",
-                    "ko-KR": "스프레이 상태를 확인할 플레이어입니다.",
-                    "pl-PL": "Gracz status graffiti którego zostanie sprawdzony.",
-                    "pt-BR": "O Jogador cujo status de spray será verificado.",
-                    "ru-RU": "Игрок для которого производится проверка статуса граффити.",
-                    "th-TH": "The Player whose spray status to check.",
-                    "tr-TR": "Grafiti durumu kontrol edilecek Oyuncu.",
-                    "zh-CN": "检测此玩家的喷漆状态。",
-                    "zh-TW": "The Player whose spray status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The Player whose spray status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1901,16 +1485,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Communicating Any Spray"
     },
     ".isCommunicatingVoiceline": {
-        "description": {
-            "en-US": "Whether a player is using a voice line. (The duration of voice lines is assumed to be 4 seconds.)"
-        },
+        "description": { "en-US": "Whether a player is using a voice line. (The duration of voice lines is assumed to be 4 seconds.)" },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose voice line status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose voice line status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1932,16 +1512,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Communicating Any Voice line"
     },
     ".isCrouching": {
-        "description": {
-            "en-US": "Whether a player is crouching."
-        },
+        "description": { "en-US": "Whether a player is crouching." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose crouching status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose crouching status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1963,16 +1539,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Crouching"
     },
     ".isDead": {
-        "description": {
-            "en-US": "Whether a player is dead."
-        },
+        "description": { "en-US": "Whether a player is dead." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose death to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose death to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -1994,30 +1566,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Dead"
     },
     ".isDummy": {
-        "description": {
-            "en-US": "Whether a player is a dummy bot."
-        },
+        "description": { "en-US": "Whether a player is a dummy bot." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "Player to consider.",
-                    "de-DE": "Der zu berücksichtigende Spieler.",
-                    "es-ES": "Jugador que se considera.",
-                    "es-MX": "Jugador a considerar.",
-                    "fr-FR": "Joueur à prendre en compte.",
-                    "it-IT": "Giocatore da considerare.",
-                    "ja-JP": "推定プレイヤー",
-                    "ko-KR": "고려할 플레이어입니다.",
-                    "pl-PL": "Gracze do uwzględnienia.",
-                    "pt-BR": "Jogador a ser considerado.",
-                    "ru-RU": "Рассматриваемый игрок.",
-                    "th-TH": "Player to consider.",
-                    "tr-TR": "Dikkate alınacak Oyuncu.",
-                    "zh-CN": "考察此玩家。",
-                    "zh-TW": "Player to consider."
-                },
-                "type": "Player"
+                "description": { "en-US": "Player to consider." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2039,16 +1593,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Dummy Bot"
     },
     ".isDuplicatingAHero": {
-        "description": {
-            "en-US": "Whether the specified player is duplicating another hero. To check which hero, use the Hero Being Duplicated value."
-        },
+        "description": { "en-US": "Whether the specified player is duplicating another hero. To check which hero, use the Hero Being Duplicated value." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose duplication status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose duplication status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2070,16 +1620,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Duplicating"
     },
     ".isFiringPrimaryFire": {
-        "description": {
-            "en-US": "Whether the specified player's primary weapon attack is being used."
-        },
+        "description": { "en-US": "Whether the specified player's primary weapon attack is being used." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose primary weapon attack usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose primary weapon attack usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2101,16 +1647,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Firing Primary"
     },
     ".isFiringSecondaryFire": {
-        "description": {
-            "en-US": "Whether the specified player's secondary weapon attack is being used."
-        },
+        "description": { "en-US": "Whether the specified player's secondary weapon attack is being used." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose secondary weapon attack usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose secondary weapon attack usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2132,37 +1674,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Firing Secondary"
     },
     ".isHoldingButton": {
-        "description": {
-            "en-US": "Whether a player is holding a specific button."
-        },
+        "description": { "en-US": "Whether a player is holding a specific button." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose button to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose button to check." },
+                "type": "Player",
             },
             {
                 "name": "button",
-                "description": {
-                    "en-US": "The button to check.",
-                    "de-DE": "Die zu prüfende Taste.",
-                    "es-ES": "Botón que se comprueba.",
-                    "es-MX": "El botón que se verificará.",
-                    "fr-FR": "Le bouton à vérifier.",
-                    "it-IT": "Il tasto da controllare.",
-                    "ja-JP": "チェックするボタン",
-                    "ko-KR": "확인할 버튼입니다.",
-                    "pl-PL": "Przycisk do sprawdzenia.",
-                    "pt-BR": "O botão a ser verificado.",
-                    "ru-RU": "Проверяемая кнопка.",
-                    "th-TH": "The button to check.",
-                    "tr-TR": "Kontrol edilecek düğme.",
-                    "zh-CN": "用于检测的按钮。",
-                    "zh-TW": "The button to check."
-                },
-                "type": "Button"
+                "description": { "en-US": "The button to check." },
+                "type": "Button",
             }
         ],
         "return": "bool",
@@ -2184,16 +1706,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Button Held"
     },
     ".isInAir": {
-        "description": {
-            "en-US": "Whether a player is airborne."
-        },
+        "description": { "en-US": "Whether a player is airborne." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose airborne status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose airborne status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2215,16 +1733,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is In Air"
     },
     ".isInAlternateForm": {
-        "description": {
-            "en-US": "Whether the specified player is currently in an alternate form:\n        \n- Wrecking Ball's ball form\n- Baby Dva\n- Bastion's turret and tank forms\n- Lucio's speed song\n- Mercy's pistol\n- Torbjorn's hammer\n\nFor Echo duplication, use the Is Duplicating value instead."
-        },
+        "description": { "en-US": "Whether the specified player is currently in an alternate form:\n        \n- Wrecking Ball's ball form\n- Baby Dva\n- Bastion's turret and tank forms\n- Lucio's speed song\n- Mercy's pistol\n- Torbjorn's hammer\n\nFor Echo duplication, use the Is Duplicating value instead." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose form to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose form to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2246,16 +1760,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is In Alternate Form"
     },
     ".isInSpawnRoom": {
-        "description": {
-            "en-US": "Whether a specific player is in the spawn room (and is thus being healed and able to change heroes)."
-        },
+        "description": { "en-US": "Whether a specific player is in the spawn room (and is thus being healed and able to change heroes)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose spawn room status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose spawn room status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2277,30 +1787,22 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is In Spawn Room"
     },
     ".isInViewAngle": {
-        "description": {
-            "en-US": "Whether a location is within view of a player."
-        },
+        "description": { "en-US": "Whether a location is within view of a player." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose view to use for the check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose view to use for the check." },
+                "type": "Player",
             },
             {
                 "name": "location",
-                "description": {
-                    "en-US": "The location to test if it's within view."
-                },
-                "type": "Position"
+                "description": { "en-US": "The location to test if it's within view." },
+                "type": "Position",
             },
             {
                 "name": "viewAngle",
-                "description": {
-                    "en-US": "The view angle to compare against in degrees."
-                },
-                "type": "float"
+                "description": { "en-US": "The view angle to compare against in degrees." },
+                "type": "float",
             }
         ],
         "return": "bool",
@@ -2322,16 +1824,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is In View Angle"
     },
     ".isJumping": {
-        "description": {
-            "en-US": "Whether the specified player is jumping."
-        },
+        "description": { "en-US": "Whether the specified player is jumping." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose jump usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose jump usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2353,16 +1851,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Jumping"
     },
     ".isMeleeing": {
-        "description": {
-            "en-US": "Whether the specified player is meleeing."
-        },
+        "description": { "en-US": "Whether the specified player is meleeing." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose melee usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose melee usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2384,16 +1878,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Meleeing"
     },
     ".isMoving": {
-        "description": {
-            "en-US": "Whether a player is moving (defined as having a non-zero current speed)."
-        },
+        "description": { "en-US": "Whether a player is moving (defined as having a non-zero current speed)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose moving status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose moving status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2415,16 +1905,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Moving"
     },
     ".isOnFire": {
-        "description": {
-            "en-US": "Whether a specific player's portrait is on fire."
-        },
+        "description": { "en-US": "Whether a specific player's portrait is on fire." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose portrait to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose portrait to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2446,16 +1932,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Portrait On Fire"
     },
     ".isOnGround": {
-        "description": {
-            "en-US": "Whether a player is on the ground (or other walkable surface)."
-        },
+        "description": { "en-US": "Whether a player is on the ground (or other walkable surface)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ground status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ground status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2477,16 +1959,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is On Ground"
     },
     ".isOnObjective": {
-        "description": {
-            "en-US": "Whether a specific player is currently occupying a payload or capture point."
-        },
+        "description": { "en-US": "Whether a specific player is currently occupying a payload or capture point." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose objective status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose objective status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2508,16 +1986,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is On Objective"
     },
     ".isOnWall": {
-        "description": {
-            "en-US": "Whether a player is on a wall (climbing or riding)."
-        },
+        "description": { "en-US": "Whether a player is on a wall (climbing or riding)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose wall status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose wall status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2539,16 +2013,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is On Wall"
     },
     ".isReloading": {
-        "description": {
-            "en-US": "Whether the specified player is reloading."
-        },
+        "description": { "en-US": "Whether the specified player is reloading." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose reload usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose reload usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2570,16 +2040,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Reloading"
     },
     ".isStanding": {
-        "description": {
-            "en-US": "Whether a player is standing (defined as both not moving and not in the air)."
-        },
+        "description": { "en-US": "Whether a player is standing (defined as both not moving and not in the air)." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose standing status to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose standing status to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2601,16 +2067,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Standing"
     },
     ".isUsingAbility1": {
-        "description": {
-            "en-US": "Whether the specified player is using ability 1."
-        },
+        "description": { "en-US": "Whether the specified player is using ability 1." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ability 1 usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ability 1 usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2632,16 +2094,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Using Ability 1"
     },
     ".isUsingAbility2": {
-        "description": {
-            "en-US": "Whether the specified player is using ability 2."
-        },
+        "description": { "en-US": "Whether the specified player is using ability 2." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ability 2 usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ability 2 usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2663,16 +2121,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Using Ability 2"
     },
     ".isUsingUltimate": {
-        "description": {
-            "en-US": "Whether a player is using an ultimate ability."
-        },
+        "description": { "en-US": "Whether a player is using an ultimate ability." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose ultimate ability usage to check."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose ultimate ability usage to check." },
+                "type": "Player",
             }
         ],
         "return": "bool",
@@ -2695,45 +2149,25 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__add__": {
         "guid": "00000000C408",
-        "description": {
-            "en-US": "The sum of two numbers or vectors.",
-            "de-DE": "Die Summe zweier Zahlen oder Vektoren.",
-            "es-ES": "Suma de dos números o vectores.",
-            "es-MX": "La suma de dos números o vectores.",
-            "fr-FR": "La somme de deux nombres ou vecteurs.",
-            "it-IT": "La somma di due numeri o vettori.",
-            "ja-JP": "2つの数値またはベクトルの合計",
-            "ko-KR": "두 숫자 또는 벡터의 합입니다.",
-            "pl-PL": "Suma dwóch liczb lub wektorów.",
-            "pt-BR": "A soma de dois números ou vetores.",
-            "ru-RU": "Сумма двух чисел или векторов.",
-            "th-TH": "The sum of two numbers or vectors.",
-            "tr-TR": "İki sayı veya vektörün toplamı.",
-            "zh-CN": "两个数字或矢量的和。",
-            "zh-TW": "The sum of two numbers or vectors."
-        },
+        "description": { "en-US": "The sum of two numbers or vectors." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
                 ],
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
                 ],
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -2758,23 +2192,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Add"
     },
     "__all__": {
-        "description": {
-            "en-US": "Whether the specified condition evaluates to true for every value in the specified array."
-        },
+        "description": { "en-US": "Whether the specified condition evaluates to true for every value in the specified array." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose values will be considered."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose values will be considered." },
+                "type": "Array",
             },
             {
                 "name": "condition",
-                "description": {
-                    "en-US": "The condition that is evaluated for each element of the specified array. Use the current array element value to reference the element of the array currently being considered."
-                },
-                "type": "bool"
+                "description": { "en-US": "The condition that is evaluated for each element of the specified array. Use the current array element value to reference the element of the array currently being considered." },
+                "type": "bool",
             }
         ],
         "isConstant": true,
@@ -2797,23 +2225,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is True For All"
     },
     "__and__": {
-        "description": {
-            "en-US": "Whether both of the two inputs are true (or equivalent to true)."
-        },
+        "description": { "en-US": "Whether both of the two inputs are true (or equivalent to true)." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "One of the two inputs considered. If both are true (or equivalent to true), then the and value is true."
-                },
-                "type": "bool"
+                "description": { "en-US": "One of the two inputs considered. If both are true (or equivalent to true), then the and value is true." },
+                "type": "bool",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "One of the two inputs considered. If both are true (or equivalent to true), then the and value is true."
-                },
-                "type": "bool"
+                "description": { "en-US": "One of the two inputs considered. If both are true (or equivalent to true), then the and value is true." },
+                "type": "bool",
             }
         ],
         "isConstant": true,
@@ -2836,23 +2258,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "And"
     },
     "__any__": {
-        "description": {
-            "en-US": "Whether the specified condition evaluates to true for any value in the specified array."
-        },
+        "description": { "en-US": "Whether the specified condition evaluates to true for any value in the specified array." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose values will be considered."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose values will be considered." },
+                "type": "Array",
             },
             {
                 "name": "condition",
-                "description": {
-                    "en-US": "The condition that is evaluated for each element of the specified array. Use the current array element value to reference the element of the array currently being considered."
-                },
-                "type": "bool"
+                "description": { "en-US": "The condition that is evaluated for each element of the specified array. Use the current array element value to reference the element of the array currently being considered." },
+                "type": "bool",
             }
         ],
         "isConstant": true,
@@ -2875,24 +2291,18 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is True For Any"
     },
     "__arrayContains__": {
-        "description": {
-            "en-US": "Whether the specified array contains the specified value."
-        },
+        "description": { "en-US": "Whether the specified array contains the specified value." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array in which to search for the specified value."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array in which to search for the specified value." },
+                "type": "Array",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The value for which to search."
-                },
+                "description": { "en-US": "The value for which to search." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
         "isConstant": true,
@@ -2915,82 +2325,32 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Array Contains"
     },
     ".slice": {
-        "description": {
-            "en-US": "A copy of the specified array containing only values from a specified index range. **Does not support nested arrays.**"
-        },
+        "description": { "en-US": "A copy of the specified array containing only values from a specified index range. **Does not support nested arrays.**" },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array from which to make a copy.",
-                    "de-DE": "Das Array von dem eine Kopie erstellt werden soll.",
-                    "es-ES": "Matriz que se copia.",
-                    "es-MX": "La matriz a partir de la cual se hará una copia.",
-                    "fr-FR": "Le tableau dont il faut faire une copie.",
-                    "it-IT": "L'array dal quale creare una copia.",
-                    "ja-JP": "コピーを作成する配列",
-                    "ko-KR": "복사본을 만들 배열입니다.",
-                    "pl-PL": "Tabela z której wykonywana jest kopia.",
-                    "pt-BR": "A matriz a ser copiada.",
-                    "ru-RU": "Массив копию значений из которого нужно создать.",
-                    "th-TH": "The array from which to make a copy.",
-                    "tr-TR": "Kopyasının yapılacağı dizin.",
-                    "zh-CN": "产生此数组的复制。",
-                    "zh-TW": "The array from which to make a copy."
-                },
+                "description": { "en-US": "The array from which to make a copy." },
                 "type": {
                     "Array": "Object"
-                }
+                },
             },
             {
                 "name": "startIndex",
-                "description": {
-                    "en-US": "The first index of the range.",
-                    "de-DE": "Der erste Index des Bereichs.",
-                    "es-ES": "Primer índice del intervalo.",
-                    "es-MX": "El primer índice del intervalo.",
-                    "fr-FR": "Le premier index de l’intervalle.",
-                    "it-IT": "Il primo indice dell'intervallo.",
-                    "ja-JP": "範囲の最初の値",
-                    "ko-KR": "범위의 첫 번째 인덱스입니다.",
-                    "pl-PL": "Pierwszy indeks zakresu.",
-                    "pt-BR": "O primeiro índice do intervalo.",
-                    "ru-RU": "Первое значение диапазона.",
-                    "th-TH": "The first index of the range.",
-                    "tr-TR": "Aralığın ilk indeksi.",
-                    "zh-CN": "范围内的第一个索引。",
-                    "zh-TW": "The first index of the range."
-                },
+                "description": { "en-US": "The first index of the range." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "count",
-                "description": {
-                    "en-US": "The number of elements in the resulting array. The resulting array will contain fewer elements if the specified range exceeds the bounds of the array.",
-                    "de-DE": "Die Anzahl der Elemente im resultierenden Array. Das resultierende Array enthält weniger Elemente wenn der festgelegte Bereich die Grenzen des Arrays überschreitet.",
-                    "es-ES": "Número de elementos en la matriz resultante. La matriz resultante contendrá menos elementos si el intervalo especificado supera los límites de la matriz.",
-                    "es-MX": "La cantidad de elementos de la matriz resultante. La matriz resultante contendrá menos elementos si el intervalo especificado excede los límites de la matriz.",
-                    "fr-FR": "Le nombre d’éléments du tableau résultant. Le tableau résultant contiendra moins d’éléments si l’intervalle spécifié excède les limites du tableau.",
-                    "it-IT": "Il numero degli elementi nell'array risultante. Esso conterrà meno elementi se l'intervallo specificato supera i limiti dell'array.",
-                    "ja-JP": "結果として生じる配列に含まれる要素の数。指定した範囲が配列の範囲を超えると、配列に含まれる要素の数は少なくなる",
-                    "ko-KR": "결과 배열의 요소 개수입니다. 설정 영역이 배열 범위를 벗어나는 경우 결과 배열이 갖는 요소의 수가 상대적으로 적을 수 있습니다.",
-                    "pl-PL": "Liczba elementów w wynikowej tabeli. Wynikowa tabela zawiera mniej elementów jeśli określony zakres przekracza jej granice.",
-                    "pt-BR": "O número de elementos na matriz resultante. A matriz resultante conterá menos elementos se o intervalo especificado exceder os limites da matriz.",
-                    "ru-RU": "Количество элементов в итоговом массиве. Итоговый массив будет содержать меньшее количество элементов если указанный диапазон превышает границы массива.",
-                    "th-TH": "The number of elements in the resulting array. The resulting array will contain fewer elements if the specified range exceeds the bounds of the array.",
-                    "tr-TR": "Sonuç dizinindeki element sayısı. Belirtilen aralık dizinin sınırlarını aşarsa sonuç dizini daha az element içerir.",
-                    "zh-CN": "结果数组中的元素数量。如果指定的范围超过此数组的限制，则结果数组中会包含较少的元素。",
-                    "zh-TW": "The number of elements in the resulting array. The resulting array will contain fewer elements if the specified range exceeds the bounds of the array."
-                },
+                "description": { "en-US": "The number of elements in the resulting array. The resulting array will contain fewer elements if the specified range exceeds the bounds of the array." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
                 "canReplace1ByTrue": true,
                 "default": "Math.INFINITY"
             }
         ],
-        "class": "Array",
+        class: "Array",
         "isConstant": true,
         "return": {
             "Array": "Object"
@@ -3013,20 +2373,16 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Array Slice"
     },
     "__array__": {
-        "description": {
-            "en-US": "An array constructed from the listed values."
-        },
+        "description": { "en-US": "An array constructed from the listed values." },
         "args": [
             {
                 "name": "[0]",
-                "description": {
-                    "en-US": "The value that will be stored in the array at index [0]."
-                },
+                "description": { "en-US": "The value that will be stored in the array at index [0]." },
                 "type": [
                     "Object",
                     "Array"
                 ],
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
         "isConstant": true,
@@ -3049,16 +2405,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Array"
     },
     "__button__": {
-        "description": {
-            "en-US": "A button constant."
-        },
+        "description": { "en-US": "A button constant." },
         "args": [
             {
                 "name": "button",
-                "description": {
-                    "en-US": "A button constant."
-                },
-                "type": "ButtonLiteral"
+                "description": { "en-US": "A button constant." },
+                "type": "ButtonLiteral",
             }
         ],
         "isConstant": true,
@@ -3083,16 +2435,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Button"
     },
     "__color__": {
-        "description": {
-            "en-US": "A Color Constant"
-        },
+        "description": { "en-US": "A Color Constant" },
         "args": [
             {
                 "name": "color",
-                "description": {
-                    "en-US": "A Color Constant"
-                },
-                "type": "ColorLiteral"
+                "description": { "en-US": "A Color Constant" },
+                "type": "ColorLiteral",
             }
         ],
         "canBePutInBoolean": false,
@@ -3117,50 +2465,28 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Color"
     },
     "__compare__": {
-        "description": {
-            "en-US": "Whether the comparison of the two inputs is true."
-        },
+        "description": { "en-US": "Whether the comparison of the two inputs is true." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand side of the comparison. This may be any value type if the operation is == or !=. Otherwise, real numbers are expected."
-                },
+                "description": { "en-US": "The left-hand side of the comparison. This may be any value type if the operation is == or !=. Otherwise, real numbers are expected." },
                 "type": [
                     "Object",
                     "Array"
-                ]
+                ],
             },
             {
                 "name": "comparison",
-                "description": {
-                    "en-US": "",
-                    "de-DE": "",
-                    "es-ES": "",
-                    "es-MX": "",
-                    "fr-FR": "",
-                    "it-IT": "",
-                    "ja-JP": "",
-                    "ko-KR": "",
-                    "pl-PL": "",
-                    "pt-BR": "",
-                    "ru-RU": "",
-                    "th-TH": "",
-                    "tr-TR": "",
-                    "zh-CN": "",
-                    "zh-TW": ""
-                },
-                "type": "__Operator__"
+                "description": { "en-US": "" },
+                "type": "__Operator__",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand side of the comparison. This may be any value type if the operation is == or !=. Otherwise, real numbers are expected."
-                },
+                "description": { "en-US": "The right-hand side of the comparison. This may be any value type if the operation is == or !=. Otherwise, real numbers are expected." },
                 "type": [
                     "Object",
                     "Array"
-                ]
+                ],
             }
         ],
         "isConstant": true,
@@ -3184,46 +2510,26 @@ export const valueFuncKw: Record<string, Value> =
     },
     ".concat": {
         "guid": "00000000C41A",
-        "description": {
-            "en-US": "A copy of an array with one or more values appended to the end."
-        },
+        "description": { "en-US": "A copy of an array with one or more values appended to the end." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array to which to append.",
-                    "de-DE": "Das Array das ergänzt werden soll.",
-                    "es-ES": "Matriz a la que se agrega.",
-                    "es-MX": "La matriz a la cual se anexará.",
-                    "fr-FR": "Le tableau qui reçoit l’ajout.",
-                    "it-IT": "L'array al quale aggiungere Valori.",
-                    "ja-JP": "追加先の配列",
-                    "ko-KR": "덧붙일 대상 배열입니다.",
-                    "pl-PL": "Tabela do której należy dołączyć.",
-                    "pt-BR": "A matriz a ser juntada.",
-                    "ru-RU": "Массив который нужно дополнить.",
-                    "th-TH": "The array to which to append.",
-                    "tr-TR": "Eklenecek dizin.",
-                    "zh-CN": "要添加至数组的值。",
-                    "zh-TW": "The array to which to append."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array to which to append." },
+                "type": "Array",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The value to append to the end of the array. If this value is itself an array, each element is appended."
-                },
+                "description": { "en-US": "The value to append to the end of the array. If this value is itself an array, each element is appended." },
                 "type": [
                     "Object",
                     {
                         "Array": "Object"
                     }
                 ],
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
-        "class": "Array",
+        class: "Array",
         "isConstant": true,
         "return": "Array",
         "en-US": "Append To Array",
@@ -3243,9 +2549,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Append To Array"
     },
     "__currentArrayElement__": {
-        "description": {
-            "en-US": "The current array element being considered. Only meaningful during the evaluation of values such as filtered array and sorted array."
-        },
+        "description": { "en-US": "The current array element being considered. Only meaningful during the evaluation of values such as filtered array and sorted array." },
         "args": [],
         "isConstant": true,
         "return": [
@@ -3270,9 +2574,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Current Array Element"
     },
     "__currentArrayIndex__": {
-        "description": {
-            "en-US": "The current array index being considered. Only meaningful during the evaluation of values such as filtered array and sorted array."
-        },
+        "description": { "en-US": "The current array index being considered. Only meaningful during the evaluation of values such as filtered array and sorted array." },
         "args": [],
         "isConstant": true,
         "return": [
@@ -3297,54 +2599,30 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Current Array Index"
     },
     "__customString__": {
-        "description": {
-            "en-US": "ty magzie for adding that"
-        },
+        "description": { "en-US": "ty magzie for adding that" },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "",
-                    "de-DE": "",
-                    "es-ES": "",
-                    "es-MX": "",
-                    "fr-FR": "",
-                    "it-IT": "",
-                    "ja-JP": "",
-                    "ko-KR": "",
-                    "pl-PL": "",
-                    "pt-BR": "",
-                    "ru-RU": "",
-                    "th-TH": "",
-                    "tr-TR": "",
-                    "zh-CN": "",
-                    "zh-TW": ""
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "" },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "{0}",
-                "description": {
-                    "en-US": "The value that will be converted to text and used to replace {0}."
-                },
+                "description": { "en-US": "The value that will be converted to text and used to replace {0}." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             },
             {
                 "name": "{1}",
-                "description": {
-                    "en-US": "The value that will be converted to text and used to replace {1}."
-                },
+                "description": { "en-US": "The value that will be converted to text and used to replace {1}." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             },
             {
                 "name": "{2}",
-                "description": {
-                    "en-US": "The value that will be converted to text and used to replace {2}."
-                },
+                "description": { "en-US": "The value that will be converted to text and used to replace {2}." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
         "isConstant": true,
@@ -3369,44 +2647,24 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__divide__": {
         "guid": "00000000C40F",
-        "description": {
-            "en-US": "The ratio of two numbers or vectors. A vector divided by a number will yield a scaled vector. Division by zero results in zero.",
-            "de-DE": "Der Quotient zweier Zahlen oder Vektoren. Das Ergebnis einer Division eines Vektors durch eine Zahl ist ein skalierter Vektor. Die Division durch 0 ergibt 0.",
-            "es-ES": "Razón de dos números o vectores. Un vector dividido por un número dará como resultado un vector escalado. Dividir por cero tiene cero como resultado.",
-            "es-MX": "La relación entre dos números o vectores. El resultado de un vector dividido por un número será un vector escalado. El resultado de toda división por 0 será 0.",
-            "fr-FR": "Le ratio de deux nombres ou vecteurs. Un vecteur divisé par un nombre donnera un vecteur échelonné. Toute division par 0 sera égale à 0.",
-            "it-IT": "Il rapporto tra due numeri o vettori. Il rapporto tra un vettore e un numero produce un vettore scalare. La divisione per zero risulta in zero.",
-            "ja-JP": "2つの数値またはベクトルの割合。ベクトルの除算を行った場合、スケールされたベクトルが導き出される。0による除算を行った場合、結果は0になる",
-            "ko-KR": "두 숫자 또는 벡터의 비율입니다. 벡터를 숫자로 나누면 비율이 증감된 벡터가 도출됩니다. 0으로 나누면 0이 됩니다.",
-            "pl-PL": "Współczynnik dwóch liczb lub wektorów. Wektor podzielony przez liczbę da wektor skalowany. Podział przez zero da wynik zero.",
-            "pt-BR": "A razão de dois números ou vetores. Um vetor dividido por um número produzirá um vetor escalar. Divisão por zero resulta em zero.",
-            "ru-RU": "Частное двух чисел или векторов. Вектор поделенный на число дает вектор другого размера. Деление на ноль дает ноль.",
-            "th-TH": "The ratio of two numbers or vectors. A vector divided by a number will yield a scaled vector. Division by zero results in zero.",
-            "tr-TR": "İki sayının veya vektörün birbirine olan oranı. Bir vektörün bir sayıya oranı orantılı bir vektördür. Bir sayıyı sıfıra bölmek sıfır sonucu verir.",
-            "zh-CN": "两个数字或矢量的商。矢量除以数字会得到一个缩放后的矢量。除以零的结果为0。",
-            "zh-TW": "The ratio of two numbers or vectors. A vector divided by a number will yield a scaled vector. Division by zero results in zero."
-        },
+        "description": { "en-US": "The ratio of two numbers or vectors. A vector divided by a number will yield a scaled vector. Division by zero results in zero." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
                 ],
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
-                ]
+                ],
             }
         ],
         "isConstant": true,
@@ -3431,23 +2689,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Divide"
     },
     "__emptyArray__": {
-        "description": {
-            "en-US": "An array with no elements.",
-            "de-DE": "Ein Array ohne Elemente.",
-            "es-ES": "Una matriz sin elementos.",
-            "es-MX": "Una matriz sin elementos.",
-            "fr-FR": "Un tableau sans éléments.",
-            "it-IT": "Un array senza alcun elemento.",
-            "ja-JP": "要素のない配列",
-            "ko-KR": "요소가 없는 배열입니다.",
-            "pl-PL": "Tabela bez żadnych elementów.",
-            "pt-BR": "Uma matriz sem elementos.",
-            "ru-RU": "Пустой массив.",
-            "th-TH": "An array with no elements.",
-            "tr-TR": "Unsuru olmayan bir dizin.",
-            "zh-CN": "一个没有任何元素的数组。",
-            "zh-TW": "An array with no elements."
-        },
+        "description": { "en-US": "An array with no elements." },
         "args": [],
         "isConstant": true,
         "return": "Array",
@@ -3469,37 +2711,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Empty Array"
     },
     "__filteredArray__": {
-        "description": {
-            "en-US": "A copy of the specified array with any values that do not match the specified condition removed."
-        },
+        "description": { "en-US": "A copy of the specified array with any values that do not match the specified condition removed." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose copy will be filtered.",
-                    "de-DE": "Das Array dessen Kopie gefiltert wird.",
-                    "es-ES": "Matriz cuya copia se filtrará.",
-                    "es-MX": "La matriz cuya copia será filtrada.",
-                    "fr-FR": "Le tableau dont la copie sera filtrée.",
-                    "it-IT": "L'array la cui copia sarà filtrata.",
-                    "ja-JP": "コピーがフィルタリングされる配列",
-                    "ko-KR": "복사본을 필터링할 배열입니다.",
-                    "pl-PL": "Tabela której kopia zostanie przefiltrowana.",
-                    "pt-BR": "A matriz cuja cópia será filtrada.",
-                    "ru-RU": "Массив содержимое копии которого будет отфильтровано.",
-                    "th-TH": "The array whose copy will be filtered.",
-                    "tr-TR": "Kopyası filtrelenecek dizin.",
-                    "zh-CN": "对此数组的复制进行过滤。",
-                    "zh-TW": "The array whose copy will be filtered."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose copy will be filtered." },
+                "type": "Array",
             },
             {
                 "name": "condition",
-                "description": {
-                    "en-US": "The condition that is evaluated for each element of the copied array. If the condition is true, the element is kept in the copied array. Use the current array element value to reference the element of the array currently being considered."
-                },
-                "type": "bool"
+                "description": { "en-US": "The condition that is evaluated for each element of the copied array. If the condition is true, the element is kept in the copied array. Use the current array element value to reference the element of the array currently being considered." },
+                "type": "bool",
             }
         ],
         "isConstant": true,
@@ -3522,16 +2744,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Filtered Array"
     },
     "__firstOf__": {
-        "description": {
-            "en-US": "The value at the start of the specified array. Results in 0 if the specified array is empty."
-        },
+        "description": { "en-US": "The value at the start of the specified array. Results in 0 if the specified array is empty." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array from which the value is acquired."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array from which the value is acquired." },
+                "type": "Array",
             }
         ],
         "isConstant": true,
@@ -3558,16 +2776,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__gamemode__": {
         "guid": "00000000F161",
-        "description": {
-            "en-US": "A game mode constant."
-        },
+        "description": { "en-US": "A game mode constant." },
         "args": [
             {
                 "name": "gameMode",
-                "description": {
-                    "en-US": "A game mode constant."
-                },
-                "type": "GamemodeLiteral"
+                "description": { "en-US": "A game mode constant." },
+                "type": "GamemodeLiteral",
             }
         ],
         "isConstant": true,
@@ -3591,16 +2805,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Game Mode"
     },
     "__globalVar__": {
-        "description": {
-            "en-US": "The current value of a global variable, which is a variable that belongs to the game itself."
-        },
+        "description": { "en-US": "The current value of a global variable, which is a variable that belongs to the game itself." },
         "args": [
             {
                 "name": "variable",
-                "description": {
-                    "en-US": "The variable whose value to acquire."
-                },
-                "type": "GlobalVariable"
+                "description": { "en-US": "The variable whose value to acquire." },
+                "type": "GlobalVariable",
             }
         ],
         "return": "Value",
@@ -3643,16 +2853,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__hero__": {
         "guid": "00000000ACAA",
-        "description": {
-            "en-US": "A hero constant."
-        },
+        "description": { "en-US": "A hero constant." },
         "args": [
             {
                 "name": "hero",
-                "description": {
-                    "en-US": "A hero constant."
-                },
-                "type": "HeroLiteral"
+                "description": { "en-US": "A hero constant." },
+                "type": "HeroLiteral",
             }
         ],
         "canBePutInBoolean": false,
@@ -3676,52 +2882,30 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Hero"
     },
     "__ifThenElse__": {
-        "description": {
-            "en-US": "Results in the Then value when the If condition is true; otherwise results in the Else value.",
-            "de-DE": "Ergibt den Wert [Then] wenn die [If]-Bedingung True ist; ergibt andernfalls den Wert [Else].",
-            "es-ES": "El resultado es el valor «Then» cuando la condición «If» es verdadera; de lo contrario el resultado es el valor «Else».",
-            "es-MX": "Resulta en el valor Then cuando la condición If es verdadera; si no resulta en el valor Else.",
-            "fr-FR": "Les résultats dans la valeur « Alors » quand la condition « Si » est vraie ; dans le cas contraire les résultats dans la valeur « Sinon ».",
-            "it-IT": "Risulta nel valore Then quando la condizione If è True; altrimenti risulta nel valore Else.",
-            "ja-JP": "「IF」条件が「TRUE」の場合、結果は「THEN」の値。それ以外の場合は「ELSE」の値",
-            "ko-KR": "조건이 참일 때 Then 값이 결과값이 됩니다. 그 외의 경우에는 Else 값이 결과값이 됩니다.",
-            "pl-PL": "Kiedy warunek „If” Jeśli jest prawdą to efektem jest wartość „Then” Wtedy w przeciwnym razie efektem jest wartość „Else” Inaczej.",
-            "pt-BR": "Resulta no valor Then quando a condição If for verdadeira; caso contrário resulta no valor Else.",
-            "ru-RU": "Если условие «Если» верно возвращает значение «То»; в остальных случаях возвращает значение «В противном случае».",
-            "th-TH": "ผลลัพธ์ในค่า \"Then\" เมื่อเงื่อนไข \"If\" เป็นจริง มิฉะนั้นจะได้ผลลัพธ์เป็นค่า \"Else\"",
-            "tr-TR": "Eğer koşulu doğruysa İse değeri yanlışsa Değilse değeri sonucunu verir.",
-            "zh-CN": "如果If后面的条件为真，则结果为Then后面的值；否则结果为Else后面的值。",
-            "zh-TW": "Results in the Then value when the If condition is true; otherwise results in the Else value."
-        },
+        "description": { "en-US": "Results in the Then value when the If condition is true; otherwise, results in the Else value." },
         "args": [
             {
                 "name": "if",
-                "description": {
-                    "en-US": "If this condition evaluates to true, the result of the value is then; otherwise, the result is else."
-                },
-                "type": "bool"
+                "description": { "en-US": "If this condition evaluates to true, the result of the value is then; otherwise, the result is else." },
+                "type": "bool",
             },
             {
                 "name": "then",
-                "description": {
-                    "en-US": "The result of the value when the if condition evaluates to true."
-                },
+                "description": { "en-US": "The result of the value when the if condition evaluates to true." },
                 "type": [
                     "Object",
                     "Array"
                 ],
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             },
             {
                 "name": "else",
-                "description": {
-                    "en-US": "The result of the value when the if condition evaluates to false."
-                },
+                "description": { "en-US": "The result of the value when the if condition evaluates to false." },
                 "type": [
                     "Object",
                     "Array"
                 ],
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
         "isConstant": true,
@@ -3747,29 +2931,23 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "If-Then-Else"
     },
     ".index": {
-        "description": {
-            "en-US": "The index of a value within the array or -1 if no such value can be found. **Does not support nested arrays.**\nWarning: if the array contains `true`, it will match against any truthy value, and `true` will match against any truthy value in the array."
-        },
+        "description": { "en-US": "The index of a value within the array or -1 if no such value can be found. **Does not support nested arrays.**\nWarning: if the array contains `true`, it will match against any truthy value, and `true` will match against any truthy value in the array." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array in which to search for the specified value."
-                },
+                "description": { "en-US": "The array in which to search for the specified value." },
                 "type": {
                     "Array": "Object"
-                }
+                },
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The value for which to search."
-                },
+                "description": { "en-US": "The value for which to search." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
-        "class": "Array",
+        class: "Array",
         "isConstant": true,
         "return": "int",
         "guid": "00000000C330",
@@ -3790,19 +2968,15 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Index Of Array Value"
     },
     ".last": {
-        "description": {
-            "en-US": "The value at the end of the specified array. Results in 0 if the specified array is empty."
-        },
+        "description": { "en-US": "The value at the end of the specified array. Results in 0 if the specified array is empty." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array from which the value is acquired."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array from which the value is acquired." },
+                "type": "Array",
             }
         ],
-        "class": "Array",
+        class: "Array",
         "isConstant": true,
         "return": [
             "Object",
@@ -3827,54 +3001,30 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__localizedString__": {
         "guid": "00000000BA60",
-        "description": {
-            "en-US": "Text formed from a selection of strings and specified values."
-        },
+        "description": { "en-US": "Text formed from a selection of strings and specified values." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "",
-                    "de-DE": "",
-                    "es-ES": "",
-                    "es-MX": "",
-                    "fr-FR": "",
-                    "it-IT": "",
-                    "ja-JP": "",
-                    "ko-KR": "",
-                    "pl-PL": "",
-                    "pt-BR": "",
-                    "ru-RU": "",
-                    "th-TH": "",
-                    "tr-TR": "",
-                    "zh-CN": "",
-                    "zh-TW": ""
-                },
-                "type": "LocalizedStringLiteral"
+                "description": { "en-US": "" },
+                "type": "LocalizedStringLiteral",
             },
             {
                 "name": "{0}",
-                "description": {
-                    "en-US": "The value that will be converted to text and used to replace {0}."
-                },
+                "description": { "en-US": "The value that will be converted to text and used to replace {0}." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             },
             {
                 "name": "{1}",
-                "description": {
-                    "en-US": "The value that will be converted to text and used to replace {1}."
-                },
+                "description": { "en-US": "The value that will be converted to text and used to replace {1}." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             },
             {
                 "name": "{2}",
-                "description": {
-                    "en-US": "The value that will be converted to text and used to replace {2}."
-                },
+                "description": { "en-US": "The value that will be converted to text and used to replace {2}." },
                 "type": "Object",
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
         "canBePutInBoolean": false,
@@ -3898,16 +3048,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__map__": {
         "guid": "00000000D415",
-        "description": {
-            "en-US": "A map constant."
-        },
+        "description": { "en-US": "A map constant." },
         "args": [
             {
                 "name": "map",
-                "description": {
-                    "en-US": "A map constant."
-                },
-                "type": "MapLiteral"
+                "description": { "en-US": "A map constant." },
+                "type": "MapLiteral",
             }
         ],
         "canBePutInBoolean": false,
@@ -3931,40 +3077,20 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Map"
     },
     "__mappedArray__": {
-        "description": {
-            "en-US": "A copy of the specified array with the values mapped according to the mapping expression that is evaluated for each element."
-        },
+        "description": { "en-US": "A copy of the specified array with the values mapped according to the mapping expression that is evaluated for each element." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose copy will be mapped.",
-                    "de-DE": "Das Array dessen Kopie abgebildet wird.",
-                    "es-ES": "Matriz cuya copia se mapeará.",
-                    "es-MX": "La matriz cuya copia será mapeada.",
-                    "fr-FR": "Le tableau dont la copie sera appliquée",
-                    "it-IT": "L'array la cui copia sarà mappata.",
-                    "ja-JP": "コピーがマッピングされる配列",
-                    "ko-KR": "복사본을 매핑할 배열입니다.",
-                    "pl-PL": "Tabela której kopia zostanie zmapowana.",
-                    "pt-BR": "A matriz cuja cópia será mapeada.",
-                    "ru-RU": "Массив копия которого будет сопоставлена.",
-                    "th-TH": "The array whose copy will be mapped.",
-                    "tr-TR": "Kopyası eşlenecek dizin.",
-                    "zh-CN": "对此数组的复制进行映射。",
-                    "zh-TW": "The array whose copy will be mapped."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose copy will be mapped." },
+                "type": "Array",
             },
             {
                 "name": "condition",
-                "description": {
-                    "en-US": "The mapping expression that is evaluated for each element of the copied array. Use the current array element value to reference the element of the array currently being considered."
-                },
+                "description": { "en-US": "The mapping expression that is evaluated for each element of the copied array. Use the current array element value to reference the element of the array currently being considered." },
                 "type": [
                     "Object",
                     "Array"
-                ]
+                ],
             }
         ],
         "isConstant": true,
@@ -3988,39 +3114,19 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__modulo__": {
         "guid": "00000000C410",
-        "description": {
-            "en-US": "The remainder of the left-hand operand divided by the right-hand operand. Any number modulo zero results in zero.",
-            "de-DE": "Der Rest der Division des linken Operanden durch den rechten Operanden. Der Rest einer Division durch 0 ist immer 0.",
-            "es-ES": "Resto del operando de la parte izquierda dividido por el operando de la parte derecha. Cualquier número módulo cero tiene cero como resultado.",
-            "es-MX": "El resto del operando del lado izquierdo dividido por el operando del lado derecho. El resultado de todo módulo de 0 será 0.",
-            "fr-FR": "Le reste de l’opérande de gauche divisé par l’opérande de droite. Toute opération Modulo de 0 renvoie un résultat nul.",
-            "it-IT": "Il resto dell'operando a sinistra diviso per l'operando a destra. Qualsiasi numero modulo zero risulta in zero.",
-            "ja-JP": "左側の被演算子の残りは右側の被演算子で除算される。0を法とした場合、結果は0になる",
-            "ko-KR": "좌측 피연산자를 우측 피연산자로 나눈 나머지입니다. 어떤 숫자이든 Modulo 0의 결과는 0입니다.",
-            "pl-PL": "Reszta z dzielenia lewostronnego operandu przez prawostronny operand. Modulo zero dowolnej liczby daje wynik zero.",
-            "pt-BR": "O resto do operando esquerdo dividido pelo operando direito. Qualquer número modular zero resulta em zero.",
-            "ru-RU": "Остаток левого операнда поделенного на правый операнд. Результатом целочисленного деления любого числа на ноль будет ноль.",
-            "th-TH": "The remainder of the left-hand operand divided by the right-hand operand. Any number modulo zero results in zero.",
-            "tr-TR": "Sol işlenenin kalanının sağ işlenene bölümü. Modülosu sıfır olan sayının sonucu sıfırdır.",
-            "zh-CN": "左边的运算量除以右边的运算量之后的余数。如果右边是0的话则结果为0。",
-            "zh-TW": "The remainder of the left-hand operand divided by the right-hand operand. Any number modulo zero results in zero."
-        },
+        "description": { "en-US": "The remainder of the left-hand operand divided by the right-hand operand. Any number modulo zero results in zero." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number." },
                 "type": "float",
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number." },
                 "type": "unsigned float",
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -4043,43 +3149,23 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__multiply__": {
         "guid": "00000000C40D",
-        "description": {
-            "en-US": "The product of two numbers or vectors. A vector multiplied by a number will yield a scaled vector.",
-            "de-DE": "Das Produkt zweier Zahlen oder Vektoren. Das Ergebnis einer Multiplikation eines Vektors mit einer Zahl ist ein skalierter Vektor.",
-            "es-ES": "Producto de dos números o vectores. Un vector multiplicado por un número dará como resultado un vector escalado.",
-            "es-MX": "El producto de dos números o vectores. El resultado de un vector multiplicado por un número será un vector escalado.",
-            "fr-FR": "Le produit de deux nombres ou vecteurs. Un vecteur multiplié par un nombre donnera un vecteur échelonné.",
-            "it-IT": "Il prodotto tra due numeri o vettori. La moltiplicazione di un vettore per un numero produce un vettore scalare.",
-            "ja-JP": "2つの数値またはベクトルの積。ベクトルの乗算を行った場合、スケールされたベクトルが導き出される",
-            "ko-KR": "두 숫자 또는 벡터의 곱입니다. 벡터에 숫자를 곱하면 비율이 증감된 벡터가 도출됩니다.",
-            "pl-PL": "Produkt dwóch liczb lub wektorów. Wektor pomnożony przez liczbę da wektor skalowany.",
-            "pt-BR": "O produto de dois números ou vetores. Um vetor multiplicado por um número produzirá um vetor escalar.",
-            "ru-RU": "Произведение двух чисел или векторов. Вектор помноженный на число дает вектор другого размера.",
-            "th-TH": "The product of two numbers or vectors. A vector multiplied by a number will yield a scaled vector.",
-            "tr-TR": "İki sayının veya vektörün birbirleriyle çarpımı. Bir sayı ile bir vektörün çarpımı orantılı bir vektördür.",
-            "zh-CN": "两个数字或矢量的积。矢量乘以数字会得到一个缩放后的矢量。",
-            "zh-TW": "The product of two numbers or vectors. A vector multiplied by a number will yield a scaled vector."
-        },
+        "description": { "en-US": "The product of two numbers or vectors. A vector multiplied by a number will yield a scaled vector." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
-                ]
+                ],
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
-                ]
+                ],
             }
         ],
         "isConstant": true,
@@ -4105,16 +3191,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__not__": {
         "guid": "00000000B275",
-        "description": {
-            "en-US": "Whether the input is false (or equivalent to false)."
-        },
+        "description": { "en-US": "Whether the input is false (or equivalent to false)." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "When this input is false (or equivalent to false), then the not value is true. Otherwise, the not value is false."
-                },
-                "type": "bool"
+                "description": { "en-US": "When this input is false (or equivalent to false), then the not value is true. Otherwise, the not value is false." },
+                "type": "bool",
             }
         ],
         "isConstant": true,
@@ -4139,7 +3221,7 @@ export const valueFuncKw: Record<string, Value> =
         "args": [
             {
                 "name": "number",
-                "type": "FloatLiteral"
+                "type": "FloatLiteral",
             }
         ],
         "isConstant": true,
@@ -4164,23 +3246,17 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__or__": {
         "guid": "00000000B274",
-        "description": {
-            "en-US": "Whether either of the two inputs are true (or equivalent to true)."
-        },
+        "description": { "en-US": "Whether either of the two inputs are true (or equivalent to true)." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "One of the two inputs considered. If either one is true (or equivalent to true), then the or value is true."
-                },
-                "type": "bool"
+                "description": { "en-US": "One of the two inputs considered. If either one is true (or equivalent to true), then the or value is true." },
+                "type": "bool",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "One of the two inputs considered. If either one is true (or equivalent to true), then the or value is true."
-                },
-                "type": "bool"
+                "description": { "en-US": "One of the two inputs considered. If either one is true (or equivalent to true), then the or value is true." },
+                "type": "bool",
             }
         ],
         "isConstant": true,
@@ -4202,23 +3278,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Or"
     },
     "__playerVar__": {
-        "description": {
-            "en-US": "The current value of a player variable, which is a variable that belongs to a specific player."
-        },
+        "description": { "en-US": "The current value of a player variable, which is a variable that belongs to a specific player." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player whose variable value to acquire."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player whose variable value to acquire." },
+                "type": "Player",
             },
             {
                 "name": "variable",
-                "description": {
-                    "en-US": "The variable whose value to acquire."
-                },
-                "type": "PlayerVariable"
+                "description": { "en-US": "The variable whose value to acquire." },
+                "type": "PlayerVariable",
             }
         ],
         "return": "Value",
@@ -4241,37 +3311,17 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__raiseToPower__": {
         "guid": "00000000C414",
-        "description": {
-            "en-US": "The left-hand operand raised to the power of the right-hand operand. If the left-hand operand is negative the result is always zero.",
-            "de-DE": "Der linke Operand potenziert mit dem rechten Operanden. Ist der linke Operand negativ ist das Ergebnis immer 0.",
-            "es-ES": "Operando de la parte izquierda elevado al operando de la parte derecha. Si el operando de la parte izquierda es negativo el resultado siempre será cero.",
-            "es-MX": "El operando del lado izquierdo elevado a la potencia del operando del lado derecho. Si el operando del lado izquierdo es negativo el resultado será siempre 0.",
-            "fr-FR": "L’opérande de gauche élevée à la valeur de l’opérande de droite. Si l’opérande de gauche est négative le résultat sera toujours égal à 0.",
-            "it-IT": "L'operando a sinistra innalzato alla potenza dell'operando a destra. Se l'operando a sinistra è negativo il risultato è sempre zero.",
-            "ja-JP": "左側の被演算子を右側の被演算子の数値の分だけ累乗する。左側の被演算子が負の場合、結果は0となる",
-            "ko-KR": "좌측 피연산자를 우측 피연산자만큼 제곱합니다. 좌측 피연산자가 음수이면 결과는 항상 0입니다.",
-            "pl-PL": "Lewostronny operand podniesiony do potęgi prawostronnego operandu. Jeśli lewostronny jest ujemny wynikiem jest zawsze zero.",
-            "pt-BR": "O operando esquerdo elevado à potência do operando direito. Se o operando esquerdo for negativo o resultado sempre será zero.",
-            "ru-RU": "Левый операнд возведенный в степень с показателем равным правому оператору. Если левый операнд отрицателен то результат приравнивается к нулю.",
-            "th-TH": "The left-hand operand raised to the power of the right-hand operand. If the left-hand operand is negative the result is always zero.",
-            "tr-TR": "Sol işlenen sağ işlenenin üssüne yükseltildi. Sol işlenen negatifse sonuç her zaman sıfırdır.",
-            "zh-CN": "左边运算量的乘方，幂为右边运算量。如果左边运算量为负，则结果始终为0。",
-            "zh-TW": "The left-hand operand raised to the power of the right-hand operand. If the left-hand operand is negative the result is always zero."
-        },
+        "description": { "en-US": "The left-hand operand raised to the power of the right-hand operand. If the left-hand operand is negative, the result is always zero." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number."
-                },
-                "type": "unsigned float"
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number." },
+                "type": "unsigned float",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number."
-                },
-                "type": "float"
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -4293,62 +3343,36 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Raise To Power"
     },
     "raycastHitNormal": {
-        "description": {
-            "en-US": "The surface normal at the ray cast hit position (or from end pos to start pos if no hit occurs)."
-        },
+        "description": { "en-US": "The surface normal at the ray cast hit position (or from end pos to start pos if no hit occurs)." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "The start position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used."
-                },
-                "type": "Position"
+                "description": { "en-US": "The start position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used." },
+                "type": "Position",
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "The end position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used."
-                },
-                "type": "Position"
+                "description": { "en-US": "The end position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used." },
+                "type": "Position",
             },
             {
                 "name": "playersToInclude",
-                "description": {
-                    "en-US": "Which players can be hit by this ray cast.",
-                    "de-DE": "Welche Spieler von diesem Raycast getroffen werden können.",
-                    "es-ES": "Los jugadores a los que puede alcanzar este ray cast.",
-                    "es-MX": "Los jugadores que pueden ser golpeados por este lanzamiento de rayo.",
-                    "fr-FR": "Les joueurs pouvant être intersectés par cette émission de rayons.",
-                    "it-IT": "Quali giocatori possono essere colpiti dal lancio di questo raggio.",
-                    "ja-JP": "このレイ・キャストが当たりうるプレイヤー",
-                    "ko-KR": "이 레이캐스트로 맞힐 수 있는 플레이어입니다.",
-                    "pl-PL": "Którzy gracze mogą zostać oświetleni przez raycasting.",
-                    "pt-BR": "Quais jogadores podem ser atingidos por este lançamento de raio.",
-                    "ru-RU": "Определяет каких игроков может учитывать функция [Ray Cast].",
-                    "th-TH": "ผู้เล่นคนที่สามารถโดนเรย์แคสต์นี้ได้",
-                    "tr-TR": "Işın dökümünün isabet edebileceği oyuncular.",
-                    "zh-CN": "哪些玩家可以被射线击中。",
-                    "zh-TW": "Which players can be hit by this ray cast."
-                },
+                "description": { "en-US": "Which players can be hit by this ray cast." },
                 "type": {
                     "Array": "Player"
-                }
+                },
             },
             {
                 "name": "playersToExclude",
-                "description": {
-                    "en-US": "Which players cannot be hit by this ray cast. This list takes precedence over players to include."
-                },
+                "description": { "en-US": "Which players cannot be hit by this ray cast. This list takes precedence over players to include." },
                 "type": {
                     "Array": "Player"
-                }
+                },
             },
             {
                 "name": "includePlayerOwnedObjects",
-                "description": {
-                    "en-US": "Whether player-owned objects (such as barriers or turrets) should be included in the ray cast."
-                },
-                "type": "bool"
+                "description": { "en-US": "Whether player-owned objects (such as barriers or turrets) should be included in the ray cast." },
+                "type": "bool",
             }
         ],
         "canBePutInBoolean": false,
@@ -4371,62 +3395,36 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ray Cast Hit Normal"
     },
     "raycastHitPlayer": {
-        "description": {
-            "en-US": "The player hit by the ray cast (or null if no player is hit)."
-        },
+        "description": { "en-US": "The player hit by the ray cast (or null if no player is hit)." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "The start position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used."
-                },
-                "type": "Position"
+                "description": { "en-US": "The start position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used." },
+                "type": "Position",
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "The end position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used."
-                },
-                "type": "Position"
+                "description": { "en-US": "The end position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used." },
+                "type": "Position",
             },
             {
                 "name": "playersToInclude",
-                "description": {
-                    "en-US": "Which players can be hit by this ray cast.",
-                    "de-DE": "Welche Spieler von diesem Raycast getroffen werden können.",
-                    "es-ES": "Los jugadores a los que puede alcanzar este ray cast.",
-                    "es-MX": "Los jugadores que pueden ser golpeados por este lanzamiento de rayo.",
-                    "fr-FR": "Les joueurs pouvant être intersectés par cette émission de rayons.",
-                    "it-IT": "Quali giocatori possono essere colpiti dal lancio di questo raggio.",
-                    "ja-JP": "このレイ・キャストが当たりうるプレイヤー",
-                    "ko-KR": "이 레이캐스트로 맞힐 수 있는 플레이어입니다.",
-                    "pl-PL": "Którzy gracze mogą zostać oświetleni przez raycasting.",
-                    "pt-BR": "Quais jogadores podem ser atingidos por este lançamento de raio.",
-                    "ru-RU": "Определяет каких игроков может учитывать функция [Ray Cast].",
-                    "th-TH": "ผู้เล่นคนที่สามารถโดนเรย์แคสต์นี้ได้",
-                    "tr-TR": "Işın dökümünün isabet edebileceği oyuncular.",
-                    "zh-CN": "哪些玩家可以被射线击中。",
-                    "zh-TW": "Which players can be hit by this ray cast."
-                },
+                "description": { "en-US": "Which players can be hit by this ray cast." },
                 "type": {
                     "Array": "Player"
-                }
+                },
             },
             {
                 "name": "playersToExclude",
-                "description": {
-                    "en-US": "Which players cannot be hit by this ray cast. This list takes precedence over players to include."
-                },
+                "description": { "en-US": "Which players cannot be hit by this ray cast. This list takes precedence over players to include." },
                 "type": {
                     "Array": "Player"
-                }
+                },
             },
             {
                 "name": "includePlayerOwnedObjects",
-                "description": {
-                    "en-US": "Whether player-owned objects (such as barriers or turrets) should be included in the ray cast."
-                },
-                "type": "bool"
+                "description": { "en-US": "Whether player-owned objects (such as barriers or turrets) should be included in the ray cast." },
+                "type": "bool",
             }
         ],
         "canBePutInBoolean": false,
@@ -4449,62 +3447,36 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ray Cast Hit Player"
     },
     "raycastHitPosition": {
-        "description": {
-            "en-US": "The position where the ray cast hits a surface, object, or player (or the end pos if no hit occurs)."
-        },
+        "description": { "en-US": "The position where the ray cast hits a surface, object, or player (or the end pos if no hit occurs)." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "The start position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used."
-                },
-                "type": "Position"
+                "description": { "en-US": "The start position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used." },
+                "type": "Position",
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "The end position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used."
-                },
-                "type": "Position"
+                "description": { "en-US": "The end position for the ray cast. If a player is provided, a position 2 meters above the player's feet is used." },
+                "type": "Position",
             },
             {
                 "name": "playersToInclude",
-                "description": {
-                    "en-US": "Which players can be hit by this ray cast.",
-                    "de-DE": "Welche Spieler von diesem Raycast getroffen werden können.",
-                    "es-ES": "Los jugadores a los que puede alcanzar este ray cast.",
-                    "es-MX": "Los jugadores que pueden ser golpeados por este lanzamiento de rayo.",
-                    "fr-FR": "Les joueurs pouvant être intersectés par cette émission de rayons.",
-                    "it-IT": "Quali giocatori possono essere colpiti dal lancio di questo raggio.",
-                    "ja-JP": "このレイ・キャストが当たりうるプレイヤー",
-                    "ko-KR": "이 레이캐스트로 맞힐 수 있는 플레이어입니다.",
-                    "pl-PL": "Którzy gracze mogą zostać oświetleni przez raycasting.",
-                    "pt-BR": "Quais jogadores podem ser atingidos por este lançamento de raio.",
-                    "ru-RU": "Определяет каких игроков может учитывать функция [Ray Cast].",
-                    "th-TH": "ผู้เล่นคนที่สามารถโดนเรย์แคสต์นี้ได้",
-                    "tr-TR": "Işın dökümünün isabet edebileceği oyuncular.",
-                    "zh-CN": "哪些玩家可以被射线击中。",
-                    "zh-TW": "Which players can be hit by this ray cast."
-                },
+                "description": { "en-US": "Which players can be hit by this ray cast." },
                 "type": {
                     "Array": "Player"
-                }
+                },
             },
             {
                 "name": "playersToExclude",
-                "description": {
-                    "en-US": "Which players cannot be hit by this ray cast. This list takes precedence over players to include."
-                },
+                "description": { "en-US": "Which players cannot be hit by this ray cast. This list takes precedence over players to include." },
                 "type": {
                     "Array": "Player"
-                }
+                },
             },
             {
                 "name": "includePlayerOwnedObjects",
-                "description": {
-                    "en-US": "Whether player-owned objects (such as barriers or turrets) should be included in the ray cast."
-                },
-                "type": "bool"
+                "description": { "en-US": "Whether player-owned objects (such as barriers or turrets) should be included in the ray cast." },
+                "type": "bool",
             }
         ],
         "canBePutInBoolean": false,
@@ -4527,30 +3499,24 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ray Cast Hit Position"
     },
     ".exclude": {
-        "description": {
-            "en-US": "A copy of the array with one or more values removed (if found)."
-        },
+        "description": { "en-US": "A copy of the array with one or more values removed (if found)." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array from which to remove values."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array from which to remove values." },
+                "type": "Array",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The value to remove from the array (if found). If this value is itself an array, each matching element is removed."
-                },
+                "description": { "en-US": "The value to remove from the array (if found). If this value is itself an array, each matching element is removed." },
                 "type": [
                     "Object",
                     "Array"
                 ],
-                "canReplace0ByNull": true
+                "canReplace0ByNull": true,
             }
         ],
-        "class": "Array",
+        class: "Array",
         "isConstant": true,
         "return": "Array",
         "guid": "00000000C421",
@@ -4571,37 +3537,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Remove From Array"
     },
     "__round__": {
-        "description": {
-            "en-US": "The integer to which the specified value rounds."
-        },
+        "description": { "en-US": "The integer to which the specified value rounds." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The real number to round.",
-                    "de-DE": "Die reelle Zahl die gerundet werden soll.",
-                    "es-ES": "Número real para redondear.",
-                    "es-MX": "El número real que se redondeará.",
-                    "fr-FR": "Le nombre réel arrondi.",
-                    "it-IT": "Il numero reale da arrotondare.",
-                    "ja-JP": "四捨五入する実数",
-                    "ko-KR": "반올림할 실수입니다.",
-                    "pl-PL": "Liczba rzeczywista do zaokrąglenia.",
-                    "pt-BR": "O número real a arredondar.",
-                    "ru-RU": "Действительное число которое нужно округлить.",
-                    "th-TH": "The real number to round.",
-                    "tr-TR": "Yuvarlanacak gerçek sayı.",
-                    "zh-CN": "要取整的实数。",
-                    "zh-TW": "The real number to round."
-                },
-                "type": "float"
+                "description": { "en-US": "The real number to round." },
+                "type": "float",
             },
             {
                 "name": "roundingType",
-                "description": {
-                    "en-US": "Determines the direction in which the value will be rounded."
-                },
-                "type": "__Rounding__"
+                "description": { "en-US": "Determines the direction in which the value will be rounded." },
+                "type": "__Rounding__",
             }
         ],
         "isConstant": true,
@@ -4624,39 +3570,19 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Round To Integer"
     },
     "__sortedArray__": {
-        "description": {
-            "en-US": "A copy of the specified array with the values sorted according to the value rank that is evaluated for each element."
-        },
+        "description": { "en-US": "A copy of the specified array with the values sorted according to the value rank that is evaluated for each element." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose copy will be sorted.",
-                    "de-DE": "Das Array dessen Kopie sortiert wird.",
-                    "es-ES": "Matriz cuya copia se ordenará.",
-                    "es-MX": "La matriz cuya copia será ordenada.",
-                    "fr-FR": "Le tableau dont la copie sera triée.",
-                    "it-IT": "L'array la cui copia sarà ordinata.",
-                    "ja-JP": "コピーがソートされる配列",
-                    "ko-KR": "복사본을 정렬할 배열입니다.",
-                    "pl-PL": "Tabela której kopia zostanie posortowana.",
-                    "pt-BR": "A matriz cuja cópia será ordenada.",
-                    "ru-RU": "Массив в копии которого нужно выполнить сортировку.",
-                    "th-TH": "The array whose copy will be sorted.",
-                    "tr-TR": "Kopyası sıralanacak dizin.",
-                    "zh-CN": "对此数组的复制进行排序。",
-                    "zh-TW": "The array whose copy will be sorted."
-                },
+                "description": { "en-US": "The array whose copy will be sorted." },
                 "type": {
                     "Array": "Object"
-                }
+                },
             },
             {
                 "name": "valueRank",
-                "description": {
-                    "en-US": "The value that is evaluated for each element of the copied array. The array is sorted by this rank in ascending order. Use the current array element value to reference the element of the array currently being considered."
-                },
-                "type": "Object"
+                "description": { "en-US": "The value that is evaluated for each element of the copied array. The array is sorted by this rank in ascending order. Use the current array element value to reference the element of the array currently being considered." },
+                "type": "Object",
             }
         ],
         "isConstant": true,
@@ -4681,58 +3607,24 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Sorted Array"
     },
     ".charAt": {
-        "description": {
-            "en-US": "The character found at a specified index of a String.",
-            "de-DE": "Das Zeichen das bei einem festgelegten Index eines Strings gefunden wird.",
-            "es-ES": "El carácter encontrado en un índice especificado de una cadena.",
-            "es-MX": "El personaje encontrado en un índice específicado de una cadena.",
-            "fr-FR": "Le caractère trouvé à un index spécifié d’une chaîne.",
-            "it-IT": "Il carattere trovato all'indice specificato di una stringa.",
-            "ja-JP": "文字列の指定のインデックスで見つかったキャラクター",
-            "ko-KR": "문자열의 지정된 인덱스에서 발견된 문자입니다.",
-            "pl-PL": "Znak znajdujący się pod określonym indeksem ciągu.",
-            "pt-BR": "O caractere encontrado em um índice especificado de uma String.",
-            "ru-RU": "Символ найденный по указанному индексу строки.",
-            "th-TH": "The character found at a specified index of a String.",
-            "tr-TR": "Bir Dizgi'nin belirlenen indeksinde bulunan karakter.",
-            "zh-CN": "一条字符串的指定索引对应的字符。",
-            "zh-TW": "The character found at a specified index of a String."
-        },
+        "description": { "en-US": "The character found at a specified index of a String." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The String value whose character to acquire."
-                },
+                "description": { "en-US": "The String value whose character to acquire." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "index",
-                "description": {
-                    "en-US": "The index of the character to be acquired with 0 as the first character 1 as the second character etc..",
-                    "de-DE": "Der Index des Zeichens der abgerufen werden soll 0 für das erste Zeichen 1 für das zweite Zeichen usw..",
-                    "es-ES": "El índice del carácter que se adquiere 0 es el primer carácter 1 es el segundo etc..",
-                    "es-MX": "El índice del personaje que se adquirirá con 0 como el primer carácter 1 como el segundo etc..",
-                    "fr-FR": "L’index du caractère à appeler avec 0 comme premier caractère 1 comme second etc..",
-                    "it-IT": "L'indice di un carattere da acquisire dove 0 indica il primo carattere 1 il secondo eccetera.",
-                    "ja-JP": "取得するキャラクターのインデックス（1人目のキャラクターが0、2人目が1など）",
-                    "ko-KR": "가져올 문자의 인덱스입니다첫 문자는 0 두 번째 문자는 1 등.",
-                    "pl-PL": "Indeks znaku który ma zostać pobrany z 0 jako pierwszym znakiem 1 jako drugim itd..",
-                    "pt-BR": "O índice do caractere que será adquirido 0 é o primeiro 1 é o segundo etc.",
-                    "ru-RU": "Индекс символа который нужно получить первым символом будет 0 вторым – 1 и так далее.",
-                    "th-TH": "The index of the character to be acquired with 0 as the first character 1 as the second character etc..",
-                    "tr-TR": "Elde edilecek karakterin indeksi birinci karakter olarak 0 ikinci karakter olarak 1 vb.",
-                    "zh-CN": "要获取字符的索引（0表示第一个字符，1表示第二个字符，以此类推）。",
-                    "zh-TW": "The index of the character to be acquired with 0 as the first character 1 as the second character etc.."
-                },
+                "description": { "en-US": "The index of the character to be acquired (with 0 as the first character, 1 as the second character, etc.)." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
-        "isConstant": true,
-        "class": "String",
+        isConstant: true,
+        class: "String",
         "return": "String",
         "guid": "000000012D5E",
         "en-US": "Char In String",
@@ -4752,57 +3644,23 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Char In String"
     },
     ".strIndex": {
-        "description": {
-            "en-US": "The index of a character within a String or -1 if no such character can be found.",
-            "de-DE": "Der Index eines Zeichens in einem String oder -1 wenn kein solches Zeichen gefunden wird.",
-            "es-ES": "El índice de un carácter dentro de una cadena o «-1» si no se encuentra ese carácter.",
-            "es-MX": "El índice de un personaje dentro de una cadena o -1 si no se puede encontrar dicho personaje.",
-            "fr-FR": "L’index d’un caractère extrait d’une chaîne ou -1 si aucun caractère de ce type n’a été trouvé.",
-            "it-IT": "L'indice di un carattere all'interno di una stringa o -1 se tale carattere non può essere trovato.",
-            "ja-JP": "文字列内のキャラクターのインデックスもしくは-1（該当するキャラクターが存在しない場合）",
-            "ko-KR": "문자의 문자열 내 인덱스 또는 그러한 문자를 찾을 수 없을 경우 -1입니다.",
-            "pl-PL": "Indeks znaku wewnątrz ciągu lub -1 jeśli nie znaleziono żadnego takiego znaku.",
-            "pt-BR": "O índice de um caractere dentro da String ou -1 se o caractere encontrado.",
-            "ru-RU": "Индекс символа в строке или -1 если такой символ не найден.",
-            "th-TH": "The index of a character within a String or -1 if no such character can be found.",
-            "tr-TR": "Bir Dizgi'deki karakterin indeksi karakter bulunamazsa -1.",
-            "zh-CN": "一个字符在字符串中的索引位置。如果找不到此字符，则为-1。",
-            "zh-TW": "The index of a character within a String or -1 if no such character can be found."
-        },
+        "description": { "en-US": "The index of a character within a String or -1 if no such character can be found." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The String Value from which to search for the character.",
-                    "de-DE": "Der Stringwert in dem das Zeichen gesucht werden soll.",
-                    "es-ES": "Valor de la cadena desde la que se buscará el carácter.",
-                    "es-MX": "El valor de la cadena desde el cual se buscará al personaje.",
-                    "fr-FR": "La valeur de la chaîne à partir de laquelle chercher le caractère.",
-                    "it-IT": "Il valore della stringa da cui cercare il carattere.",
-                    "ja-JP": "キャラクターの検索元となる文字列の値",
-                    "ko-KR": "문자를 검색할 문자열 값입니다.",
-                    "pl-PL": "Wartość ciągu dzięki której można wyszukać znak.",
-                    "pt-BR": "O Valor da String que será usado para buscar o caractere.",
-                    "ru-RU": "Строка в которой будет выполнен поиск символа.",
-                    "th-TH": "The String Value from which to search for the character.",
-                    "tr-TR": "Karakterin aranacağı Dizgi Değeri.",
-                    "zh-CN": "从此字符串值中搜索字符。",
-                    "zh-TW": "The String Value from which to search for the character."
-                },
+                "description": { "en-US": "The String Value from which to search for the character." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "character",
-                "description": {
-                    "en-US": "The character for which to search"
-                },
+                "description": { "en-US": "The character for which to search" },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             }
         ],
-        "isConstant": true,
-        "class": "String",
+        isConstant: true,
+        class: "String",
         "return": "int",
         "guid": "000000012D5F",
         "en-US": "Index Of String Char",
@@ -4822,65 +3680,29 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Index Of String Char"
     },
     ".replace": {
-        "description": {
-            "en-US": "Results in a String Value. This String Value will be built from the specified String Value, where all occurrences of the pattern String are replaced with the replacement String.\n\n**WARNING**: This function clamps the string to 511 bytes (in UTF-8)."
-        },
+        "description": { "en-US": "Results in a String Value. This String Value will be built from the specified String Value, where all occurrences of the pattern String are replaced with the replacement String.\n\n**WARNING**: This function clamps the string to 511 bytes (in UTF-8)." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The String Value with which to search for replacements.",
-                    "de-DE": "Der Stringwert der zum Ersetzen genutzt werden soll.",
-                    "es-ES": "Valor de la cadena con el que se buscarán reemplazos.",
-                    "es-MX": "El valor de la cadena con el cual se buscarán los reemplazos.",
-                    "fr-FR": "La valeur de la chaîne avec laquelle chercher des remplacements.",
-                    "it-IT": "Il valore della stringa per il quale cercare sostituzioni.",
-                    "ja-JP": "置換の検索を行う文字列の値",
-                    "ko-KR": "대체 항목을 검색할 문자열 값입니다.",
-                    "pl-PL": "Wartość ciągu dzięki której można wyszukać zamienniki.",
-                    "pt-BR": "O Valor da String que será usado para buscar substituições.",
-                    "ru-RU": "Строка с помощью которой будет выполнен поиск замены.",
-                    "th-TH": "The String Value with which to search for replacements.",
-                    "tr-TR": "Değiştirmelerin aranacağı Dizgi Değeri.",
-                    "zh-CN": "在此字符串中搜索进行替换。",
-                    "zh-TW": "The String Value with which to search for replacements."
-                },
+                "description": { "en-US": "The String Value with which to search for replacements." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "pattern",
-                "description": {
-                    "en-US": "The String pattern to be replaced.",
-                    "de-DE": "Der Musterstring der ersetzt werden soll.",
-                    "es-ES": "Patrón de la cadena que se reemplaza.",
-                    "es-MX": "El patrón de Cadena a reemplazar.",
-                    "fr-FR": "Le motif de chaîne à remplacer.",
-                    "it-IT": "La stringa Schema da sostituire.",
-                    "ja-JP": "置き換えられる文字列パターン",
-                    "ko-KR": "교체할 문자열 패턴입니다.",
-                    "pl-PL": "Wartość ciągu który zostanie zastąpiony.",
-                    "pt-BR": "Padrão de String para substituição.",
-                    "ru-RU": "Строка шаблона которая будет заменена.",
-                    "th-TH": "The String pattern to be replaced.",
-                    "tr-TR": "Değiştirilecek Dizgi deseni.",
-                    "zh-CN": "要替换的字符串模式。",
-                    "zh-TW": "The String pattern to be replaced."
-                },
+                "description": { "en-US": "The String pattern to be replaced." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "replacement",
-                "description": {
-                    "en-US": "The String Value with which to replace the pattern String"
-                },
+                "description": { "en-US": "The String Value with which to replace the pattern String" },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             }
         ],
-        "isConstant": true,
-        "class": "String",
+        isConstant: true,
+        class: "String",
         "return": "String",
         "guid": "000000012D61",
         "en-US": "String Replace",
@@ -4900,74 +3722,26 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "String Replace"
     },
     ".split": {
-        "description": {
-            "en-US": "Results in an Array of String Values. These String Values will be built from the specified String Value split around the separator String.",
-            "de-DE": "Ergibt ein Array von Stringwerten. Diese werden aus dem festgelegten Stringwert erstellt der um den Trennungsstring geteilt wird.",
-            "es-ES": "El resultado es una matriz de valores de la cadena. Estos valores de la cadena se crearán a partir del valor de la cadena especificada dividida por la cadena de separación.",
-            "es-MX": "Resultados en una matriz de valores de cadena. Estos valores de cadena se elaborarán desde el valor Cadena especificado dividida alrededor del separador Cadena.",
-            "fr-FR": "Le résultat affichera un tableau de valeurs de chaîne. Ces valeurs de chaîne seront construites à partir de la valeur de la chaîne spécifiée divisées autour de la chaîne de séparation.",
-            "it-IT": "Restituisce un Array di valori di stringa. Questi valori di stringa vengono ricavati dal valore di stringa specificato diviso in base alla stringa Separatore.",
-            "ja-JP": "文字列の値の配列を導き出す。この文字列の値は、分割文字列で分割された指定の文字列の値から構築される",
-            "ko-KR": "문자열 값 배열이 도출됩니다. 해당 문자열 값은 지정된 문자열 값을 기반으로 구성되며 분할 문자열을 기준으로 나뉩니다.",
-            "pl-PL": "Wynik w postaci tabeli wartości ciągów. Te wartości ciągu znaków zostaną wytworzone z określonej wartości ciągu znaków podzielonej wokół ciągu separatora.",
-            "pt-BR": "Resultados em uma Matriz de Valores de String. Esses Valores de String serão feitos a partir de um Valor de String determinado divididos ao redor do separador de String.",
-            "ru-RU": "Выводит массив подстрок созданных из указанной строки при помощи строки-разделителя.",
-            "th-TH": "Results in an Array of String Values. These String Values will be built from the specified String Value split around the separator String.",
-            "tr-TR": "Dizgi Değerleri Dizini ile sonuçlanır. Bu Dizgi Değerleri ayırıcı Dizgi etrafında bölünmüş belirlenen Dizgi Değerinden oluşturulacaktır.",
-            "zh-CN": "结果为字符串值数组。数组中的字符串值由将指定字符串值用分隔符字符串分割而成。",
-            "zh-TW": "Results in an Array of String Values. These String Values will be built from the specified String Value split around the separator String."
-        },
+        "description": { "en-US": "Results in an Array of String Values. These String Values will be built from the specified String Value, split around the separator String." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The String Value to split.",
-                    "de-DE": "Der Stringwert der geteilt werden soll.",
-                    "es-ES": "Valor de la cadena que se divide.",
-                    "es-MX": "El valor de la cadena a separar.",
-                    "fr-FR": "La valeur de la chaîne à diviser.",
-                    "it-IT": "Il valore della stringa da dividere.",
-                    "ja-JP": "分割する文字列の値",
-                    "ko-KR": "분할할 문자열 값입니다.",
-                    "pl-PL": "Wartość ciągu która zostanie podzielona.",
-                    "pt-BR": "O Valor da String para divisão.",
-                    "ru-RU": "Строка которая будет разделена.",
-                    "th-TH": "The String Value to split.",
-                    "tr-TR": "Bölünecek Dizgi Değeri.",
-                    "zh-CN": "要分割的字符串值",
-                    "zh-TW": "The String Value to split."
-                },
+                "description": { "en-US": "The String Value to split." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "separator",
-                "description": {
-                    "en-US": "The separator String with which to split the String Value.",
-                    "de-DE": "Der Trennungsstring mit dem der Stringwert geteilt werden soll.",
-                    "es-ES": "Cadena de separación con la que se dividirá el valor de la cadena.",
-                    "es-MX": "El separador de la cadena con el cual se dividirá el valor Cadena.",
-                    "fr-FR": "La chaîne de séparation avec laquelle diviser la valeur de la chaîne.",
-                    "it-IT": "La stringa che funge da separatore con cui dividere il valore della stringa.",
-                    "ja-JP": "文字列の値を分割するための分割文字列",
-                    "ko-KR": "문자열 값을 나눌 분할 문자열입니다.",
-                    "pl-PL": "Ciąg separatora dzięki któremu można podzielić wartość ciągu.",
-                    "pt-BR": "O separador da String que será usado para dividir o Valor da String.",
-                    "ru-RU": "Строка-разделитель с помощью которой строка будет разделена на части.",
-                    "th-TH": "The separator String with which to split the String Value.",
-                    "tr-TR": "Dizgi Değeri'ni bölecek ayırıcı Dizgi.",
-                    "zh-CN": "要分割字符串值所用的分隔符字符串。",
-                    "zh-TW": "The separator String with which to split the String Value."
-                },
+                "description": { "en-US": "The separator String with which to split the String Value." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             }
         ],
         "return": {
             "Array": "String"
         },
-        "isConstant": true,
-        "class": "String",
+        isConstant: true,
+        class: "String",
         "guid": "000000012D60",
         "en-US": "String Split",
         "es-MX": "Separación de cadena",
@@ -4986,63 +3760,27 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "String Split"
     },
     ".substring": {
-        "description": {
-            "en-US": "The substring of the provided string."
-        },
+        "description": { "en-US": "The substring of the provided string." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The string value from which to build the substring."
-                },
+                "description": { "en-US": "The string value from which to build the substring." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "substringStartIndex",
-                "description": {
-                    "en-US": "Specifies the character that will start the substring with 0 as the first character 1 as the second character etc..",
-                    "de-DE": "Legt das Zeichen fest bei dem der Substring beginnt 0 für das erste Zeichen 1 für das zweite Zeichen usw..",
-                    "es-ES": "Especifica el carácter que comenzará en la subcadena 0 es el primer primero 1 es el segundo etc..",
-                    "es-MX": "Especifica el personaje que comenzará la subcadena con 0 como el primer personaje 1 como el segundo etc..",
-                    "fr-FR": "Spécifie le caractère qui commencera la sous-chaîne avec 0 comme premier caractère 1 comme second etc..",
-                    "it-IT": "Specifica il carattere all'inizio della sottostringa dove 0 indica il primo carattere 1 il secondo eccetera.",
-                    "ja-JP": "部分文字列を開始する文字数を指定する（1文字目が0、2文字目が1など）",
-                    "ko-KR": "하위 문자열을 시작할 문자를 지정합니다. 0이 첫 번째 문자 1이 두 번째 문자 등",
-                    "pl-PL": "Określa znak który uruchomi podciąg z 0 jako pierwszym znakiem 1 jako drugim itd..",
-                    "pt-BR": "Especifica o caractere que iniciará a substring 0 é o primeiro 1 é o segundo etc.",
-                    "ru-RU": "Указывает символ с которого будет начинаться подстрока первым символом будет 0 вторым – 1 и так далее.",
-                    "th-TH": "Specifies the character that will start the substring with 0 as the first character 1 as the second character etc..",
-                    "tr-TR": "Alt dizgiyi başlatacak karakteri belirler birinci karakter olarak 0 ikinci karakter olarak 1 vb..",
-                    "zh-CN": "指定一个字符作为子字符串的起始处（0表示第一个字符，1表示第二个字符，以此类推）。",
-                    "zh-TW": "Specifies the character that will start the substring with 0 as the first character 1 as the second character etc.."
-                },
-                "type": "unsigned int"
+                "description": { "en-US": "Specifies the character that will start the substring (with 0 as the first character, 1 as the second character, etc.)." },
+                "type": "unsigned int",
             },
             {
                 "name": "substringLength",
-                "description": {
-                    "en-US": "Specifies the number of characters in the substring.",
-                    "de-DE": "Legt die Anzahl der Zeichen im Substring fest.",
-                    "es-ES": "Especifica el número de caracteres en la subcadena.",
-                    "es-MX": "Especifica la cantidad de caracteres de la subcadena.",
-                    "fr-FR": "Spécifie le nombre de caractères dans la sous-chaîne.",
-                    "it-IT": "Specifica il numero di caratteri nella sottostringa.",
-                    "ja-JP": "部分文字列の文字数を指定する",
-                    "ko-KR": "하위 문자열 내의 문자 수를 지정합니다.",
-                    "pl-PL": "Określa liczbę znaków w podciągu.",
-                    "pt-BR": "Especifica o número de caracteres na substring.",
-                    "ru-RU": "Указывает число символов в подстроке.",
-                    "th-TH": "Specifies the number of characters in the substring.",
-                    "tr-TR": "Alt dizgideki karakter sayısını belirtir.",
-                    "zh-CN": "指定子字符串的字符数。",
-                    "zh-TW": "Specifies the number of characters in the substring."
-                },
+                "description": { "en-US": "Specifies the number of characters in the substring." },
                 "type": "unsigned int",
-                "default": "Math.INFINITY"
+                "default": "Math.INFINITY",
             }
         ],
-        "class": "String",
+        class: "String",
         "isConstant": true,
         "return": "String",
         "guid": "0000000124A6",
@@ -5064,46 +3802,26 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__subtract__": {
         "guid": "00000000C40A",
-        "description": {
-            "en-US": "The difference between two numbers or vectors.",
-            "de-DE": "Die Differenz zweier Zahlen oder Vektoren.",
-            "es-ES": "Diferencia entre dos números o vectores.",
-            "es-MX": "La diferencia entre dos números o vectores.",
-            "fr-FR": "La différence entre deux nombres ou vecteurs.",
-            "it-IT": "La differenza tra due numeri o vettori.",
-            "ja-JP": "2つの数値またはベクトルの差",
-            "ko-KR": "두 숫자 또는 벡터의 차이입니다.",
-            "pl-PL": "Różnica między dwoma liczbami lub wektorami.",
-            "pt-BR": "A diferença entre dois números ou vetores.",
-            "ru-RU": "Разность двух чисел или векторов.",
-            "th-TH": "The difference between two numbers or vectors.",
-            "tr-TR": "İki sayı veya vektör arasındaki fark.",
-            "zh-CN": "两个数字或矢量的差。",
-            "zh-TW": "The difference between two numbers or vectors."
-        },
+        "description": { "en-US": "The difference between two numbers or vectors." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
                 ],
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number or a vector."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number or a vector." },
                 "type": [
                     "float",
                     "Vector"
                 ],
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -5132,9 +3850,7 @@ export const valueFuncKw: Record<string, Value> =
             {
                 "name": "team",
                 "type": "TeamLiteral",
-                "description": {
-                    "en-US": "A Team constant."
-                }
+                "description": { "en-US": "A Team constant." }
             }
         ],
         "canBePutInBoolean": false,
@@ -5159,25 +3875,19 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Team"
     },
     "__valueInArray__": {
-        "description": {
-            "en-US": "The value found at a specific element of an array. Results in 0 if the element does not exist."
-        },
+        "description": { "en-US": "The value found at a specific element of an array. Results in 0 if the element does not exist." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose element to acquire."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose element to acquire." },
+                "type": "Array",
             },
             {
                 "name": "index",
-                "description": {
-                    "en-US": "The index of the element to acquire."
-                },
+                "description": { "en-US": "The index of the element to acquire." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -5203,93 +3913,39 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Value In Array"
     },
     "createWorkshopSettingEnum": {
-        "description": {
-            "en-US": "Provides the value a choice of Custom Strings of a new option setting that will appear in the Workshop Settings card as a combo box. This value returns the index of the selected choice.",
-            "de-DE": "Gibt den Wert eine Auswahl benutzerdefinierter Strings einer neuen Einstellung an die in den Workshop-Einstellungen als Auswahlbox angezeigt wird. Dieser Wert gibt den Index der gewählten Option an.",
-            "es-ES": "Proporciona el valor una selección de contenido personalizado de un nuevo ajuste de opciones que aparecerá en los ajustes del Taller como un cuadro combinado. Este valor muestra el índice de la opción seleccionada.",
-            "es-MX": "Proporciona el valor una selección de cadenas personalizadas de una nueva opción de configuración que aparecerá en la sección de configuración del Workshop como un cuadro combinado. Este valor arroja el índice de la opción seleccionada.",
-            "fr-FR": "Fournit la valeur un choix de Chaînes personnalisées d’un nouveau paramètre d’option qui apparaîtra dans la carte Paramètres de la Forge sous la forme d’une boîte combo. Cette valeur renvoie l’index du choix sélectionné.",
-            "it-IT": "Fornisce il valore a scelta tra le Custom String di una nuova impostazione che apparirà nella scheda Impostazioni del Workshop come combo box. Questo valore restituisce l'indice della scelta selezionata.",
-            "ja-JP": "ワークショップ設定のカードにコンボボックスとして表示される新しいオプション設定の値（選択されたカスタムストリング）を指定する。この値は選択されたもののインデックスを返す",
-            "ko-KR": "워크샵 설정 카드에서 콤보 박스로 나타날 새로운 옵션의 값을 사용자 지정 문자열 중에서 제공합니다. 이 값은 선택한 문자열의 인덱스를 되돌립니다.",
-            "pl-PL": "Zapewnia wartość wybór niestandardowego ciągu nowej opcji ustawienia która pojawi się na karcie ustawień Warsztatu jako pole wyboru. Wartość zwraca indeks danego wyboru.",
-            "pt-BR": "Fornece o valor uma seleção de Strings Personalizadas de uma nova configuração de opção que aparecerá no cartão “Configurações do Workshop” como caixa de combinação. Esse valor retorna o índice da seleção.",
-            "ru-RU": "Добавляет значение нового варианта настроек значения [Custom Strings] который появится в «Мастерской» в виде выпадающего списка. Это значение выдает индекс выбранного варианта.",
-            "th-TH": "Provides the value a choice of Custom Strings of a new option setting that will appear in the Workshop Settings card as a combo box. This value returns the index of the selected choice.",
-            "tr-TR": "Atölye Ayarları kartında açılan kutu olarak görünecek yeni bir seçenek ayarı değeri Özel Dizgi seçimi sağlar. Bu değer seçilen seçeneğin indeksini döndürür.",
-            "zh-CN": "提供一个新的选项设置值（用于选择自定义字符串），会显示在“地图工坊设置”卡片上作为组合框。此值会返回所选内容的索引。",
-            "zh-TW": "Provides the value a choice of Custom Strings of a new option setting that will appear in the Workshop Settings card as a combo box. This value returns the index of the selected choice."
-        },
+        "description": { "en-US": "Provides the value (a choice of Custom Strings) of a new option setting that will appear in the Workshop Settings card as a combo box. This value returns the index of the selected choice." },
         "args": [
             {
                 "name": "category",
-                "description": {
-                    "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "name",
-                "description": {
-                    "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "default",
-                "description": {
-                    "en-US": "The default value for this setting.",
-                    "de-DE": "Der Standardwert für diese Einstellung.",
-                    "es-ES": "Valor por defecto para este ajuste.",
-                    "es-MX": "El valor predeterminado en esta configuración.",
-                    "fr-FR": "La valeur par défaut de ce paramètre.",
-                    "it-IT": "Il valore predefinito per questa impostazione.",
-                    "ja-JP": "この設定の初期値",
-                    "ko-KR": "이 설정의 기본값입니다.",
-                    "pl-PL": "Domyślna wartość dla tego ustawienia.",
-                    "pt-BR": "O valor padrão desta configuração.",
-                    "ru-RU": "Значение этого параметра по умолчанию.",
-                    "th-TH": "The default value for this setting.",
-                    "tr-TR": "Bu ayarın varsayılan değeri.",
-                    "zh-CN": "此设置的默认值。",
-                    "zh-TW": "The default value for this setting."
-                },
-                "type": "UnsignedIntLiteral"
+                "description": { "en-US": "The default value for this setting." },
+                "type": "UnsignedIntLiteral",
             },
             {
                 "name": "options",
-                "description": {
-                    "en-US": "The options for this setting.",
-                    "de-DE": "Die Optionen für diese Einstellung.",
-                    "es-ES": "Las opciones para este ajuste.",
-                    "es-MX": "Las opciones en esta configuración.",
-                    "fr-FR": "Les options pour ce paramètre.",
-                    "it-IT": "Le opzioni per questa impostazione.",
-                    "ja-JP": "この設定のオプション",
-                    "ko-KR": "이 설정의 옵션입니다.",
-                    "pl-PL": "Opcje tego ustawienia.",
-                    "pt-BR": "As opções desta configuração.",
-                    "ru-RU": "Варианты этого параметра.",
-                    "th-TH": "The options for this setting.",
-                    "tr-TR": "Bu ayarın seçenekleri.",
-                    "zh-CN": "此设置的选项。",
-                    "zh-TW": "The options for this setting."
-                },
+                "description": { "en-US": "The options for this setting." },
                 "type": {
                     "Array": "CustomStringLiteral"
-                }
+                },
             },
             {
                 "name": "sortOrder",
-                "description": {
-                    "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically."
-                },
+                "description": { "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically." },
                 "type": "IntLiteral",
                 "default": 0
             }
         ],
         "return": "unsigned int",
-        "isConstant": true,
+        isConstant: true,
         "guid": "000000011CC0",
         "en-US": "Workshop Setting Combo",
         "es-MX": "Combinado de la configuración del Workshop",
@@ -5308,56 +3964,32 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Workshop Setting Combo"
     },
     "createWorkshopSettingHero": {
-        "description": {
-            "en-US": "Provides the value of a new hero setting that will appear in the Workshop Settings card as a hero list."
-        },
+        "description": { "en-US": "Provides the value of a new hero setting that will appear in the Workshop Settings card as a hero list." },
         "args": [
             {
                 "name": "category",
-                "description": {
-                    "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "name",
-                "description": {
-                    "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "default",
-                "description": {
-                    "en-US": "The default value for this setting.",
-                    "de-DE": "Der Standardwert für diese Einstellung.",
-                    "es-ES": "Valor por defecto para este ajuste.",
-                    "es-MX": "El valor predeterminado en esta configuración.",
-                    "fr-FR": "La valeur par défaut de ce paramètre.",
-                    "it-IT": "Il valore predefinito per questa impostazione.",
-                    "ja-JP": "この設定の初期値",
-                    "ko-KR": "이 설정의 기본값입니다.",
-                    "pl-PL": "Domyślna wartość dla tego ustawienia.",
-                    "pt-BR": "O valor padrão desta configuração.",
-                    "ru-RU": "Значение этого параметра по умолчанию.",
-                    "th-TH": "The default value for this setting.",
-                    "tr-TR": "Bu ayarın varsayılan değeri.",
-                    "zh-CN": "此设置的默认值。",
-                    "zh-TW": "The default value for this setting."
-                },
-                "type": "HeroLiteral"
+                "description": { "en-US": "The default value for this setting." },
+                "type": "HeroLiteral",
             },
             {
                 "name": "sortOrder",
-                "description": {
-                    "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically."
-                },
+                "description": { "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically." },
                 "type": "IntLiteral",
                 "default": 0
             }
         ],
         "return": "Hero",
-        "isConstant": true,
+        isConstant: true,
         "guid": "000000011CBC",
         "en-US": "Workshop Setting Hero",
         "es-MX": "Configuración de héroe del Workshop",
@@ -5376,64 +4008,36 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Workshop Setting Hero"
     },
     "createWorkshopSettingInt": {
-        "description": {
-            "en-US": "Provides the value of a new integer setting that will appear in the workshop settings card as a slider."
-        },
+        "description": { "en-US": "Provides the value of a new integer setting that will appear in the workshop settings card as a slider." },
         "args": [
             {
                 "name": "category",
-                "description": {
-                    "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "name",
-                "description": {
-                    "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "default",
-                "description": {
-                    "en-US": "The default value for this setting.",
-                    "de-DE": "Der Standardwert für diese Einstellung.",
-                    "es-ES": "Valor por defecto para este ajuste.",
-                    "es-MX": "El valor predeterminado en esta configuración.",
-                    "fr-FR": "La valeur par défaut de ce paramètre.",
-                    "it-IT": "Il valore predefinito per questa impostazione.",
-                    "ja-JP": "この設定の初期値",
-                    "ko-KR": "이 설정의 기본값입니다.",
-                    "pl-PL": "Domyślna wartość dla tego ustawienia.",
-                    "pt-BR": "O valor padrão desta configuração.",
-                    "ru-RU": "Значение этого параметра по умолчанию.",
-                    "th-TH": "The default value for this setting.",
-                    "tr-TR": "Bu ayarın varsayılan değeri.",
-                    "zh-CN": "此设置的默认值。",
-                    "zh-TW": "The default value for this setting."
-                },
-                "type": "IntLiteral"
+                "description": { "en-US": "The default value for this setting." },
+                "type": "IntLiteral",
             },
             {
                 "name": "min",
-                "description": {
-                    "en-US": "The minimum value for this setting."
-                },
-                "type": "IntLiteral"
+                "description": { "en-US": "The minimum value for this setting." },
+                "type": "IntLiteral",
             },
             {
                 "name": "max",
-                "description": {
-                    "en-US": "The maximum value for this setting."
-                },
-                "type": "IntLiteral"
+                "description": { "en-US": "The maximum value for this setting." },
+                "type": "IntLiteral",
             },
             {
                 "name": "sortOrder",
-                "description": {
-                    "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically."
-                },
+                "description": { "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically." },
                 "type": "IntLiteral",
                 "default": 0
             }
@@ -5458,64 +4062,36 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Workshop Setting Integer"
     },
     "createWorkshopSettingFloat": {
-        "description": {
-            "en-US": "Provides the value of a new real number setting that will appear in the workshop settings card as a slider."
-        },
+        "description": { "en-US": "Provides the value of a new real number setting that will appear in the workshop settings card as a slider." },
         "args": [
             {
                 "name": "category",
-                "description": {
-                    "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "name",
-                "description": {
-                    "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "default",
-                "description": {
-                    "en-US": "The default value for this setting.",
-                    "de-DE": "Der Standardwert für diese Einstellung.",
-                    "es-ES": "Valor por defecto para este ajuste.",
-                    "es-MX": "El valor predeterminado en esta configuración.",
-                    "fr-FR": "La valeur par défaut de ce paramètre.",
-                    "it-IT": "Il valore predefinito per questa impostazione.",
-                    "ja-JP": "この設定の初期値",
-                    "ko-KR": "이 설정의 기본값입니다.",
-                    "pl-PL": "Domyślna wartość dla tego ustawienia.",
-                    "pt-BR": "O valor padrão desta configuração.",
-                    "ru-RU": "Значение этого параметра по умолчанию.",
-                    "th-TH": "The default value for this setting.",
-                    "tr-TR": "Bu ayarın varsayılan değeri.",
-                    "zh-CN": "此设置的默认值。",
-                    "zh-TW": "The default value for this setting."
-                },
-                "type": "FloatLiteral"
+                "description": { "en-US": "The default value for this setting." },
+                "type": "FloatLiteral",
             },
             {
                 "name": "min",
-                "description": {
-                    "en-US": "The minimum value for this setting."
-                },
-                "type": "FloatLiteral"
+                "description": { "en-US": "The minimum value for this setting." },
+                "type": "FloatLiteral",
             },
             {
                 "name": "max",
-                "description": {
-                    "en-US": "The maximum value for this setting."
-                },
-                "type": "FloatLiteral"
+                "description": { "en-US": "The maximum value for this setting." },
+                "type": "FloatLiteral",
             },
             {
                 "name": "sortOrder",
-                "description": {
-                    "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically."
-                },
+                "description": { "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically." },
                 "type": "IntLiteral",
                 "default": 0
             }
@@ -5540,50 +4116,26 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Workshop Setting Real"
     },
     "createWorkshopSettingBool": {
-        "description": {
-            "en-US": "Provides the value (true or false) of a new toggle setting that will appear in the workshop settings card as a checkbox."
-        },
+        "description": { "en-US": "Provides the value (true or false) of a new toggle setting that will appear in the workshop settings card as a checkbox." },
         "args": [
             {
                 "name": "category",
-                "description": {
-                    "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of the category in which this setting will be found. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "name",
-                "description": {
-                    "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less."
-                },
-                "type": "CustomStringLiteral"
+                "description": { "en-US": "The name of this setting. Must be a custom string literal with 128 characters or less." },
+                "type": "CustomStringLiteral",
             },
             {
                 "name": "default",
-                "description": {
-                    "en-US": "The default value for this setting.",
-                    "de-DE": "Der Standardwert für diese Einstellung.",
-                    "es-ES": "Valor por defecto para este ajuste.",
-                    "es-MX": "El valor predeterminado en esta configuración.",
-                    "fr-FR": "La valeur par défaut de ce paramètre.",
-                    "it-IT": "Il valore predefinito per questa impostazione.",
-                    "ja-JP": "この設定の初期値",
-                    "ko-KR": "이 설정의 기본값입니다.",
-                    "pl-PL": "Domyślna wartość dla tego ustawienia.",
-                    "pt-BR": "O valor padrão desta configuração.",
-                    "ru-RU": "Значение этого параметра по умолчанию.",
-                    "th-TH": "The default value for this setting.",
-                    "tr-TR": "Bu ayarın varsayılan değeri.",
-                    "zh-CN": "此设置的默认值。",
-                    "zh-TW": "The default value for this setting."
-                },
-                "type": "BoolLiteral"
+                "description": { "en-US": "The default value for this setting." },
+                "type": "BoolLiteral",
             },
             {
                 "name": "sortOrder",
-                "description": {
-                    "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically."
-                },
+                "description": { "en-US": "A sort order for this setting (within the category). Settings with the same sort order are ordered alphabetically." },
                 "type": "IntLiteral",
                 "default": 0
             }
@@ -5608,16 +4160,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Workshop Setting Toggle"
     },
     "__xComponentOf__": {
-        "description": {
-            "en-US": "The x component of the specified vector, usually representing a leftward amount."
-        },
+        "description": { "en-US": "The x component of the specified vector, usually representing a leftward amount." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The vector from which to acquire the x component."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector from which to acquire the x component." },
+                "type": "Vector",
             }
         ],
         "isConstant": true,
@@ -5640,16 +4188,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "X Component Of"
     },
     "__yComponentOf__": {
-        "description": {
-            "en-US": "The y component of the specified vector, usually representing an upward amount."
-        },
+        "description": { "en-US": "The y component of the specified vector, usually representing an upward amount." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The vector from which to acquire the y component."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector from which to acquire the y component." },
+                "type": "Vector",
             }
         ],
         "isConstant": true,
@@ -5672,16 +4216,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Y Component Of"
     },
     "__zComponentOf__": {
-        "description": {
-            "en-US": "The z component of the specified vector, usually representing a forward amount."
-        },
+        "description": { "en-US": "The z component of the specified vector, usually representing a forward amount." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The vector from which to acquire the z component."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector from which to acquire the z component." },
+                "type": "Vector",
             }
         ],
         "isConstant": true,
@@ -5704,51 +4244,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Z Component Of"
     },
     "abilityIconString": {
-        "description": {
-            "en-US": "Converts a Hero and Button parameter into a string that shows up as an icon up to 4 per string.",
-            "de-DE": "Wandelt einen Helden- und Tastenparameter in einen String um der als Icon angezeigt wird bis zu 4 pro String.",
-            "es-ES": "Convierte un parámetro de héroe y botón en una cadena que se muestra en forma de icono hasta 4 por línea.",
-            "es-MX": "Convierte un parámetro de héroe y de botón en una cadena que aparece como ícono hasta 4 por cadena.",
-            "fr-FR": "Convertit un paramètre de héros et un bouton en une chaîne de caractères présentée sous la forme d’une icône jusqu’à 4 par chaîne.",
-            "it-IT": "Converte un parametro Eroe o Tasto in una stringa che viene mostrata come un'icona fino a 4 per stringa.",
-            "ja-JP": "ヒーローとボタンのパラメーターをストリングに変換し、アイコンを表示する（1ストリングあたりアイコンは4つまで）",
-            "ko-KR": "영웅과 버튼의 매개변수를 아이콘으로 표시할 문자열로 변환합니다. 문자열당 최대 4개",
-            "pl-PL": "Konwertuje parametry „Hero” Bohater  i „Button” Przycisk na ciąg który pokazuje się jako symbol maksymalnie 4 na ciąg.",
-            "pt-BR": "Converte um parâmetro de Herói e Botão em uma string que aparece como ícone até 4 por string.",
-            "ru-RU": "Преобразовывает параметры героя и кнопки в строку содержащую значок до 4 на строку.",
-            "th-TH": "Converts a Hero and Button parameter into a string that shows up as an icon up to 4 per string.",
-            "tr-TR": "Kahraman ve Düğme parametresini simge olarak gösteren bir dizgiye dönüştürür dizgi başına 4'e kadar.",
-            "zh-CN": "将一个英雄和按键的参数转化为图标在字符串中显示（每个字符串中最多4个）。",
-            "zh-TW": "Converts a Hero and Button parameter into a string that shows up as an icon up to 4 per string."
-        },
+        "description": { "en-US": "Converts a Hero and Button parameter into a string that shows up as an icon (up to 4 per string)." },
         "args": [
             {
                 "name": "hero",
-                "description": {
-                    "en-US": "The hero for the ability that will be converted to an icon.",
-                    "de-DE": "Der Held für die Fähigkeit die in ein Icon umgewandelt wird.",
-                    "es-ES": "Héroe de la habilidad que se convertirá en un icono.",
-                    "es-MX": "El héroe de la habilidad que se convertirá en un ícono.",
-                    "fr-FR": "Le héros pour la capacité qui sera convertie en icône.",
-                    "it-IT": "L'eroe per l'abilità che sarà convertito in icona.",
-                    "ja-JP": "アイコンに変換されるアビリティのヒーロー",
-                    "ko-KR": "아이콘으로 변환될 기술의 영웅입니다.",
-                    "pl-PL": "Bohater dla danej zdolności który zostanie przekonwertowany na symbol.",
-                    "pt-BR": "O herói da habilidade que será convertido em ícone.",
-                    "ru-RU": "Герой связанный со способностью которая будет преобразована в значок.",
-                    "th-TH": "ฮีโร่สําหรับความสามารถที่จะถูกแปลงเป็นไอคอน",
-                    "tr-TR": "Simgeye dönüştürülecek kabiliyetin kahramanı.",
-                    "zh-CN": "将这个英雄的技能转化为图标。",
-                    "zh-TW": "The hero for the ability that will be converted to an icon."
-                },
-                "type": "Hero"
+                "description": { "en-US": "The hero for the ability that will be converted to an icon." },
+                "type": "Hero",
             },
             {
                 "name": "button",
-                "description": {
-                    "en-US": "The button for the ability that will be converted to an icon."
-                },
-                "type": "Button"
+                "description": { "en-US": "The button for the ability that will be converted to an icon." },
+                "type": "Button",
             }
         ],
         "isConstant": true,
@@ -5772,16 +4278,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Ability Icon String"
     },
     "abs": {
-        "description": {
-            "en-US": "The absolute value of the specified value."
-        },
+        "description": { "en-US": "The absolute value of the specified value." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The real number value whose absolute value will be computed."
-                },
-                "type": "float"
+                "description": { "en-US": "The real number value whose absolute value will be computed." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -5804,30 +4306,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Absolute Value"
     },
     "acos": {
-        "description": {
-            "en-US": "Arccosine in radians of the specified value."
-        },
+        "description": { "en-US": "Arccosine in radians of the specified value." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "Input value for the function.",
-                    "de-DE": "Eingabe des Werts der Funktion.",
-                    "es-ES": "Valor introducido para la función.",
-                    "es-MX": "Valor de entrada para la función.",
-                    "fr-FR": "Valeur d'entrée de la fonction.",
-                    "it-IT": "Input valore per la funzione.",
-                    "ja-JP": "値の入力が必要です",
-                    "ko-KR": "함수의 입력값입니다.",
-                    "pl-PL": "Wartość danych wejściowych dla funkcji.",
-                    "pt-BR": "Valor de entrada da função.",
-                    "ru-RU": "Аргумент функции.",
-                    "th-TH": "Input value for the function.",
-                    "tr-TR": "İşlevin girdi değeri.",
-                    "zh-CN": "为函数输入值。",
-                    "zh-TW": "Input value for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Input value for the function." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -5850,30 +4334,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Arccosine In Radians"
     },
     "acosDeg": {
-        "description": {
-            "en-US": "Arccosine in degrees of the specified value."
-        },
+        "description": { "en-US": "Arccosine in degrees of the specified value." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "Input value for the function.",
-                    "de-DE": "Eingabe des Werts der Funktion.",
-                    "es-ES": "Valor introducido para la función.",
-                    "es-MX": "Valor de entrada para la función.",
-                    "fr-FR": "Valeur d'entrée de la fonction.",
-                    "it-IT": "Input valore per la funzione.",
-                    "ja-JP": "値の入力が必要です",
-                    "ko-KR": "함수의 입력값입니다.",
-                    "pl-PL": "Wartość danych wejściowych dla funkcji.",
-                    "pt-BR": "Valor de entrada da função.",
-                    "ru-RU": "Аргумент функции.",
-                    "th-TH": "Input value for the function.",
-                    "tr-TR": "İşlevin girdi değeri.",
-                    "zh-CN": "为函数输入值。",
-                    "zh-TW": "Input value for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Input value for the function." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -5896,65 +4362,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Arccosine In Degrees"
     },
     "angleBetweenVectors": {
-        "description": {
-            "en-US": "The angle in degrees between two directional vectors no normalization required.",
-            "de-DE": "Der Winkel in Grad zwischen zwei Richtungsvektoren Normierung nicht erforderlich.",
-            "es-ES": "El ángulo en grados entre dos vectores direccionales no se requiere normalización.",
-            "es-MX": "El ángulo en grados entre dos vectores direccionales no se requiere normalización.",
-            "fr-FR": "Angle en degrés entre deux vecteurs directionnels pas de normalisation requise.",
-            "it-IT": "L'angolo in gradi tra due vettori direzionali nessuna normalizzazione richiesta.",
-            "ja-JP": "2つの方向ベクトル間の度単位の角度（正規化不要）",
-            "ko-KR": "두 방향 벡터 정규화 불필요 사이의 각입니다. 단위: 도",
-            "pl-PL": "Mierzony w stopniach kąt tworzony przez dwa wektory kierunkowe nie wymaga normalizowania.",
-            "pt-BR": "O ângulo em graus entre dois vetores direcionais normalização desnecessária.",
-            "ru-RU": "Угол в градусах между двумя векторами направления нормализация не требуется.",
-            "th-TH": "The angle in degrees between two directional vectors no normalization required.",
-            "tr-TR": "Derece cinsinden iki yönlü vektör arasındaki açı düzeltmeye gerek yok.",
-            "zh-CN": "两方向性矢量间的夹角（不需要归一化）",
-            "zh-TW": "The angle in degrees between two directional vectors no normalization required."
-        },
+        "description": { "en-US": "The angle in degrees between two directional vectors (no normalization required)." },
         "args": [
             {
                 "name": "vector",
-                "description": {
-                    "en-US": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
-                    "de-DE": "Einer der beiden Richtungsvektoren zwischen denen der Winkel in Grad gemessen werden soll. Dieser Vektor muss nicht vorher normiert werden.",
-                    "es-ES": "Uno de los dos vectores direccionales entre los que medir el ángulo en grados. Este vector no necesita una normalización previa.",
-                    "es-MX": "Uno de dos vectores direccionales entre los cuales se medirá el ángulo en grados. Este vector no necesita estar prenormalizado.",
-                    "fr-FR": "L’un des deux vecteurs directionnels entre lesquels l’angle est calculé en degrés. Ce vecteur n’a pas besoin d’être normalisé au préalable.",
-                    "it-IT": "Uno dei due vettori direzionali tra i quali misurare l'angolo in gradi. Questo vettore non richiede di essere pre-normalizzato.",
-                    "ja-JP": "度単位の角度を計算するための2つの方向ベクトルの1つこのベクトルのあらかじめの正規化は不要",
-                    "ko-KR": "사이의 각단위: 도을 측정하기 위한 두 방향 벡터 중 하나입니다. 이 벡터를 미리 정규화할 필요는 없습니다.",
-                    "pl-PL": "Jeden lub dwa wektory kierunkowe tworzące kąt mierzony w stopniach. Ten wektor nie musi być wstępnie znormalizowany.",
-                    "pt-BR": "Um dos dois vetores direcionais entre os quais o ângulo em graus será medido. Este vetor não precisa ser normalizado previamente.",
-                    "ru-RU": "Один из двух векторов направления между которыми нужно измерить угол в градусах. Нормализовать вектор не требуется.",
-                    "th-TH": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
-                    "tr-TR": "Aradaki açının derece cinsinden ölçüldüğü iki yönlü vektörden biri. Bu vektörün önceden düzeltilmesi gerekmez.",
-                    "zh-CN": "需以角度为单位测量夹角的两个方向性矢量之一。该矢量不需要预先归一化。",
-                    "zh-TW": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized."
-                },
-                "type": "Direction"
+                "description": { "en-US": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized." },
+                "type": "Direction",
             },
             {
                 "name": "vector",
-                "description": {
-                    "en-US": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
-                    "de-DE": "Einer der beiden Richtungsvektoren zwischen denen der Winkel in Grad gemessen werden soll. Dieser Vektor muss nicht vorher normiert werden.",
-                    "es-ES": "Uno de los dos vectores direccionales entre los que medir el ángulo en grados. Este vector no necesita una normalización previa.",
-                    "es-MX": "Uno de dos vectores direccionales entre los cuales se medirá el ángulo en grados. Este vector no necesita estar prenormalizado.",
-                    "fr-FR": "L’un des deux vecteurs directionnels entre lesquels l’angle est calculé en degrés. Ce vecteur n’a pas besoin d’être normalisé au préalable.",
-                    "it-IT": "Uno dei due vettori direzionali tra i quali misurare l'angolo in gradi. Questo vettore non richiede di essere pre-normalizzato.",
-                    "ja-JP": "度単位の角度を計算するための2つの方向ベクトルの1つこのベクトルのあらかじめの正規化は不要",
-                    "ko-KR": "사이의 각단위: 도을 측정하기 위한 두 방향 벡터 중 하나입니다. 이 벡터를 미리 정규화할 필요는 없습니다.",
-                    "pl-PL": "Jeden lub dwa wektory kierunkowe tworzące kąt mierzony w stopniach. Ten wektor nie musi być wstępnie znormalizowany.",
-                    "pt-BR": "Um dos dois vetores direcionais entre os quais o ângulo em graus será medido. Este vetor não precisa ser normalizado previamente.",
-                    "ru-RU": "Один из двух векторов направления между которыми нужно измерить угол в градусах. Нормализовать вектор не требуется.",
-                    "th-TH": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized.",
-                    "tr-TR": "Aradaki açının derece cinsinden ölçüldüğü iki yönlü vektörden biri. Bu vektörün önceden düzeltilmesi gerekmez.",
-                    "zh-CN": "需以角度为单位测量夹角的两个方向性矢量之一。该矢量不需要预先归一化。",
-                    "zh-TW": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized."
-                },
-                "type": "Direction"
+                "description": { "en-US": "One of two directional vectors between which to measure the angle in degrees. This vector does not need to be pre-normalized." },
+                "type": "Direction",
             }
         ],
         "isConstant": true,
@@ -5977,65 +4395,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Angle Between Vectors"
     },
     "angleDifference": {
-        "description": {
-            "en-US": "The difference in degrees between two angles. After the angles are wrapped to be within +- 180 of each other the result is positive if the second angle is greater than the first angle. Otherwise the result is zero or negative.",
-            "de-DE": "Die Differenz zwischen zwei Winkeln in Grad. Nachdem die Winkel so übertragen wurden dass sie innerhalb von +-180 zueinander liegen ist das Ergebnis positiv wenn der zweite Winkel größer ist als der erste Winkel. Ansonsten ist das Ergebnis 0 oder negativ.",
-            "es-ES": "Diferencia en grados entre dos ángulos. Después de simplificar los ángulos hasta que estén a +- 180 grados de distancia el resultado es positivo si el segundo ángulo es mayor que el primero; de lo contrario el resultado es cero o negativo.",
-            "es-MX": "La diferencia en grados entre dos ángulos. Después de que los ángulos se simplifican para encontrarse a + o - 180 grados entre sí el resultado es positivo si el segundo ángulo es mayor al primer ángulo. Caso contrario el resultado será 0 o negativo.",
-            "fr-FR": "La différence en degrés entre deux angles. Une fois les angles se trouvant dans une fourchette de +- 180° l’un par rapport à l’autre le résultat est positif si le second angle est supérieur au premier. Sinon le résultat est nul ou négatif.",
-            "it-IT": "La differenza in gradi tra i due angoli. Dopo la normalizzazione degli angoli entro il limite di +- 180 tra un angolo e l'altro il risultato è positivo se il secondo angolo è più ampio del primo. Altrimenti il risultato è zero o negativo.",
-            "ja-JP": "2つの角度の差。角度が互いの+-180度以内になるように調整した後、2番目の角度が1番目の角度より大きければ、結果は正の値になる。それ以外の場合、結果は0またはマイナスになる",
-            "ko-KR": "두 각을 비교한 각도 차이단위: 도입니다. 두 각을 서로 +- 180 이내에서 펼쳐서 두 번째 각이 첫 번째 각보다 크다면 결과각은 양수입니다. 이외의 경우 0이나 음수가 될 수 있습니다.",
-            "pl-PL": "Różnica w stopniach między dwoma kątami. Po tym jak kąty zostaną zawinięte w granicach +- 180 stopni od siebie to wynik jest dodatni jeżeli drugi kąt jest większy od pierwszego. Inaczej wynik jest zerowy lub ujemny.",
-            "pt-BR": "A diferença em graus entre dois ângulos. Após os ângulos serem envolvidos dentro de +- 180 um do outro o resultado será positivo se o segundo ângulo for maior do que o primeiro. Caso contrário o resultado será zero ou negativo.",
-            "ru-RU": "Разность между двумя углами в градусах. После того как углы приведены к различию в пределах +- 180 градусов друг относительно друга результат будет положительным если второй угол больше первого иначе результат примет нулевое или отрицательное значение.",
-            "th-TH": "The difference in degrees between two angles. After the angles are wrapped to be within +- 180 of each other the result is positive if the second angle is greater than the first angle. Otherwise the result is zero or negative.",
-            "tr-TR": "İki açı arasındaki derece farkı. Açılar birbirine kıyasla +- 180 derece arasında olduğunda ikinci açı birinci açıdan yüksekse sonuç pozitiftir. Değilse sonuç sıfır veya negatiftir.",
-            "zh-CN": "两个角度之间的度数差。将两个角度折算为彼此+-180度范围内之后进行计算，如果第二个角度比第一个大则结果为正数。否则结果为负数。",
-            "zh-TW": "The difference in degrees between two angles. After the angles are wrapped to be within +- 180 of each other the result is positive if the second angle is greater than the first angle. Otherwise the result is zero or negative."
-        },
+        "description": { "en-US": "The difference in degrees between two angles. After the angles are wrapped to be within +/- 180 of each other, the result is positive if the second angle is greater than the first angle. Otherwise, the result is zero or negative." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "One of the two angles between which to measure the resulting angle.",
-                    "de-DE": "Einer der beiden Winkel zwischen denen der resultierende Winkel gemessen werden soll.",
-                    "es-ES": "Uno de los dos ángulos entre los que se mide el ángulo resultante.",
-                    "es-MX": "Uno de los dos ángulos entre los cuales se medirá el ángulo resultante.",
-                    "fr-FR": "Un des deux angles entre lesquels mesurer l’angle résultant.",
-                    "it-IT": "Uno dei due angoli tra i quali misurare l'angolo risultante.",
-                    "ja-JP": "結果として生じる角度を計算するための2つの角度の1つ",
-                    "ko-KR": "결과각을 도출하기 위한 두 각 중 하나입니다.",
-                    "pl-PL": "Jeden z dwóch kątów między którymi mierzy się kąt wynikowy.",
-                    "pt-BR": "Um dos dois ângulos entre os quais o ângulo resultante será medido.",
-                    "ru-RU": "Один из двух углов между которыми измеряется результирующий угол.",
-                    "th-TH": "One of the two angles between which to measure the resulting angle.",
-                    "tr-TR": "Son açıyı ölçmek için kullanılan iki açıdan biri.",
-                    "zh-CN": "用于计算结果角度的两个角度之一。",
-                    "zh-TW": "One of the two angles between which to measure the resulting angle."
-                },
-                "type": "float"
+                "description": { "en-US": "One of the two angles between which to measure the resulting angle." },
+                "type": "float",
             },
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "One of the two angles between which to measure the resulting angle.",
-                    "de-DE": "Einer der beiden Winkel zwischen denen der resultierende Winkel gemessen werden soll.",
-                    "es-ES": "Uno de los dos ángulos entre los que se mide el ángulo resultante.",
-                    "es-MX": "Uno de los dos ángulos entre los cuales se medirá el ángulo resultante.",
-                    "fr-FR": "Un des deux angles entre lesquels mesurer l’angle résultant.",
-                    "it-IT": "Uno dei due angoli tra i quali misurare l'angolo risultante.",
-                    "ja-JP": "結果として生じる角度を計算するための2つの角度の1つ",
-                    "ko-KR": "결과각을 도출하기 위한 두 각 중 하나입니다.",
-                    "pl-PL": "Jeden z dwóch kątów między którymi mierzy się kąt wynikowy.",
-                    "pt-BR": "Um dos dois ângulos entre os quais o ângulo resultante será medido.",
-                    "ru-RU": "Один из двух углов между которыми измеряется результирующий угол.",
-                    "th-TH": "One of the two angles between which to measure the resulting angle.",
-                    "tr-TR": "Son açıyı ölçmek için kullanılan iki açıdan biri.",
-                    "zh-CN": "用于计算结果角度的两个角度之一。",
-                    "zh-TW": "One of the two angles between which to measure the resulting angle."
-                },
-                "type": "float"
+                "description": { "en-US": "One of the two angles between which to measure the resulting angle." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6058,23 +4428,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Angle Difference"
     },
     "directionFromAngles": {
-        "description": {
-            "en-US": "The unit-length direction vector corresponding to the specified angles."
-        },
+        "description": { "en-US": "The unit-length direction vector corresponding to the specified angles." },
         "args": [
             {
                 "name": "horizontalAngle",
-                "description": {
-                    "en-US": "The horizontal angle in degrees used to construct the resulting vector."
-                },
-                "type": "float"
+                "description": { "en-US": "The horizontal angle in degrees used to construct the resulting vector." },
+                "type": "float",
             },
             {
                 "name": "verticalAngle",
-                "description": {
-                    "en-US": "The vertical angle in degrees used to construct the resulting vector."
-                },
-                "type": "float"
+                "description": { "en-US": "The vertical angle in degrees used to construct the resulting vector." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6098,30 +4462,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Direction From Angles"
     },
     "asin": {
-        "description": {
-            "en-US": "Arcsine in radians of the specified value."
-        },
+        "description": { "en-US": "Arcsine in radians of the specified value." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "Input value for the function.",
-                    "de-DE": "Eingabe des Werts der Funktion.",
-                    "es-ES": "Valor introducido para la función.",
-                    "es-MX": "Valor de entrada para la función.",
-                    "fr-FR": "Valeur d'entrée de la fonction.",
-                    "it-IT": "Input valore per la funzione.",
-                    "ja-JP": "値の入力が必要です",
-                    "ko-KR": "함수의 입력값입니다.",
-                    "pl-PL": "Wartość danych wejściowych dla funkcji.",
-                    "pt-BR": "Valor de entrada da função.",
-                    "ru-RU": "Аргумент функции.",
-                    "th-TH": "Input value for the function.",
-                    "tr-TR": "İşlevin girdi değeri.",
-                    "zh-CN": "为函数输入值。",
-                    "zh-TW": "Input value for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Input value for the function." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6144,30 +4490,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Arcsine In Radians"
     },
     "asinDeg": {
-        "description": {
-            "en-US": "Arcsine in degrees of the specified value."
-        },
+        "description": { "en-US": "Arcsine in degrees of the specified value." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "Input value for the function.",
-                    "de-DE": "Eingabe des Werts der Funktion.",
-                    "es-ES": "Valor introducido para la función.",
-                    "es-MX": "Valor de entrada para la función.",
-                    "fr-FR": "Valeur d'entrée de la fonction.",
-                    "it-IT": "Input valore per la funzione.",
-                    "ja-JP": "値の入力が必要です",
-                    "ko-KR": "함수의 입력값입니다.",
-                    "pl-PL": "Wartość danych wejściowych dla funkcji.",
-                    "pt-BR": "Valor de entrada da função.",
-                    "ru-RU": "Аргумент функции.",
-                    "th-TH": "Input value for the function.",
-                    "tr-TR": "İşlevin girdi değeri.",
-                    "zh-CN": "为函数输入值。",
-                    "zh-TW": "Input value for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Input value for the function." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6190,51 +4518,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Arcsine In Degrees"
     },
     "atan2": {
-        "description": {
-            "en-US": "Arctangent in radians of the specified numerator and denominator (often referred to as atan2)."
-        },
+        "description": { "en-US": "Arctangent in radians of the specified numerator and denominator (often referred to as atan2)." },
         "args": [
             {
                 "name": "numerator",
-                "description": {
-                    "en-US": "Numerator input for the function.",
-                    "de-DE": "Eingabe des Dividenden der Funktion.",
-                    "es-ES": "Numerador introducido para la función.",
-                    "es-MX": "Entrada de numerador para la función.",
-                    "fr-FR": "Numérateur de la fonction.",
-                    "it-IT": "Input numeratore per la funzione.",
-                    "ja-JP": "分子の入力が必要です",
-                    "ko-KR": "함수의 분자 입력 정보입니다.",
-                    "pl-PL": "Dane wejściowe licznika dla funkcji.",
-                    "pt-BR": "Entrada com o numerador da função.",
-                    "ru-RU": "Аргумент числителя функции.",
-                    "th-TH": "Numerator input for the function.",
-                    "tr-TR": "İşlevin pay girdisi.",
-                    "zh-CN": "为函数输入分子。",
-                    "zh-TW": "Numerator input for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Numerator input for the function." },
+                "type": "float",
             },
             {
                 "name": "denominator",
-                "description": {
-                    "en-US": "Denominator input for the function.",
-                    "de-DE": "Eingabe des Divisors der Funktion.",
-                    "es-ES": "Denominador introducido para la función.",
-                    "es-MX": "Entrada de denominador para la función.",
-                    "fr-FR": "Dénominateur de la fonction.",
-                    "it-IT": "Input denominatore per la funzione.",
-                    "ja-JP": "分母の入力が必要です",
-                    "ko-KR": "함수의 분모 입력 정보입니다.",
-                    "pl-PL": "Dane wejściowe mianownika dla funkcji.",
-                    "pt-BR": "Entrada com o denominador da função.",
-                    "ru-RU": "Аргумент знаменателя функции.",
-                    "th-TH": "Denominator input for the function.",
-                    "tr-TR": "İşlevin payda girdisi.",
-                    "zh-CN": "为函数输入分母。",
-                    "zh-TW": "Denominator input for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Denominator input for the function." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6257,51 +4551,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Arctangent In Radians"
     },
     "atan2Deg": {
-        "description": {
-            "en-US": "Arctangent in degrees of the specified numerator and denominator (often referred to as atan2)."
-        },
+        "description": { "en-US": "Arctangent in degrees of the specified numerator and denominator (often referred to as atan2)." },
         "args": [
             {
                 "name": "numerator",
-                "description": {
-                    "en-US": "Numerator input for the function.",
-                    "de-DE": "Eingabe des Dividenden der Funktion.",
-                    "es-ES": "Numerador introducido para la función.",
-                    "es-MX": "Entrada de numerador para la función.",
-                    "fr-FR": "Numérateur de la fonction.",
-                    "it-IT": "Input numeratore per la funzione.",
-                    "ja-JP": "分子の入力が必要です",
-                    "ko-KR": "함수의 분자 입력 정보입니다.",
-                    "pl-PL": "Dane wejściowe licznika dla funkcji.",
-                    "pt-BR": "Entrada com o numerador da função.",
-                    "ru-RU": "Аргумент числителя функции.",
-                    "th-TH": "Numerator input for the function.",
-                    "tr-TR": "İşlevin pay girdisi.",
-                    "zh-CN": "为函数输入分子。",
-                    "zh-TW": "Numerator input for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Numerator input for the function." },
+                "type": "float",
             },
             {
                 "name": "denominator",
-                "description": {
-                    "en-US": "Denominator input for the function.",
-                    "de-DE": "Eingabe des Divisors der Funktion.",
-                    "es-ES": "Denominador introducido para la función.",
-                    "es-MX": "Entrada de denominador para la función.",
-                    "fr-FR": "Dénominateur de la fonction.",
-                    "it-IT": "Input denominatore per la funzione.",
-                    "ja-JP": "分母の入力が必要です",
-                    "ko-KR": "함수의 분모 입력 정보입니다.",
-                    "pl-PL": "Dane wejściowe mianownika dla funkcji.",
-                    "pt-BR": "Entrada com o denominador da função.",
-                    "ru-RU": "Аргумент знаменателя функции.",
-                    "th-TH": "Denominator input for the function.",
-                    "tr-TR": "İşlevin payda girdisi.",
-                    "zh-CN": "为函数输入分母。",
-                    "zh-TW": "Denominator input for the function."
-                },
-                "type": "float"
+                "description": { "en-US": "Denominator input for the function." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6325,9 +4585,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "attacker": {
         "guid": "00000000B32F",
-        "description": {
-            "en-US": "The player that dealt the damage for the event currently being processed by this rule. May be the same as the victim or the event player."
-        },
+        "description": { "en-US": "The player that dealt the damage for the event currently being processed by this rule. May be the same as the victim or the event player." },
         "args": null,
         "canBePutInBoolean": false,
         "return": "Player",
@@ -6348,16 +4606,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Attacker"
     },
     "inputBindingString": {
-        "description": {
-            "en-US": "Converts a button parameter into a string that shows up based on the player's input bindings. This value cannot be stored in variables.\n\nNote: the `buttonToString()` macro performs a much nicer-looking conversion."
-        },
+        "description": { "en-US": "Converts a button parameter into a string that shows up based on the player's input bindings. This value cannot be stored in variables.\n\nNote: the `buttonToString()` macro performs a much nicer-looking conversion." },
         "args": [
             {
                 "name": "button",
-                "description": {
-                    "en-US": "The button for the input binding that will be converted to a string."
-                },
-                "type": "Button"
+                "description": { "en-US": "The button for the input binding that will be converted to a string." },
+                "type": "Button",
             }
         ],
         "canBePutInBoolean": false,
@@ -6380,30 +4634,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Input Binding String"
     },
     "cos": {
-        "description": {
-            "en-US": "Cosine of the specified angle in radians."
-        },
+        "description": { "en-US": "Cosine of the specified angle in radians." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "Angle in radians.",
-                    "de-DE": "Winkel in Radiant.",
-                    "es-ES": "Ángulo en radianes.",
-                    "es-MX": "Ángulo en radianes.",
-                    "fr-FR": "Angle en radians.",
-                    "it-IT": "L'Angolo in radianti.",
-                    "ja-JP": "ラジアンの角度",
-                    "ko-KR": "각단위: Rad입니다.",
-                    "pl-PL": "Kąt w radianach.",
-                    "pt-BR": "Ângulo em radianos.",
-                    "ru-RU": "Угол в радианах.",
-                    "th-TH": "Angle in radians.",
-                    "tr-TR": "Radyan cinsinden açı.",
-                    "zh-CN": "角度，以弧度为单位。",
-                    "zh-TW": "Angle in radians."
-                },
-                "type": "float"
+                "description": { "en-US": "Angle in radians." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6426,30 +4662,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Cosine From Radians"
     },
     "cosDeg": {
-        "description": {
-            "en-US": "Cosine of the specified angle in degrees."
-        },
+        "description": { "en-US": "Cosine of the specified angle in degrees." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "Angle in degrees.",
-                    "de-DE": "Winkel in Grad.",
-                    "es-ES": "Ángulo en grados.",
-                    "es-MX": "Ángulo en grados.",
-                    "fr-FR": "Angle en degrés.",
-                    "it-IT": "L'Angolo in gradi.",
-                    "ja-JP": "度単位の角度",
-                    "ko-KR": "각단위: 도입니다.",
-                    "pl-PL": "Kąt w stopniach.",
-                    "pt-BR": "Ângulo em graus.",
-                    "ru-RU": "Угол в градусах.",
-                    "th-TH": "Angle in degrees.",
-                    "tr-TR": "Derece cinsinden açı.",
-                    "zh-CN": "角度，以角度为单位。",
-                    "zh-TW": "Angle in degrees."
-                },
-                "type": "float"
+                "description": { "en-US": "Angle in degrees." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -6472,23 +4690,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Cosine From Degrees"
     },
     "crossProduct": {
-        "description": {
-            "en-US": "The cross product of the specified values. (Left cross up equals forward.)"
-        },
+        "description": { "en-US": "The cross product of the specified values. (Left cross up equals forward.)" },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand-side vector operand of the cross product."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The left-hand-side vector operand of the cross product." },
+                "type": "Vector",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand-side vector operand of the cross product."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The right-hand-side vector operand of the cross product." },
+                "type": "Vector",
             }
         ],
         "isConstant": true,
@@ -6512,23 +4724,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Cross Product"
     },
     "directionTowards": {
-        "description": {
-            "en-US": "The unit-length direction vector from one position to another."
-        },
+        "description": { "en-US": "The unit-length direction vector from one position to another." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "The position from which the resulting direction vector will point."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position from which the resulting direction vector will point." },
+                "type": "Position",
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "The position to which the resulting direction vector will point."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position to which the resulting direction vector will point." },
+                "type": "Position",
             }
         ],
         "canBePutInBoolean": false,
@@ -6552,65 +4758,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Direction Towards"
     },
     "distance": {
-        "description": {
-            "en-US": "The distance between two positions in meters.",
-            "de-DE": "Die Distanz zwischen zwei Positionen in Metern.",
-            "es-ES": "Distancia entre dos posiciones en metros.",
-            "es-MX": "La distancia entre dos posiciones expresada en metros.",
-            "fr-FR": "La distance entre deux positions exprimée en mètres.",
-            "it-IT": "La distanza tra due posizioni in metri.",
-            "ja-JP": "2つの位置の距離（メートル）",
-            "ko-KR": "두 위치 사이의 거리미터입니다.",
-            "pl-PL": "Odległość w metrach między dwoma pozycjami.",
-            "pt-BR": "A distância entre duas posições em metros.",
-            "ru-RU": "Расстояние между двумя точками в метрах.",
-            "th-TH": "The distance between two positions in meters.",
-            "tr-TR": "Metre cinsinden iki konum arasındaki mesafe.",
-            "zh-CN": "两个位置之间的距离，单位为米。",
-            "zh-TW": "The distance between two positions in meters."
-        },
+        "description": { "en-US": "The distance between two positions in meters." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "One of the two positions used in the distance measurement.",
-                    "de-DE": "Eine der zwei Positionen die für die Distanzmessung verwendet werden.",
-                    "es-ES": "Una de las dos posiciones utilizadas en la medición de distancia.",
-                    "es-MX": "Una de las dos posiciones utilizadas en la medición de distancia.",
-                    "fr-FR": "Une des deux positions servant à mesurer la distance.",
-                    "it-IT": "Una delle due posizioni usate nella misurazione della distanza.",
-                    "ja-JP": "距離を計測するのに使用された2つの位置のうちの1つ",
-                    "ko-KR": "거리 측정에 사용되는 두 위치 중 하나입니다.",
-                    "pl-PL": "Jedna z dwóch pozycji służących do mierzenia odległości.",
-                    "pt-BR": "Uma das duas posições usadas na medida de distância.",
-                    "ru-RU": "Одна из двух точек используемых для измерения расстояния.",
-                    "th-TH": "One of the two positions used in the distance measurement.",
-                    "tr-TR": "Mesafe ölçümünde kullanılan iki konumdan biri.",
-                    "zh-CN": "用于测量距离的两个位置之一。",
-                    "zh-TW": "One of the two positions used in the distance measurement."
-                },
-                "type": "Position"
+                "description": { "en-US": "One of the two positions used in the distance measurement." },
+                "type": "Position",
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "One of the two positions used in the distance measurement.",
-                    "de-DE": "Eine der zwei Positionen die für die Distanzmessung verwendet werden.",
-                    "es-ES": "Una de las dos posiciones utilizadas en la medición de distancia.",
-                    "es-MX": "Una de las dos posiciones utilizadas en la medición de distancia.",
-                    "fr-FR": "Une des deux positions servant à mesurer la distance.",
-                    "it-IT": "Una delle due posizioni usate nella misurazione della distanza.",
-                    "ja-JP": "距離を計測するのに使用された2つの位置のうちの1つ",
-                    "ko-KR": "거리 측정에 사용되는 두 위치 중 하나입니다.",
-                    "pl-PL": "Jedna z dwóch pozycji służących do mierzenia odległości.",
-                    "pt-BR": "Uma das duas posições usadas na medida de distância.",
-                    "ru-RU": "Одна из двух точек используемых для измерения расстояния.",
-                    "th-TH": "One of the two positions used in the distance measurement.",
-                    "tr-TR": "Mesafe ölçümünde kullanılan iki konumdan biri.",
-                    "zh-CN": "用于测量距离的两个位置之一。",
-                    "zh-TW": "One of the two positions used in the distance measurement."
-                },
-                "type": "Position"
+                "description": { "en-US": "One of the two positions used in the distance measurement." },
+                "type": "Position",
             }
         ],
         "isConstant": true,
@@ -6633,23 +4791,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Distance Between"
     },
     "dotProduct": {
-        "description": {
-            "en-US": "The dot product of the specified values."
-        },
+        "description": { "en-US": "The dot product of the specified values." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "One of two vector operands of the dot product."
-                },
-                "type": "Vector"
+                "description": { "en-US": "One of two vector operands of the dot product." },
+                "type": "Vector",
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "One of two vector operands of the dot product."
-                },
-                "type": "Vector"
+                "description": { "en-US": "One of two vector operands of the dot product." },
+                "type": "Vector",
             }
         ],
         "isConstant": true,
@@ -6672,19 +4824,15 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Dot Product"
     },
     "entityExists": {
-        "description": {
-            "en-US": "Whether the specified player, icon entity, or effect entity still exists. Useful for determining if a player has left the match or an entity has been destroyed."
-        },
+        "description": { "en-US": "Whether the specified player, icon entity, or effect entity still exists. Useful for determining if a player has left the match or an entity has been destroyed." },
         "args": [
             {
                 "name": "entity",
-                "description": {
-                    "en-US": "The player, icon entity, or effect entity whose existence to check."
-                },
+                "description": { "en-US": "The player, icon entity, or effect entity whose existence to check." },
                 "type": [
                     "Player",
                     "EntityId"
-                ]
+                ],
             }
         ],
         "return": "bool",
@@ -6706,19 +4854,15 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Entity Exists"
     },
     "evalOnce": {
-        "description": {
-            "en-US": "Makes a copy of the provided value. Useful for selectively not reevaluating certain parts of a value, such as creating effects in a loop."
-        },
+        "description": { "en-US": "Makes a copy of the provided value. Useful for selectively not reevaluating certain parts of a value, such as creating effects in a loop." },
         "args": [
             {
                 "name": "inputValue",
-                "description": {
-                    "en-US": "The value that will be only evaluated once."
-                },
+                "description": { "en-US": "The value that will be only evaluated once." },
                 "type": [
                     "Object",
                     "Array"
-                ]
+                ],
             }
         ],
         "isConstant": true,
@@ -6744,9 +4888,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Evaluate Once"
     },
     "eventAbility": {
-        "description": {
-            "en-US": "The ability for the event currently being processed by this rule associated by button."
-        },
+        "description": { "en-US": "The ability for the event currently being processed by this rule associated by button." },
         "args": null,
         "canBePutInBoolean": false,
         "return": "Button",
@@ -6768,9 +4910,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Ability"
     },
     "eventDamage": {
-        "description": {
-            "en-US": "The amount of damage received by the victim for the event currently being processed by this rule."
-        },
+        "description": { "en-US": "The amount of damage received by the victim for the event currently being processed by this rule." },
         "args": null,
         "return": "unsigned float",
         "guid": "00000000C635",
@@ -6791,9 +4931,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Damage"
     },
     "eventDirection": {
-        "description": {
-            "en-US": "The incoming direction for the event currently being processed by this rule."
-        },
+        "description": { "en-US": "The incoming direction for the event currently being processed by this rule." },
         "args": null,
         "canBePutInBoolean": false,
         "return": "Direction",
@@ -6815,9 +4953,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Direction"
     },
     "eventHealing": {
-        "description": {
-            "en-US": "The amount of healing received by the healee for the event currently being processed by this rule."
-        },
+        "description": { "en-US": "The amount of healing received by the healee for the event currently being processed by this rule." },
         "args": null,
         "return": "unsigned float",
         "guid": "00000000CC33",
@@ -6838,9 +4974,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Healing"
     },
     "eventPlayer": {
-        "description": {
-            "en-US": "The player executing this rule, as specified by the event. May be the same as the attacker or victim."
-        },
+        "description": { "en-US": "The player executing this rule, as specified by the event. May be the same as the attacker or victim." },
         "args": null,
         "canBePutInBoolean": false,
         "return": "Player",
@@ -6862,9 +4996,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Player"
     },
     "eventWasCriticalHit": {
-        "description": {
-            "en-US": "Whether the damage was a critical hit (such as a headshot) for the event currently being processed by this rule."
-        },
+        "description": { "en-US": "Whether the damage was a critical hit (such as a headshot) for the event currently being processed by this rule." },
         "args": null,
         "return": "bool",
         "guid": "00000000C637",
@@ -6885,9 +5017,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Was Critical Hit"
     },
     "eventWasEnvironment": {
-        "description": {
-            "en-US": "Whether the elimination was due to the environment for the event currently being processed by this rule."
-        },
+        "description": { "en-US": "Whether the elimination was due to the environment for the event currently being processed by this rule." },
         "args": null,
         "return": "bool",
         "guid": "00000001107C",
@@ -6908,9 +5038,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Was Environment"
     },
     "eventWasHealthPack": {
-        "description": {
-            "en-US": "Whether the healing was from a health pack for the event currently being processed by this rule."
-        },
+        "description": { "en-US": "Whether the healing was from a health pack for the event currently being processed by this rule." },
         "args": null,
         "return": "bool",
         "guid": "00000000FC80",
@@ -6931,9 +5059,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Event Was Health Pack"
     },
     "false": {
-        "description": {
-            "en-US": "The boolean value of false."
-        },
+        "description": { "en-US": "The boolean value of false." },
         "args": null,
         "isConstant": true,
         "return": "BoolLiteral",
@@ -6956,9 +5082,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "getAllHeroes": {
         "guid": "00000000BF58",
-        "description": {
-            "en-US": "The array of all heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes."
-        },
+        "description": { "en-US": "The array of all heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes." },
         "args": [],
         "isConstant": true,
         "return": {
@@ -6983,23 +5107,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "getAverageServerLoad": {
         "guid": "00000000C997",
-        "description": {
-            "en-US": "Provides a percentage representing the average CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100 it becomes increasingly likely that the instance will be shut down because it is consuming too many resources.",
-            "de-DE": "Gibt die durchschnittliche CPU-Belastung der letzten 2 Sekunden der aktuellen Spielinstanz als Prozentsatz an. Wenn diese Zahl 100 erreicht oder überschreitet wird es immer wahrscheinlicher dass die Instanz geschlossen wird weil sie zu viele Ressourcen verbraucht.",
-            "es-ES": "Muestra un porcentaje que representa la carga media de CPU en la instancia de la partida actual durante los últimos 2 segundos. Cuando este número se acerque a 100 o lo supere será cada vez más probable que se cierre la instancia por estar consumiendo demasiados recursos.",
-            "es-MX": "Muestra un porcentaje que representa el uso promedio del procesador de la instancia de juego actual durante los últimos dos segundos. A medida que el número alcanza o supera el 100 % aumenta la probabilidad de que esa instancia se cierre ya que está consumiendo demasiados recursos.",
-            "fr-FR": "Affiche un pourcentage représentant la charge moyenne qu’a fait peser l’instance actuelle du jeu sur le processeur dans les deux dernières secondes. Quand cette valeur approche ou dépasse 100 il est fortement probable que l’instance se ferme car elle consomme trop de ressources.",
-            "it-IT": "Mostra una percentuale del carico medio sulla CPU dell'istanza di gioco attuale negli ultimi due secondi. Una volta che questo numero si avvicina o supera quota 100 è molto probabile che l'istanza venga chiusa per consumo eccessivo di risorse.",
-            "ja-JP": "現在のゲームインスタンスの、直近2秒間におけるCPU負荷の平均値を表すパーセンテージ。この数字が100に近づく、または超えた場合、リソースの過剰消費でインスタンスがシャットダウンされる可能性が高まる",
-            "ko-KR": "최근 2초간 게임 인스턴스의 평균 CPU 사용률%입니다. 이 수치가 100에 가까워지거나 100을 초과하면 과도한 리소스 사용으로 인스턴스가 종료될 가능성이 크게 증가합니다.",
-            "pl-PL": "Procentowy wskaźnik średniego obciążenia głównego procesora przez bieżącą instancję gry w ostatnich dwóch sekundach. Kiedy wartość zbliża się lub przekracza 100 rośnie prawdopodobieństwo że program zostanie zamknięty z powodu zużycia zbyt dużych zasobów systemowych.",
-            "pt-BR": "Mostra uma porcentagem que representa o uso médio de CPU da instância de jogo atual nos últimos dois segundos. Se o número se aproximar ou passar de 100 será bem mais provável que a instância seja encerrada por consumir recursos demais.",
-            "ru-RU": "Выводит процент средней загрузки ЦП в текущей игре за последние 2 секунды. Чем ближе это значение к 100 тем выше вероятность того что игра прервется из-за чрезмерного потребления ресурсов.",
-            "th-TH": "Provides a percentage representing the average CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100 it becomes increasingly likely that the instance will be shut down because it is consuming too many resources.",
-            "tr-TR": "Son iki saniyedeki mevcut oyun örneğinin ortalama CPU yükünü temsil eden yüzdeyi sağlar. Bu sayı 100 değerine ulaşırsa veya bu değeri geçerse çok fazla kaynak harcaması sebebiyle oluşumun kapatılma olasılığı artar.",
-            "zh-CN": "当前游戏副本在过去2秒内造成的平均CPU负载百分比。如果这个数字接近或者超过100，表示此游戏副本消耗了过多资源，游戏很可能会关闭。",
-            "zh-TW": "此百分比數字會顯示當前遊戲在前兩秒時的CPU平均負載狀態。當這個數字接近或超出100，遊戲極有可能會因消耗過多資源而關閉。"
-        },
+        "description": { "en-US": "Provides a percentage representing the average CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100, it becomes increasingly likely that the instance will be shut down because it is consuming too many resources." },
         "args": [],
         "return": "unsigned float",
         "en-US": "Server Load Average",
@@ -7019,23 +5127,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Server Load Average"
     },
     "getCapturePercentage": {
-        "description": {
-            "en-US": "The current progress towards capture for the active control point expressed as a percentage.",
-            "de-DE": "Der aktuelle Fortschritt hin zur Einnahme für den aktiven Kontrollpunkt als Prozentsatz dargestellt.",
-            "es-ES": "Progreso actual para la captura del punto de control activo expresado en forma de porcentaje.",
-            "es-MX": "El progreso actual hacia la captura del punto de control activo expresado como porcentaje.",
-            "fr-FR": "La progression actuelle de la capture du point de contrôle actif exprimée en pourcentage.",
-            "it-IT": "Il progresso attuale verso la conquista del punto di controllo attivo espresso in percentuale.",
-            "ja-JP": "アクティブなコントロール・ポイントの確保状況（パーセントで表示）",
-            "ko-KR": "활성화된 거점에서 점령 중인 거점의 점령 진척도입니다비율로 표시.",
-            "pl-PL": "Bieżący postęp zajmowania aktywnego punktu kontrolnego wyrażony w procentach.",
-            "pt-BR": "O progresso atual da captura do ponto de controle ativo expresso em forma de porcentagem.",
-            "ru-RU": "Доля захвата активной контрольной точки в данный момент выражается в процентах.",
-            "th-TH": "The current progress towards capture for the active control point expressed as a percentage.",
-            "tr-TR": "Etkin kontrol noktasını ele geçirme ilerleyişi yüzde olarak gösterilir.",
-            "zh-CN": "已激活的控制点当前的占领进度（以百分比表示）。",
-            "zh-TW": "The current progress towards capture for the active control point expressed as a percentage."
-        },
+        "description": { "en-US": "The current progress towards capture for the active control point (expressed as a percentage)." },
         "args": [],
         "return": "float",
         "guid": "00000000B358",
@@ -7056,37 +5148,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Point Capture Percentage"
     },
     "getClosestPlayer": {
-        "description": {
-            "en-US": "The player closest to a position, optionally restricted by team."
-        },
+        "description": { "en-US": "The player closest to a position, optionally restricted by team." },
         "args": [
             {
                 "name": "center",
-                "description": {
-                    "en-US": "The position from which to measure proximity.",
-                    "de-DE": "Die Position von der die Nähe gemessen wird.",
-                    "es-ES": "Posición desde la que se mide la proximidad.",
-                    "es-MX": "La posición desde la cual se medirá la proximidad.",
-                    "fr-FR": "La position à partir de laquelle mesurer la proximité.",
-                    "it-IT": "La posizione dalla quale misurare la vicinanza.",
-                    "ja-JP": "距離の近さを計測し始める位置",
-                    "ko-KR": "거리를 측정할 위치입니다.",
-                    "pl-PL": "Pozycja z której mierzy się bliskość.",
-                    "pt-BR": "A posição da qual a proximidade será medida.",
-                    "ru-RU": "Точка от которой измеряется близость.",
-                    "th-TH": "The position from which to measure proximity.",
-                    "tr-TR": "Alanın ölçüleceği konum.",
-                    "zh-CN": "用于测定距离的位置。",
-                    "zh-TW": "The position from which to measure proximity."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position from which to measure proximity." },
+                "type": "Position",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which the closest player will come."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team or teams from which the closest player will come." },
+                "type": "Team",
             }
         ],
         "canBePutInBoolean": false,
@@ -7110,16 +5182,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Closest Player To"
     },
     "getControlScorePercentage": {
-        "description": {
-            "en-US": "The score percentage for the specified team in control mode."
-        },
+        "description": { "en-US": "The score percentage for the specified team in control mode." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose score percentage to acquire."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose score percentage to acquire." },
+                "type": "Team",
             }
         ],
         "return": "unsigned float",
@@ -7141,9 +5209,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Control Mode Scoring Percentage"
     },
     "getControlScoringTeam": {
-        "description": {
-            "en-US": "The team that is currently accumulating score percentage in control mode. Results in all if neither team is accumulating score."
-        },
+        "description": { "en-US": "The team that is currently accumulating score percentage in control mode. Results in all if neither team is accumulating score." },
         "args": [],
         "canBePutInBoolean": false,
         "return": "Team",
@@ -7165,23 +5231,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Control Mode Scoring Team"
     },
     "getCurrentGamemode": {
-        "description": {
-            "en-US": "The current game mode of the custom game.",
-            "de-DE": "Der aktuelle Spielmodus des benutzerdefinierten Spiels.",
-            "es-ES": "El modo de juego actual de la partida personalizada.",
-            "es-MX": "El modo de juego actual de la partida personalizada.",
-            "fr-FR": "Le mode de jeu actuel de la partie personnalisée.",
-            "it-IT": "La modalità di gioco attuale della partita personalizzata.",
-            "ja-JP": "カスタム・ゲームの現在のゲーム・モード",
-            "ko-KR": "사용자 지정 게임의 현재 게임 모드입니다.",
-            "pl-PL": "Bieżący tryb gry dowolnej.",
-            "pt-BR": "O modo de jogo atual do jogo personalizado.",
-            "ru-RU": "Текущий игровой режим «Своей игры».",
-            "th-TH": "The current game mode of the custom game.",
-            "tr-TR": "Özel oyunun mevcut oyun modu.",
-            "zh-CN": "当前自定游戏的游戏模式。",
-            "zh-TW": "The current game mode of the custom game."
-        },
+        "description": { "en-US": "The current game mode of the custom game." },
         "args": [],
         "isConstant": true,
         "canBePutInBoolean": false,
@@ -7205,23 +5255,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "__getCurrentMap__": {
         "guid": "00000000D418",
-        "description": {
-            "en-US": "The current map of the custom game.",
-            "de-DE": "Die aktuelle Karte des benutzerdefinierten Spiels.",
-            "es-ES": "Mapa actual de la partida personalizada.",
-            "es-MX": "El mapa actual de una partida personalizada.",
-            "fr-FR": "La carte actuelle de la partie personnalisée.",
-            "it-IT": "La mappa attuale della partita personalizzata.",
-            "ja-JP": "カスタム・ゲームの現在のマップ",
-            "ko-KR": "사용자 지정 게임의 현재 전장입니다.",
-            "pl-PL": "Bieżąca mapa gry dowolnej.",
-            "pt-BR": "O mapa atual do jogo personalizado.",
-            "ru-RU": "Текущее поле боя для «Своей игры».",
-            "th-TH": "The current map of the custom game.",
-            "tr-TR": "Özel oyundaki mevcut harita.",
-            "zh-CN": "自定义游戏中当前使用的地图。",
-            "zh-TW": "The current map of the custom game."
-        },
+        "description": { "en-US": "The current map of the custom game." },
         "args": [],
         "isConstant": true,
         "canBePutInBoolean": false,
@@ -7243,9 +5277,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Current Map"
     },
     "getCurrentObjective": {
-        "description": {
-            "en-US": "The control point, payload checkpoint, or payload destination currently active (either 0, 1, or 2). Valid in assault, hybrid, escort, and control."
-        },
+        "description": { "en-US": "The control point, payload checkpoint, or payload destination currently active (either 0, 1, or 2). Valid in assault, hybrid, escort, and control." },
         "args": [],
         "return": "unsigned int",
         "guid": "00000000B37D",
@@ -7266,9 +5298,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Objective Index"
     },
     "getDamageHeroes": {
-        "description": {
-            "en-US": "The array of all damage heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes."
-        },
+        "description": { "en-US": "The array of all damage heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes." },
         "args": [],
         "isConstant": true,
         "return": {
@@ -7293,15 +5323,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Damage Heroes"
     },
     "getDeadPlayers": {
-        "description": {
-            "en-US": "An array containing all dead players on a team or in the match."
-        },
+        "description": { "en-US": "An array containing all dead players on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which players may come."
-                },
+                "description": { "en-US": "The team or teams from which players may come." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -7328,37 +5354,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Dead Players"
     },
     "getFarthestPlayer": {
-        "description": {
-            "en-US": "The player farthest from a position, optionally restricted by team."
-        },
+        "description": { "en-US": "The player farthest from a position, optionally restricted by team." },
         "args": [
             {
                 "name": "center",
-                "description": {
-                    "en-US": "The position from which to measure distance.",
-                    "de-DE": "Die Position von der die Distanz gemessen wird.",
-                    "es-ES": "Posición desde la que se mide la distancia.",
-                    "es-MX": "La posición desde la cual se medirá la distancia.",
-                    "fr-FR": "La position à partir de laquelle mesurer la distance.",
-                    "it-IT": "La posizione dalla quale misurare la distanza.",
-                    "ja-JP": "距離を計測するための位置",
-                    "ko-KR": "거리 측정을 위한 위치입니다.",
-                    "pl-PL": "Pozycja z której mierzy się odległość.",
-                    "pt-BR": "A posição da qual a distância será medida.",
-                    "ru-RU": "Точка от которой измеряется расстояние.",
-                    "th-TH": "The position from which to measure distance.",
-                    "tr-TR": "Uzaklığın ölçüleceği konum.",
-                    "zh-CN": "以此位置为起点测量距离。",
-                    "zh-TW": "The position from which to measure distance."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position from which to measure distance." },
+                "type": "Position",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which the farthest player will come."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team or teams from which the farthest player will come." },
+                "type": "Team",
             }
         ],
         "canBePutInBoolean": false,
@@ -7382,16 +5388,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Farthest Player From"
     },
     "getFlagCarrier": {
-        "description": {
-            "en-US": "The player carrying a particular team's flag in capture the flag. Results in null if no player is carrying the flag."
-        },
+        "description": { "en-US": "The player carrying a particular team's flag in capture the flag. Results in null if no player is carrying the flag." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose flag to check."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose flag to check." },
+                "type": "Team",
             }
         ],
         "canBePutInBoolean": false,
@@ -7414,16 +5416,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Player Carrying Flag"
     },
     "getFlagPosition": {
-        "description": {
-            "en-US": "The position of a specific team's flag in capture the flag."
-        },
+        "description": { "en-US": "The position of a specific team's flag in capture the flag." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose flag position to acquire."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose flag position to acquire." },
+                "type": "Team",
             }
         ],
         "canBePutInBoolean": false,
@@ -7446,23 +5444,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Flag Position"
     },
     "getLastAssistId": {
-        "description": {
-            "en-US": "An ID representing the most recent Start Assist Action that was executed by the Event Player or executed at the Global level.",
-            "de-DE": "Eine ID die die aktuellste [Start Assist]-Aktion darstellt die durch [Event Player] oder auf globaler Ebene ausgeführt wurde.",
-            "es-ES": "Una ID que representa la acción «Start Assist» más reciente ejecutada por el «Event Player» o ejecutada a nivel global.",
-            "es-MX": "Una ID que representa la acción Comenzar asistencia más reciente que fue ejecutada por el jugador del evento o ejecutada a nivel global.",
-            "fr-FR": "Un identifiant représentant la dernière action « Lancer le soutien » exécutée par le joueur exécutant ou exécutée au niveau global.",
-            "it-IT": "Un ID che rappresenta l'Azione Start Assist più recente eseguita dal Giocatore Evento o eseguita a livello Globale.",
-            "ja-JP": "イベント・プレイヤーまたはグローバル・レベルによって実行された最新の「アシストを開始」アクションを示すID",
-            "ko-KR": "Event Player 또는 전역 레벨에서 가장 최근에 실행된 Last Assist 액션의 ID입니다.",
-            "pl-PL": "Identyfikator reprezentujący ostatnie działanie „Start Assist Action” Rozpocznij asystę wykonane przez „Event Player” Gracz w zdarzeniu lub na poziomie globalnym.",
-            "pt-BR": "Uma ID representando a Ação Iniciar Assistência mais recente executada pelo Jogador do Evento ou executada em nível Global.",
-            "ru-RU": "ID представляющий самое последнее действие [Start Assist] которое было выполнено игроком события [Event Player] или выполнено на глобальном уровне.",
-            "th-TH": "An ID representing the most recent Start Assist Action that was executed by the Event Player or executed at the Global level.",
-            "tr-TR": "Etkinlik Oyuncusu tarafından gerçekleştirilen veya Küresel seviyede gerçekleştirilen son Asist Başlat eylemini temsil eden Kimlik.",
-            "zh-CN": "此ID值代表最后一个时间玩家（或全局）所执行的“开始助攻”动作。",
-            "zh-TW": "An ID representing the most recent Start Assist Action that was executed by the Event Player or executed at the Global level."
-        },
+        "description": { "en-US": "An ID representing the most recent Start Assist Action that was executed by the Event Player (or executed at the Global level)." },
         "args": [],
         "return": "AssistId",
         "guid": "0000000121F2",
@@ -7483,9 +5465,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Assist ID"
     },
     "getLastCreatedEntity": {
-        "description": {
-            "en-US": "A reference to the last effect, icon entity, or dummy bot created by the event player (or created at the global level)."
-        },
+        "description": { "en-US": "A reference to the last effect, icon entity, or dummy bot created by the event player (or created at the global level)." },
         "args": [],
         "canBePutInBoolean": false,
         "return": "EntityId",
@@ -7507,9 +5487,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Created Entity"
     },
     "getLastCreatedHealthPool": {
-        "description": {
-            "en-US": "An ID representing the most recent Add Health Pool action that was executed by the event player (or executed at the global level)."
-        },
+        "description": { "en-US": "An ID representing the most recent Add Health Pool action that was executed by the event player (or executed at the global level)." },
         "args": [],
         "return": "HealthPoolId",
         "guid": "000000011439",
@@ -7530,23 +5508,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Created Health Pool"
     },
     "getLastCreatedText": {
-        "description": {
-            "en-US": "A reference to the last piece of text created by the Event Player or created at the Global level via the Create HUD Text Create In-World Text Create Progress Bar HUD Text or Create Progress Bar In-World Text Action.",
-            "de-DE": "Eine Referenz zum letzten Textstück das über die Aktion [Create HUD Text] [Create In-World Text] [Create Progress Bar HUD Text] oder [Create Progress Bar In-World Text] durch [Event Player] oder auf globaler Ebene erstellt wurde.",
-            "es-ES": "Una referencia al último fragmento de texto creado por el «Event Player» o creado a nivel global mediante las acciones «Create HUD Text» «Create In-World Text» «Create Progress Bar HUD Text» o «Create Progress Bar In-World Text Action».",
-            "es-MX": "Una referencia al último fragmento de texto creado por el jugador del evento o creado a nivel global a través de las acciones Crear texto del HUD Crear texto dentro del mundo Crear texto del HUD en la barra de progreso o Crear texto dentro del mundo en la barra de progreso.",
-            "fr-FR": "Une référence au dernier texte créé par le joueur exécutant ou créé au niveau global via l’action « Créer du texte d’interface » « Créer du texte en jeu » « Créer du texte d’interface de barre de progression en jeu » ou « Créer du texte de barre de progression en jeu ».",
-            "it-IT": "Un riferimento all'ultimo testo creato dal Giocatore Evento o creato a livello Globale attraverso l'Azione Create HUD Text Create In-World Text Create Progress Bar HUD Text o Create Progress Bar In-World Text.",
-            "ja-JP": "「HUDテキストを作成」、「ワールド内テキストを作成」、「進行バーHUDテキストを作成」または「進行バーのワールド内テキスト」アクションを使用し、イベント・プレイヤーまたはグローバルによって作成された最新のテキストを参照する",
-            "ko-KR": "Event Player 또는 전역 레벨에서 Create HUD Text Create In-World Text Create Progress Bar HUD Text Create Progress Bar In-World 액션으로 생성한 텍스트의 마지막 부분에 대한 참조입니다.",
-            "pl-PL": "Odniesienie do ostatniego fragmentu tekstu stworzonego przez „Event player” Gracza w zdarzeniu lub stworzonego na poziomie globalnym poprzez działanie „Create HUD Text” Stwórz tekst w HUD „Create In-World Text” Stwórz tekst w świecie gry „Create Progress Bar HUD Text” Stwórz tekst w pasku postępu lub „Create Progress Bar In-World Text” Stwórz tekst w pasku postępu w świecie gry.",
-            "pt-BR": "Uma referência ao último bloco de texto criado pelo Jogador do Evento ou criado em nível Global através da Ação Criar Texto de HUD Criar Texto no Mundo Criar Texto de HUD da Barra de Progresso ou Criar Texto de Barra de Progresso no Mundo.",
-            "ru-RU": "Ссылка на последний текстовый элемент созданный игроком события или на глобальном уровне с помощью действия [Create HUD Text] [Create In-World Text] [Create Progress Bar HUD Text] или [Create Progress Bar In-World Text].",
-            "th-TH": "A reference to the last piece of text created by the Event Player or created at the Global level via the Create HUD Text Create In-World Text Create Progress Bar HUD Text or Create Progress Bar In-World Text Action.",
-            "tr-TR": "Ekran Göstergesi Metni Oluştur Oyun İçi Metin Oluştur İlerleyiş Çubuğu Ekran Göstergesi Metni Oluştur veya Oyun İçi İlerleyiş Çubuğu Metni Oluştur Eylemi ile Etkinlik Oyuncusu tarafından oluşturulan veya Küresel seviyede oluşturulan metnin son kısmı.",
-            "zh-CN": "代表由事件玩家创建的（或由全局创建的）通过“创建HUD文本”、“创建地图文本”、“创建进度条HUD文本”或“创建进度条地图文本”动作所创建的最后一段文本。",
-            "zh-TW": "A reference to the last piece of text created by the Event Player or created at the Global level via the Create HUD Text Create In-World Text Create Progress Bar HUD Text or Create Progress Bar In-World Text Action."
-        },
+        "description": { "en-US": "A reference to the last piece of text created by the Event Player (or created at the Global level) via the Create HUD Text, Create In-World Text, Create Progress Bar HUD Text, or Create Progress Bar In-World Text Action." },
         "args": [],
         "return": "TextId",
         "guid": "00000000BAFE",
@@ -7567,9 +5529,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Text ID"
     },
     "getLastDamageModification": {
-        "description": {
-            "en-US": "An id representing the most recent start damage modification action that was executed by the event player (or executed at the global level)."
-        },
+        "description": { "en-US": "An id representing the most recent start damage modification action that was executed by the event player (or executed at the global level)." },
         "args": [],
         "return": "DamageModificationId",
         "guid": "00000000C64A",
@@ -7590,9 +5550,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Damage Modification ID"
     },
     "getLastDamageOverTimeId": {
-        "description": {
-            "en-US": "An id representing the most recent damage over time action that was executed by the event player (or executed at the global level)."
-        },
+        "description": { "en-US": "An id representing the most recent damage over time action that was executed by the event player (or executed at the global level)." },
         "args": [],
         "return": "DotId",
         "guid": "00000000B263",
@@ -7613,9 +5571,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Damage Over Time ID"
     },
     "getLastHealingModification": {
-        "description": {
-            "en-US": "An id representing the most recent start healing modification action that was executed by the event player (or executed at the global level)."
-        },
+        "description": { "en-US": "An id representing the most recent start healing modification action that was executed by the event player (or executed at the global level)." },
         "args": [],
         "return": "HealingModificationId",
         "guid": "00000000FD2A",
@@ -7636,9 +5592,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Healing Modification ID"
     },
     "getLastHealingOverTimeId": {
-        "description": {
-            "en-US": "An id representing the most recent heal over time action that was executed by the event player (or executed at the global level)."
-        },
+        "description": { "en-US": "An id representing the most recent heal over time action that was executed by the event player (or executed at the global level)." },
         "args": [],
         "return": "HotId",
         "guid": "00000000B262",
@@ -7659,15 +5613,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Last Heal Over Time ID"
     },
     "getLivingPlayers": {
-        "description": {
-            "en-US": "An array containing all living players on a team or in the match."
-        },
+        "description": { "en-US": "An array containing all living players on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which players may come."
-                },
+                "description": { "en-US": "The team or teams from which players may come." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -7694,23 +5644,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Living Players"
     },
     "getMatchRound": {
-        "description": {
-            "en-US": "The current round of the match counting up from 1.",
-            "de-DE": "Die aktuelle Runde des Matches ab 1 gezählt.",
-            "es-ES": "Ronda actual de la partida a partir de 1.",
-            "es-MX": "La ronda actual de la partida la cuenta comienza desde 1.",
-            "fr-FR": "La manche actuelle de la partie comptée à partir de 1.",
-            "it-IT": "Il round attuale della partita contato a partire da 1.",
-            "ja-JP": "現在のマッチのラウンド。1から開始される",
-            "ko-KR": "경기의 현재 라운드입니다. 1부터 증가합니다.",
-            "pl-PL": "Bieżąca runda meczu licząc od 1.",
-            "pt-BR": "A rodada atual da partida contada a partir de 1.",
-            "ru-RU": "Текущий раунд матча отсчет начинается с 1.",
-            "th-TH": "The current round of the match counting up from 1.",
-            "tr-TR": "1'den başlayarak sayılan mevcut maç turu.",
-            "zh-CN": "比赛当前的回合数，从1开始计数。",
-            "zh-TW": "The current round of the match counting up from 1."
-        },
+        "description": { "en-US": "The current round of the match, counting up from 1." },
         "args": [],
         "return": "unsigned int",
         "guid": "00000000B375",
@@ -7731,23 +5665,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Match Round"
     },
     "getMatchTime": {
-        "description": {
-            "en-US": "The amount of time in seconds remaining in the current game mode phase.",
-            "de-DE": "Die verbleibende Dauer des aktuellen Spielmodus in Sekunden.",
-            "es-ES": "Cantidad de tiempo en segundos que queda en la fase actual del modo de juego.",
-            "es-MX": "La cantidad de tiempo en segundos restante en la fase del modo de juego actual.",
-            "fr-FR": "Le temps restant en secondes dans la phase actuelle du mode de jeu.",
-            "it-IT": "La quantità di tempo in secondi rimasta nell'attuale fase della modalità di gioco.",
-            "ja-JP": "現在のゲーム・モードのフェーズの残り時間（秒）",
-            "ko-KR": "현재 게임 모드 단계의 잔여 시간초입니다.",
-            "pl-PL": "Czas w sekundach pozostały w bieżącej fazie trybu gry.",
-            "pt-BR": "A quantidade restante de tempo em segundos na fase do modo de jogo atual.",
-            "ru-RU": "Время в секундах до истечения действующей фазы игрового режима.",
-            "th-TH": "The amount of time in seconds remaining in the current game mode phase.",
-            "tr-TR": "Mevcut oyun modu safhasında saniye cinsinden kalan süre.",
-            "zh-CN": "当前游戏模式阶段剩余的时间，以秒为单位。",
-            "zh-TW": "The amount of time in seconds remaining in the current game mode phase."
-        },
+        "description": { "en-US": "The amount of time in seconds remaining in the current game mode phase." },
         "args": [],
         "return": "unsigned float",
         "guid": "00000000AD3B",
@@ -7768,23 +5686,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Match Time"
     },
     "getNumberOfAssistIds": {
-        "description": {
-            "en-US": "The current number of Assist instances started from the Start Assist Action.",
-            "de-DE": "Die aktuelle Anzahl an Assist-Instanzen die durch die Aktion [Start Assist] gestartet wurden.",
-            "es-ES": "El número actual de instancias de asistencia iniciadas por la acción «Start Assist».",
-            "es-MX": "El número actual de instancias de asistencia iniciadas desde la acción Comenzar asistencia.",
-            "fr-FR": "Le nombre actuel d’instances de soutien commencées à partir de l’action « Lancer le soutien ».",
-            "it-IT": "Il numero attuale di istanze di assist iniziate dall'Azione Start Assist.",
-            "ja-JP": "「アシストを開始」アクションで開始されたアシストのインスタンスの現在数",
-            "ko-KR": "Start Assist 액션에서 시작된 Assist 인스턴스의 현재 개수입니다.",
-            "pl-PL": "Bieżąca liczba instancji asyst uruchomionych z działania „Start Assist” Rozpocznij asystę.",
-            "pt-BR": "O número atual de instâncias de Assistência iniciadas pela Ação Iniciar Assistência.",
-            "ru-RU": "Текущее количество экземпляров содействия начатых с помощью действия [Start Assist].",
-            "th-TH": "The current number of Assist instances started from the Start Assist Action.",
-            "tr-TR": "Asist Başlat Eylemi'nden itibaren mevcut Asist sayısı.",
-            "zh-CN": "由“开始助攻”动作启动的助攻副本的当前数量。",
-            "zh-TW": "The current number of Assist instances started from the Start Assist Action."
-        },
+        "description": { "en-US": "The current number of Assist instances started from the Start Assist Action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B9E",
@@ -7805,23 +5707,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Assist Count"
     },
     "getNumberOfDamageModificationIds": {
-        "description": {
-            "en-US": "The current number of Damage Modification instances started from the Start Damage Modification Action.",
-            "de-DE": "Die aktuelle Anzahl an Instanzen von Schadensmodifikationen die durch die Aktion [Start Damage Modification] gestartet wurden.",
-            "es-ES": "El número actual de instancias de modificación de daño iniciadas por la acción «Start Damage Modification».",
-            "es-MX": "El número actual de instancias de modificación de daño iniciadas desde la acción Comenzar modificación de daño.",
-            "fr-FR": "Le nombre actuel d’instances de modification des dégâts commencées à partir de l’action « Lancer la modification des dégâts ».",
-            "it-IT": "Il numero attuale di istanze di modifica dei danni iniziate dall'Azione Start Damage Modification.",
-            "ja-JP": "「ダメージ変更を開始」アクションで開始されたダメージ変更のインスタンスの現在数",
-            "ko-KR": "Start Damage Modification 액션에서 시작된 Damage Modification 인스턴스의 현재 개수입니다.",
-            "pl-PL": "Bieżąca liczba instancji modyfikacji obrażeń uruchomionych z działania „Start Damage Modification” Początek modyfikacji obrażeń.",
-            "pt-BR": "O número atual de instâncias de Modificação de Dano iniciadas pela Ação Modificação de Dano.",
-            "ru-RU": "Текущее количество экземпляров изменения урона запущенных действием [Start Damage Modification].",
-            "th-TH": "The current number of Damage Modification instances started from the Start Damage Modification Action.",
-            "tr-TR": "Hasar Düzenlemesini Başlat Eylemi'nden itibaren mevcut Hasar Düzenlemesi sayısı.",
-            "zh-CN": "由“开始伤害调整”动作启动的伤害调整副本的当前数量。",
-            "zh-TW": "The current number of Damage Modification instances started from the Start Damage Modification Action."
-        },
+        "description": { "en-US": "The current number of Damage Modification instances started from the Start Damage Modification Action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B9C",
@@ -7842,15 +5728,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Damage Modification Count"
     },
     "getNumberOfDeadPlayers": {
-        "description": {
-            "en-US": "The number of dead players on a team or in the match."
-        },
+        "description": { "en-US": "The number of dead players on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to count players."
-                },
+                "description": { "en-US": "The team or teams on which to count players." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -7874,9 +5756,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Dead Players"
     },
     "getNumberOfDamageOverTimeIds": {
-        "description": {
-            "en-US": "The current number of Damage Over Time instances started from the Damage Over Time action."
-        },
+        "description": { "en-US": "The current number of Damage Over Time instances started from the Damage Over Time action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B99",
@@ -7897,23 +5777,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Damage Over Time Count"
     },
     "getNumberOfEntityIds": {
-        "description": {
-            "en-US": "The current number of Entities created from the Create Effect Create Beam Effect or Create Icon Action.",
-            "de-DE": "Die aktuelle Anzahl an Entitäten die durch die Aktion [Create Effect] [Create Beam Effect] oder [Create Icon] erstellt wurden.",
-            "es-ES": "El número actual de entidades creadas por las acciones «Create Effect» «Create Beam Effect» o «Create Icon».",
-            "es-MX": "El número actual de entidades creadas de la acción Crear efecto Crear efecto de rayo o Crear ícono.",
-            "fr-FR": "Le nombre actuel d’entités créées à partir de l’action « Créer un effet » « Créer un effet de rayon » ou « Créer une icône ».",
-            "it-IT": "Il numero attuale di entità create dall'Azione Create Effect Create Beam Effect o Create Icon.",
-            "ja-JP": "「エフェクトを作成」「ビーム・エフェクトを作成」または「アイコンを作成」アクションによって作成されたエンティティの現在数",
-            "ko-KR": "Create Effect Create Beam Effect Create Icon 액션으로 생성한 개체의 현재 개수입니다.",
-            "pl-PL": "Bieżąca liczba encji stworzonych działaniem „Create Effect” Stwórz efekt „Create Beam Effect” Stwórz efekt wiązki lub Create Icon Stwórz ikonę.",
-            "pt-BR": "O número atual de Entidades criadas a partir de Criar Efeito Criar Efeito de Feixe e Criar Ícone de Ação.",
-            "ru-RU": "Текущее количество экземпляров созданных действиями [Create Effect] [Create Beam Effect] или [Create Icon Action].",
-            "th-TH": "The current number of Entities created from the Create Effect Create Beam Effect or Create Icon Action.",
-            "tr-TR": "Efekt Oluştur Işın Efekti Oluştur veya Simge Oluştur Eylemi ile oluşturulan Varlıkların mevcut sayısı.",
-            "zh-CN": "由“创建效果”、“创建光束效果”或“创建图标”动作创建的实体的当前数量。",
-            "zh-TW": "The current number of Entities created from the Create Effect Create Beam Effect or Create Icon Action."
-        },
+        "description": { "en-US": "The current number of Entities created from the Create Effect, Create Beam Effect, or Create Icon Action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B9F",
@@ -7934,23 +5798,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Entity Count"
     },
     "getNumberOfHealingModificationIds": {
-        "description": {
-            "en-US": "The current number of Healing Modification instances started from the Start Healing Modification Action.",
-            "de-DE": "Die aktuelle Anzahl an Instanzen von Heilungsmodifikationen die durch die Aktion [Start Healing Modification] gestartet wurden.",
-            "es-ES": "El número actual de instancias de modificación de sanación iniciadas por la acción «Start Healing Modification».",
-            "es-MX": "El número actual de instancias de modificación de sanación iniciadas desde la acción Comenzar modificación de sanación.",
-            "fr-FR": "Le nombre actuel d’instances de modification des soins commencées à partir de l’action « Lancer la modification des soins ».",
-            "it-IT": "Il numero attuale di istanze di modifica delle cure iniziate dall'Azione Start Healing Modification.",
-            "ja-JP": "「回復変更を開始」アクションで開始された回復変更のインスタンスの現在数",
-            "ko-KR": "Start Healing Modification 액션에서 시작된 Healing Modification 인스턴스의 현재 개수입니다.",
-            "pl-PL": "Bieżąca liczba instancji modyfikacji leczenia uruchomionych z działania „Start Healing Modification” Początek modyfikacji leczenia.",
-            "pt-BR": "O número atual de instâncias de Modificação de Cura iniciadas pela Ação Modificação de Cura.",
-            "ru-RU": "Текущее количество экземпляров модификации исцеления запущенных действием [Start Healing Modification].",
-            "th-TH": "The current number of Healing Modification instances started from the Start Healing Modification Action.",
-            "tr-TR": "İyileştirme Düzenlemesini Başlat Eylemi'nden itibaren mevcut İyileştirme Düzenlemesi sayısı.",
-            "zh-CN": "由“开始治疗调整”动作启动的治疗调整副本的当前数量。",
-            "zh-TW": "The current number of Healing Modification instances started from the Start Healing Modification Action."
-        },
+        "description": { "en-US": "The current number of Healing Modification instances started from the Start Healing Modification Action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B9D",
@@ -7971,22 +5819,16 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Healing Modification Count"
     },
     "getNumberOfHeroes": {
-        "description": {
-            "en-US": "The number of players playing a specific hero on a team or in the match."
-        },
+        "description": { "en-US": "The number of players playing a specific hero on a team or in the match." },
         "args": [
             {
                 "name": "hero",
-                "description": {
-                    "en-US": "The hero to check for play."
-                },
-                "type": "Hero"
+                "description": { "en-US": "The hero to check for play." },
+                "type": "Hero",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to check for the hero being played."
-                },
+                "description": { "en-US": "The team or teams on which to check for the hero being played." },
                 "type": "Team",
                 "default": "TEAM"
             }
@@ -8010,9 +5852,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Heroes"
     },
     "getNumberOfHealingOverTimeIds": {
-        "description": {
-            "en-US": "The current number of Heal Over Time instances started from the Heal Over Time action."
-        },
+        "description": { "en-US": "The current number of Heal Over Time instances started from the Heal Over Time action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B9A",
@@ -8033,15 +5873,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Heal Over Time Count"
     },
     "getNumberOfLivingPlayers": {
-        "description": {
-            "en-US": "The number of living players on a team or in the match."
-        },
+        "description": { "en-US": "The number of living players on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to count players."
-                },
+                "description": { "en-US": "The team or teams on which to count players." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8065,15 +5901,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Living Players"
     },
     "getNumberOfPlayers": {
-        "description": {
-            "en-US": "The number of players on a team or in the match."
-        },
+        "description": { "en-US": "The number of players on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to count players."
-                },
+                "description": { "en-US": "The team or teams on which to count players." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8097,15 +5929,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Players"
     },
     "getNumberOfPlayersOnObjective": {
-        "description": {
-            "en-US": "The number of players occupying a payload or control point (either on a team or in the match)."
-        },
+        "description": { "en-US": "The number of players occupying a payload or control point (either on a team or in the match)." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to count players."
-                },
+                "description": { "en-US": "The team or teams on which to count players." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8129,15 +5957,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Players On Objective"
     },
     "getNumberOfSlots": {
-        "description": {
-            "en-US": "The number of slots on a team or in the match."
-        },
+        "description": { "en-US": "The number of slots on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to count slots."
-                },
+                "description": { "en-US": "The team or teams on which to count slots." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8162,9 +5986,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Number Of Slots"
     },
     "getNumberOfTextIds": {
-        "description": {
-            "en-US": "The current number of Text instances started from the Create HUD Text, Create In-World Text, Create Progress Bar HUD text, or Create Progress Bar In-World Text Action."
-        },
+        "description": { "en-US": "The current number of Text instances started from the Create HUD Text, Create In-World Text, Create Progress Bar HUD text, or Create Progress Bar In-World Text Action." },
         "args": [],
         "return": "unsigned int",
         "guid": "000000012B9B",
@@ -8185,32 +6007,14 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Text Count"
     },
     "getObjectivePosition": {
-        "description": {
-            "en-US": "The position in the world of the specified objective (either a control point, a payload checkpoint, or a payload destination). Valid in assault, escort, hybrid, and control."
-        },
+        "description": { "en-US": "The position in the world of the specified objective (either a control point, a payload checkpoint, or a payload destination). Valid in assault, escort, hybrid, and control." },
         "args": [
             {
                 "name": "number",
-                "description": {
-                    "en-US": "The index of the objective to consider starting at 0 and counting up. Each control point payload checkpoint and payload destination has its own index.",
-                    "de-DE": "Der Index des zu berücksichtigenden Zielpunkts ab 0 gezählt. Jeder Kontrollpunkt Fracht-Checkpoint und Frachtzielpunkt hat seinen eigenen Index.",
-                    "es-ES": "Índice del objetivo que se considera empezando a contar desde 0. Cada punto del modo control punto de control de la carga y destino de la carga tiene su propio índice.",
-                    "es-MX": "El índice del objetivo que se considerará la cuenta comienza de 0 en adelante. Cada punto de captura punto de control de la carga y destino de la carga tiene su propio índice.",
-                    "fr-FR": "L’index de l’objectif à prendre en compte débutant à 0 et progressant. Chaque point de contrôle point de contrôle de convoi et destination de convoi possède son propre index.",
-                    "it-IT": "L'indice dell'obiettivo da considerare che incrementa a partire da 0. Ogni punto di controllo checkpoint del carico e destinazione del carico ha il suo indice specifico.",
-                    "ja-JP": "検討される目標のインデックス。カウントは0から開始される。各コントロール・ポイント、ペイロード・チェックポイント、ペイロード目的地にはそれぞれにインデックスがある",
-                    "ko-KR": "고려해야 하는 목표의 인덱스로서 0에서 시작하여 증가합니다. 각 거점 화물 경유지 화물 목적지에는 각기 고유의 인덱스가 있습니다.",
-                    "pl-PL": "Indeks zadania do uwzględnienia zaczynając od 0 i licząc w górę. Każdy punkt kontrolny punkt kontrolny ładunku i miejsce docelowe ładunku posiadają własny indeks.",
-                    "pt-BR": "O índice do objetivo a ser considerado iniciando em 0 e somando. Cada ponto de controle ponto de verificação de carga e destino de carga tem seu próprio índice.",
-                    "ru-RU": "Индекс рассматриваемой задачи от 0 и выше. Каждая контрольная точка объект контрольная или конечная точка доставки груза имеют свой индекс.",
-                    "th-TH": "The index of the objective to consider starting at 0 and counting up. Each control point payload checkpoint and payload destination has its own index.",
-                    "tr-TR": "Dikkate alınacak hedefin 0'dan başlanarak hesaplanan indeksi. Her kontrol noktasının navlun kontrol noktasının ve navlun varış noktasının indeksi vardır.",
-                    "zh-CN": "考察的目标点的索引，从0开始逐渐累加。每个控制点、运载目标检查点、运载目标目的地都有其独自的索引。",
-                    "zh-TW": "The index of the objective to consider starting at 0 and counting up. Each control point payload checkpoint and payload destination has its own index."
-                },
+                "description": { "en-US": "The index of the objective to consider, starting at 0 and counting up. Each control point, payload checkpoint, and payload destination has its own index." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -8233,16 +6037,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Objective Position"
     },
     "getOppositeTeam": {
-        "description": {
-            "en-US": "The team opposite the specified team."
-        },
+        "description": { "en-US": "The team opposite the specified team." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose opposite to acquire. If all, the result will be all."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose opposite to acquire. If all, the result will be all." },
+                "type": "Team",
             }
         ],
         "canBePutInBoolean": false,
@@ -8266,23 +6066,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Opposite Team Of"
     },
     "getPayloadPosition": {
-        "description": {
-            "en-US": "The position in the world of the active payload.",
-            "de-DE": "Die Position der aktiven Fracht in der Welt.",
-            "es-ES": "Posición en el mundo de la carga activa.",
-            "es-MX": "La posición en el mundo de la carga activa.",
-            "fr-FR": "La position dans le monde du convoi actif.",
-            "it-IT": "La posizione nel mondo di gioco del carico attivo.",
-            "ja-JP": "アクティブなペイロードのワールド内位置",
-            "ko-KR": "월드 내의 활성화된 화물 위치입니다.",
-            "pl-PL": "Pozycja aktywnego ładunku w świecie.",
-            "pt-BR": "A posição da carga ativa no mundo.",
-            "ru-RU": "Местоположение активного груза в игровом мире.",
-            "th-TH": "ตําแหน่งในโลกของเพย์โหลดที่ใช้งานอยู่",
-            "tr-TR": "Etkin navlunun dünyadaki konumu.",
-            "zh-CN": "已激活的运载目标在地图中的位置。",
-            "zh-TW": "The position in the world of the active payload."
-        },
+        "description": { "en-US": "The position in the world of the active payload." },
         "args": [],
         "canBePutInBoolean": false,
         "return": "Position",
@@ -8304,23 +6088,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Payload Position"
     },
     "getPayloadProgressPercentage": {
-        "description": {
-            "en-US": "The current progress towards the destination for the active payload expressed as a percentage.",
-            "de-DE": "Der aktuelle Fortschritt zum Zielort für die aktive Fracht als Prozentsatz dargestellt.",
-            "es-ES": "Progreso actual hasta el destino de la carga activa expresado en forma de porcentaje.",
-            "es-MX": "El progreso actual hacia el destino de la carga activa expresado como porcentaje.",
-            "fr-FR": "La progression actuelle du convoi actif vers sa destination exprimée en pourcentage.",
-            "it-IT": "Il progresso attuale verso la destinazione del carico attivo espresso in percentuale.",
-            "ja-JP": "アクティブなペイロードの、目的地に向けた現在の進行度（パーセントで表示）",
-            "ko-KR": "해당 활성화 화물의 목적지까지 진행률입니다비율로 표시됨.",
-            "pl-PL": "Bieżący postęp dotarcia aktywnego ładunku do miejsca docelowego wyrażony w procentach.",
-            "pt-BR": "O progresso atual rumo ao destino da carga ativa expresso em percentual.",
-            "ru-RU": "Степень продвижения к конечной точке доставки активного груза в данный момент выражается в процентах.",
-            "th-TH": "ความคืบหน้าปัจจุบันไปยังปลายทางสําหรับเพย์โหลดที่ใช้งานอยู่ แสดงเป็นเปอร์เซ็นต์",
-            "tr-TR": "Etkin navlun için varış noktasına doğru olan mevcut ilerleyiş yüzde olarak gösterilir.",
-            "zh-CN": "已激活的运载目标前往目标地的当前进度（以百分比表示）。",
-            "zh-TW": "The current progress towards the destination for the active payload expressed as a percentage."
-        },
+        "description": { "en-US": "The current progress towards the destination for the active payload (expressed as a percentage)." },
         "args": [],
         "return": "unsigned float",
         "guid": "00000000B357",
@@ -8342,23 +6110,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "getPeakServerLoad": {
         "guid": "00000000C996",
-        "description": {
-            "en-US": "Provides a percentage representing the highest CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100 it becomes increasingly likely that the instance will be shut down because it is consuming too many resources.",
-            "de-DE": "Gibt die höchste CPU-Belastung der letzten 2 Sekunden der aktuellen Spielinstanz als Prozentsatz an. Wenn diese Zahl 100 erreicht oder überschreitet wird es immer wahrscheinlicher dass die Instanz geschlossen wird weil sie zu viele Ressourcen verbraucht.",
-            "es-ES": "Muestra un porcentaje que representa la carga máxima de CPU en la instancia de la partida actual durante los últimos 2 segundos. Cuando este número se acerque a 100 o lo supere será cada vez más probable que se cierre la instancia por estar consumiendo demasiados recursos.",
-            "es-MX": "Muestra un porcentaje que representa el uso máximo del procesador de la instancia de juego actual durante los últimos dos segundos. A medida que el número alcanza o supera el 100 % aumenta la probabilidad de que esa instancia se cierre ya que está consumiendo demasiados recursos.",
-            "fr-FR": "Affiche un pourcentage représentant la charge la plus élevée qu’a fait peser l’instance actuelle du jeu sur le processeur dans les deux dernières secondes. Quand cette valeur approche ou dépasse 100 il est fortement probable que l’instance se ferme car elle consomme trop de ressources.",
-            "it-IT": "Mostra una percentuale del carico massimo sulla CPU dell'istanza di gioco attuale negli ultimi due secondi. Una volta che questo numero si avvicina o supera quota 100 è molto probabile che l'istanza venga chiusa per consumo eccessivo di risorse.",
-            "ja-JP": "現在のゲームインスタンスの、直近の2秒間におけるCPU負荷の最高値を表すパーセンテージ。この数字が100に近づく、または超えた場合、リソースの過剰消費でインスタンスがシャットダウンされる可能性が高まる",
-            "ko-KR": "최근 2초간 게임 인스턴스의 최대 CPU 사용률%입니다. 이 수치가 100에 가까워지거나 100을 초과하면 과도한 리소스 사용으로 인스턴스가 종료될 가능성이 크게 증가합니다.",
-            "pl-PL": "Procentowy wskaźnik najwyższego obciążenia głównego procesora przez bieżącą instancję gry w ostatnich dwóch sekundach. Kiedy wartość zbliża się lub przekracza 100 rośnie prawdopodobieństwo że program zostanie zamknięty z powodu zużycia zbyt dużych zasobów systemowych.",
-            "pt-BR": "Mostra uma porcentagem que representa o pico de uso de CPU da instância de jogo atual nos últimos dois segundos. Se o número se aproximar ou passar de 100 será bem mais provável que a instância seja encerrada por consumir recursos demais.",
-            "ru-RU": "Выводит процент пиковой загрузки ЦП в текущей игре за последние 2 секунды. Чем ближе это значение к 100 тем выше вероятность того что игра прервется из-за чрезмерного потребления ресурсов.",
-            "th-TH": "Provides a percentage representing the highest CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100 it becomes increasingly likely that the instance will be shut down because it is consuming too many resources.",
-            "tr-TR": "Son iki saniyedeki mevcut oyun örneğinin en yüksek CPU yükünü temsil eden yüzdeyi sağlar. Bu sayı 100 değerine ulaşırsa veya bu değeri geçerse çok fazla kaynak harcaması sebebiyle oluşumun kapatılma olasılığı artar.",
-            "zh-CN": "当前游戏副本在过去2秒内造成的最高CPU负载百分比。如果这个数字接近或者超过100，表示此游戏副本消耗了过多资源，游戏很可能会关闭。",
-            "zh-TW": "此百分比數字會顯示當前遊戲在前兩秒時的CPU最高負載狀態。當這個數字接近或超出100，遊戲極有可能會因消耗過多資源而關閉。"
-        },
+        "description": { "en-US": "Provides a percentage representing the highest CPU load of the current game instance over the last two seconds. As this number approaches or exceeds 100, it becomes increasingly likely that the instance will be shut down because it is consuming too many resources." },
         "args": [],
         "return": "unsigned float",
         "en-US": "Server Load Peak",
@@ -8378,15 +6130,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Server Load Peak"
     },
     "getPlayers": {
-        "description": {
-            "en-US": "An array containing all players on a team or in the match."
-        },
+        "description": { "en-US": "An array containing all players on a team or in the match." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which players may come."
-                },
+                "description": { "en-US": "The team or teams from which players may come." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8413,51 +6161,27 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Players"
     },
     "getPlayersInRadius": {
-        "description": {
-            "en-US": "An array containing all players within a certain distance of a position, optionally restricted by team and line of sight.\n\n**Note**: This function picks up dead players. Use `getRealPlayersInRadius()` instead."
-        },
+        "description": { "en-US": "An array containing all players within a certain distance of a position, optionally restricted by team and line of sight.\n\n**Note**: This function picks up dead players. Use `getRealPlayersInRadius()` instead." },
         "args": [
             {
                 "name": "center",
-                "description": {
-                    "en-US": "The center position from which to measure distance.",
-                    "de-DE": "Die zentrale Position von der die Distanz gemessen wird.",
-                    "es-ES": "Posición central desde la que se mide la distancia.",
-                    "es-MX": "La posición central desde la cual se medirá la distancia.",
-                    "fr-FR": "La position centrale à partir de laquelle mesurer la distance.",
-                    "it-IT": "La posizione centrale dalla quale misurare la distanza.",
-                    "ja-JP": "距離を計測するための中央位置",
-                    "ko-KR": "거리 측정이 시작되는 중간 위치입니다.",
-                    "pl-PL": "Pozycja środkowa z której mierzy się odległość.",
-                    "pt-BR": "A posição central da qual a distância será medida.",
-                    "ru-RU": "Центральная точка от которой измеряется расстояние.",
-                    "th-TH": "The center position from which to measure distance.",
-                    "tr-TR": "Uzaklığın ölçüleceği merkez konumu.",
-                    "zh-CN": "以此位置为中心测定距离。",
-                    "zh-TW": "The center position from which to measure distance."
-                },
-                "type": "Position"
+                "description": { "en-US": "The center position from which to measure distance." },
+                "type": "Position",
             },
             {
                 "name": "radius",
-                "description": {
-                    "en-US": "The radius in meters inside which players must be in order to be included in the resulting array."
-                },
-                "type": "unsigned float"
+                "description": { "en-US": "The radius in meters inside which players must be in order to be included in the resulting array." },
+                "type": "unsigned float",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams to which a player must belong to be included in the resulting array."
-                },
+                "description": { "en-US": "The team or teams to which a player must belong to be included in the resulting array." },
                 "type": "Team",
                 "default": "ALL"
             },
             {
                 "name": "losCheck",
-                "description": {
-                    "en-US": "Specifies whether and how a player must pass a line-of-sight check to be included in the resulting array."
-                },
+                "description": { "en-US": "Specifies whether and how a player must pass a line-of-sight check to be included in the resulting array." },
                 "type": "LosCheck",
                 "default": "OFF"
             }
@@ -8466,7 +6190,7 @@ export const valueFuncKw: Record<string, Value> =
         "return": {
             "Array": "Player"
         },
-        "hideFromAutocomplete": true,
+        hideFromAutocomplete: true,
         "guid": "00000000B1E0",
         "en-US": "Players Within Radius",
         "es-MX": "Jugadores dentro del radio",
@@ -8485,24 +6209,18 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Players Within Radius"
     },
     "getPlayersInSlot": {
-        "description": {
-            "en-US": "The player or array of players who occupy a specific slot in the game."
-        },
+        "description": { "en-US": "The player or array of players who occupy a specific slot in the game." },
         "args": [
             {
                 "name": "slot",
-                "description": {
-                    "en-US": "The slot number from which to acquire a player or players. In team games, each team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11."
-                },
+                "description": { "en-US": "The slot number from which to acquire a player or players. In team games, each team has slots 0 through 5. In free-for-all games, slots are numbered 0 through 11." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which to acquire a player or players."
-                },
+                "description": { "en-US": "The team or teams from which to acquire a player or players." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8532,15 +6250,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Players In Slot"
     },
     "getPlayersNotOnObjective": {
-        "description": {
-            "en-US": "An array containing all players occupying neither a payload nor a control point (either on a team or in the match)."
-        },
+        "description": { "en-US": "An array containing all players occupying neither a payload nor a control point (either on a team or in the match)." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which players may come."
-                },
+                "description": { "en-US": "The team or teams from which players may come." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8567,22 +6281,16 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Players Not On Objective"
     },
     "getPlayersOnHero": {
-        "description": {
-            "en-US": "The array of players playing a specific hero on a team or in the match."
-        },
+        "description": { "en-US": "The array of players playing a specific hero on a team or in the match." },
         "args": [
             {
                 "name": "hero",
-                "description": {
-                    "en-US": "The hero to check for play."
-                },
-                "type": "Hero"
+                "description": { "en-US": "The hero to check for play." },
+                "type": "Hero",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to check for the hero being played."
-                },
+                "description": { "en-US": "The team or teams on which to check for the hero being played." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8609,15 +6317,11 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Players On Hero"
     },
     "getPlayersOnObjective": {
-        "description": {
-            "en-US": "An array containing all players occupying a payload or control point (either on a team or in the match)."
-        },
+        "description": { "en-US": "An array containing all players occupying a payload or control point (either on a team or in the match)." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams from which players may come."
-                },
+                "description": { "en-US": "The team or teams from which players may come." },
                 "type": "Team",
                 "default": "ALL"
             }
@@ -8645,23 +6349,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "getServerLoad": {
         "guid": "00000000C961",
-        "description": {
-            "en-US": "Provides a percentage representing the CPU load of the current game instance. As this number approaches or exceeds 100 it becomes increasingly likely that the instance will be shut down because it is consuming too many resources.",
-            "de-DE": "Gibt die CPU-Belastung der aktuellen Spielinstanz als Prozentsatz an. Wenn diese Zahl 100 erreicht oder überschreitet wird es immer wahrscheinlicher dass die Instanz geschlossen wird weil sie zu viele Ressourcen verbraucht.",
-            "es-ES": "Muestra un porcentaje que representa la carga de CPU en la instancia actual de la partida. Cuando este número se acerque a 100 o lo supere será cada vez más probable que se cierre la instancia por estar consumiendo demasiados recursos.",
-            "es-MX": "Muestra un porcentaje que representa el uso del procesador de la instancia de juego actual. A medida que el número alcanza o supera el 100 % aumenta la probabilidad de que esa instancia se cierre ya que está consumiendo demasiados recursos.",
-            "fr-FR": "Affiche un pourcentage représentant la charge que fait peser l’instance actuelle du jeu sur le processeur. Quand cette valeur approche ou dépasse 100 il est fortement probable que l’instance se ferme car elle consomme trop de ressources.",
-            "it-IT": "Mostra una percentuale del carico sulla CPU dell'istanza di gioco attuale. Una volta che questo numero si avvicina o supera quota 100 è molto probabile che l'istanza venga chiusa per consumo eccessivo di risorse.",
-            "ja-JP": "現在のゲームインスタンスのCPU負荷を表すパーセンテージ。この数字が100に近づく、または超えた場合、リソースの過剰消費でインスタンスがシャットダウンされる可能性が高まる",
-            "ko-KR": "현재 게임 인스턴스의 CPU 사용률%입니다. 이 수치가 100에 가까워지거나 100을 초과하면 과도한 리소스 사용으로 인스턴스가 종료될 가능성이 크게 증가합니다.",
-            "pl-PL": "Procentowy wskaźnik obciążenia głównego procesora przez bieżącą instancję gry. Kiedy wartość zbliża się lub przekracza 100 rośnie prawdopodobieństwo że program zostanie zamknięty z powodu zużycia zbyt dużych zasobów systemowych.",
-            "pt-BR": "Mostra uma porcentagem que representa o uso de CPU da instância de jogo atual. Se o número se aproximar ou passar de 100 será bem mais provável que a instância seja encerrada por consumir recursos demais.",
-            "ru-RU": "Выводит процент загрузки ЦП в текущей игре. Чем ближе это значение к 100 тем выше вероятность того что игра прервется из-за чрезмерного потребления ресурсов.",
-            "th-TH": "Provides a percentage representing the CPU load of the current game instance. As this number approaches or exceeds 100 it becomes increasingly likely that the instance will be shut down because it is consuming too many resources.",
-            "tr-TR": "Mevcut oyun örneğinin CPU yükünü temsil eden yüzdeyi sağlar. Bu sayı 100 değerine ulaşırsa veya bu değeri geçerse çok fazla kaynak harcaması sebebiyle oluşumun kapatılma olasılığı artar.",
-            "zh-CN": "当前游戏副本造成的CPU负载百分比。如果这个数字接近或者超过100，表示此游戏副本消耗了过多资源，游戏很可能会关闭。",
-            "zh-TW": "此百分比數字會顯示當前遊戲的CPU負載狀態。當這個數字接近或超出100，遊戲極有可能會因消耗過多資源而關閉。"
-        },
+        "description": { "en-US": "Provides a percentage representing the CPU load of the current game instance. As this number approaches or exceeds 100, it becomes increasingly likely that the instance will be shut down because it is consuming too many resources." },
         "args": [],
         "return": "unsigned float",
         "en-US": "Server Load",
@@ -8681,16 +6369,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Server Load"
     },
     "getSpawnPoints": {
-        "description": {
-            "en-US": "The active spawn points for a team or for the match, provided as an array of position vectors."
-        },
+        "description": { "en-US": "The active spawn points for a team or for the match, provided as an array of position vectors." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose spawn points to acquire."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose spawn points to acquire." },
+                "type": "Team",
             }
         ],
         "return": {
@@ -8714,9 +6398,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Spawn Points"
     },
     "getSupportHeroes": {
-        "description": {
-            "en-US": "The array of all support heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes."
-        },
+        "description": { "en-US": "The array of all support heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes." },
         "args": [],
         "isConstant": true,
         "return": {
@@ -8741,9 +6423,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Support Heroes"
     },
     "getTankHeroes": {
-        "description": {
-            "en-US": "The array of all tank heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes."
-        },
+        "description": { "en-US": "The array of all tank heroes in overwatch. Note that the order is not guaranteed and the position of later heroes can and will change with the addition of new heroes." },
         "args": [],
         "isConstant": true,
         "return": {
@@ -8768,23 +6448,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "All Tank Heroes"
     },
     "getTotalTimeElapsed": {
-        "description": {
-            "en-US": "The total time in seconds that have elapsed since the game instance was created including setup time and transitions.",
-            "de-DE": "Die vergangene Gesamtzeit in Sekunden seit die Spielinstanz erstellt wurde einschließlich Aufstellungszeit und Übergängen.",
-            "es-ES": "Tiempo total en segundos que ha transcurrido desde la creación de la instancia de partida incluidos el tiempo de preparación y las transiciones.",
-            "es-MX": "El tiempo total en segundos que ha transcurrido desde que se creó la instancia de la partida incluye el tiempo de preparación y las transiciones.",
-            "fr-FR": "Temps total en secondes écoulé depuis la création de l’instance de partie y compris le temps de configuration et les transitions.",
-            "it-IT": "Il tempo totale in secondi trascorso dalla creazione dell'istanza di gioco incluso il tempo della fase di Organizzazione e le transizioni.",
-            "ja-JP": "ゲーム・インスタンス作成から経過した合計秒数（セットアップや移行の時間を含む）",
-            "ko-KR": "게임 인스턴스 생성 후 경과 시간단위: 초입니다설정 및 전환 시간 포함.",
-            "pl-PL": "Łączny czas w sekundach który minął odkąd stworzono instancję gry wliczając czas ustawiania i przejść.",
-            "pt-BR": "O tempo total em segundos que se passou desde que a instância de jogo foi criada incluindo tempo de preparação e transições.",
-            "ru-RU": "Общее время в секундах прошедшее с момента создания экземпляра игры включая время подготовки и замены.",
-            "th-TH": "The total time in seconds that have elapsed since the game instance was created including setup time and transitions.",
-            "tr-TR": "Oyun örneğinin oluşturulmasından beri geçen saniye cinsinden toplam süre kurulum süresi ve geçişler dâhil.",
-            "zh-CN": "该游戏副本创建后已经过去的总时间（包括准备时间和攻防转换时间），以秒为单位。",
-            "zh-TW": "The total time in seconds that have elapsed since the game instance was created including setup time and transitions."
-        },
+        "description": { "en-US": "The total time in seconds that have elapsed since the game instance was created (including setup time and transitions)." },
         "args": [],
         "return": "unsigned float",
         "guid": "00000000B361",
@@ -8805,9 +6469,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Total Time Elapsed"
     },
     "healee": {
-        "description": {
-            "en-US": "The player that received the healing for the event currently being processed by this rule. May be the same as the healer or the event player."
-        },
+        "description": { "en-US": "The player that received the healing for the event currently being processed by this rule. May be the same as the healer or the event player." },
         "args": null,
         "return": "Player",
         "guid": "00000000CC1C",
@@ -8829,9 +6491,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "healer": {
         "guid": "00000000CC1A",
-        "description": {
-            "en-US": "The player that dealt the healing for the event currently being processed by this rule. May be the same as the healee or the event player."
-        },
+        "description": { "en-US": "The player that dealt the healing for the event currently being processed by this rule. May be the same as the healee or the event player." },
         "args": null,
         "return": "Player",
         "en-US": "Healer",
@@ -8851,30 +6511,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Healer"
     },
     "heroIcon": {
-        "description": {
-            "en-US": "Converts a hero parameter into a string that shows up as an icon  (up to 4 per string)."
-        },
+        "description": { "en-US": "Converts a hero parameter into a string that shows up as an icon  (up to 4 per string)." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The hero that will be converted to an icon.",
-                    "de-DE": "Der Held der in ein Icon umgewandelt wird.",
-                    "es-ES": "Héroe que se convertirá en un icono.",
-                    "es-MX": "El héroe que se convertirá en un ícono.",
-                    "fr-FR": "Le héros qui sera converti en icône.",
-                    "it-IT": "L'eroe che sarà convertito in icona.",
-                    "ja-JP": "アイコンに変換されるヒーロー",
-                    "ko-KR": "아이콘으로 변환될 영웅입니다.",
-                    "pl-PL": "Bohater który zostanie przekonwertowany na symbol.",
-                    "pt-BR": "O herói que será convertido em ícone.",
-                    "ru-RU": "Герой который будет преобразован в значок.",
-                    "th-TH": "The hero that will be converted to an icon.",
-                    "tr-TR": "Simgeye dönüştürülecek kahraman.",
-                    "zh-CN": "此英雄将被转换为一个图标。",
-                    "zh-TW": "The hero that will be converted to an icon."
-                },
-                "type": "Hero"
+                "description": { "en-US": "The hero that will be converted to an icon." },
+                "type": "Hero",
             }
         ],
         "canBePutInBoolean": false,
@@ -8899,16 +6541,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Hero Icon String"
     },
     "horizontalAngleOfDirection": {
-        "description": {
-            "en-US": "The horizontal angle in degrees corresponding to the specified direction vector."
-        },
+        "description": { "en-US": "The horizontal angle in degrees corresponding to the specified direction vector." },
         "args": [
             {
                 "name": "direction",
-                "description": {
-                    "en-US": "The direction vector from which to acquire a horizontal angle in degrees. The vector is unitized before calculation begins."
-                },
-                "type": "Direction"
+                "description": { "en-US": "The direction vector from which to acquire a horizontal angle in degrees. The vector is unitized before calculation begins." },
+                "type": "Direction",
             }
         ],
         "isConstant": true,
@@ -8931,37 +6569,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Horizontal Angle From Direction"
     },
     "horizontalAngleTowards": {
-        "description": {
-            "en-US": "The horizontal angle in degrees from a player's current forward direction to the specified position. The result is positive if the position is on the player's left. Otherwise, the result is zero or negative."
-        },
+        "description": { "en-US": "The horizontal angle in degrees from a player's current forward direction to the specified position. The result is positive if the position is on the player's left. Otherwise, the result is zero or negative." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player from whose current facing the angle begins."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player from whose current facing the angle begins." },
+                "type": "Player",
             },
             {
                 "name": "position",
-                "description": {
-                    "en-US": "The position in the world where the angle ends.",
-                    "de-DE": "Die Position in der Welt bei der der Winkel endet.",
-                    "es-ES": "Posición en el mundo donde finaliza el ángulo.",
-                    "es-MX": "La posición en el mundo donde finaliza el ángulo.",
-                    "fr-FR": "La position dans le monde où l’angle prend fin.",
-                    "it-IT": "La posizione nel mondo di gioco dove termina l'angolo.",
-                    "ja-JP": "ワールドにおける、角度が終了する位置",
-                    "ko-KR": "각 각이 종료되는 월드 내 위치입니다.",
-                    "pl-PL": "Pozycja w świecie w której kończy się kąt.",
-                    "pt-BR": "A posição no mundo onde o ângulo termina.",
-                    "ru-RU": "Точка в игровом мире угол до которой нужно вычислить.",
-                    "th-TH": "The position in the world where the angle ends.",
-                    "tr-TR": "Açının uç kısmının dünyadaki konumu.",
-                    "zh-CN": "测定与地图中此位置的夹角。",
-                    "zh-TW": "The position in the world where the angle ends."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position in the world where the angle ends." },
+                "type": "Position",
             }
         ],
         "return": "float",
@@ -8983,9 +6601,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Horizontal Angle Towards"
     },
     "hostPlayer": {
-        "description": {
-            "en-US": "The player that is currently the host of the custom game. This value will change if the current host player leaves the match."
-        },
+        "description": { "en-US": "The player that is currently the host of the custom game. This value will change if the current host player leaves the match." },
         "args": null,
         "return": "Player",
         "guid": "00000000CC1E",
@@ -9006,30 +6622,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Host Player"
     },
     "iconString": {
-        "description": {
-            "en-US": "Allows you to use an icon inside of a string up to 4 per string.",
-            "de-DE": "Ermöglicht die Verwendung eines Icons innerhalb eines Strings bis zu 4 pro String.",
-            "es-ES": "Te permite utilizar un icono dentro de una cadena hasta 4 en cada una.",
-            "es-MX": "Te permite usar un ícono dentro de una cadena hasta 4 por cadena.",
-            "fr-FR": "Vous permet d’utiliser une icône à l’intérieur d’une chaîne jusqu’à 4 par chaîne.",
-            "it-IT": "Ti consente di usare un'icona all'interno di una stringa fino a 4 per stringa.",
-            "ja-JP": "ストリング内でアイコンを使用できるようになる（1ストリングあたりアイコンは4つまで）",
-            "ko-KR": "문자열 안에 아이콘을 사용할 수 있습니다. 문자열당 최대 4개",
-            "pl-PL": "Pozwala używać symbolu wewnątrz ciągu maks. 4 na ciąg.",
-            "pt-BR": "Permite que você use um ícone dentro de uma string até 4 por string.",
-            "ru-RU": "Позволяет использовать в строке значок не более 4 на строку.",
-            "th-TH": "Allows you to use an icon inside of a string up to 4 per string.",
-            "tr-TR": "Dizgide simge kullanmana olanak sağlar dizgi başına 4'e kadar.",
-            "zh-CN": "可以在字符串中使用图标（每个字符串最多4个图标）。",
-            "zh-TW": "Allows you to use an icon inside of a string up to 4 per string."
-        },
+        "description": { "en-US": "Allows you to use an icon inside of a string (up to 4 per string)." },
         "args": [
             {
                 "name": "icon",
-                "description": {
-                    "en-US": "The icon to display."
-                },
-                "type": "Icon"
+                "description": { "en-US": "The icon to display." },
+                "type": "Icon",
             }
         ],
         "isConstant": true,
@@ -9054,9 +6652,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Icon String"
     },
     "isAssemblingHeroes": {
-        "description": {
-            "en-US": "Whether the match is currently in its assemble heroes phase."
-        },
+        "description": { "en-US": "Whether the match is currently in its assemble heroes phase." },
         "args": [],
         "return": "bool",
         "guid": "00000000B35C",
@@ -9077,9 +6673,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Assembling Heroes"
     },
     "isControlPointLocked": {
-        "description": {
-            "en-US": "Whether the point is locked in control mode."
-        },
+        "description": { "en-US": "Whether the point is locked in control mode." },
         "args": [],
         "return": "bool",
         "guid": "00000000B37B",
@@ -9100,16 +6694,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Control Mode Point Locked"
     },
     "isFlagAtBase": {
-        "description": {
-            "en-US": "Whether a specific team's flag is at its base in capture the flag."
-        },
+        "description": { "en-US": "Whether a specific team's flag is at its base in capture the flag." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose flag to check."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose flag to check." },
+                "type": "Team",
             }
         ],
         "return": "bool",
@@ -9131,16 +6721,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Flag At Base"
     },
     "isFlagBeingCarried": {
-        "description": {
-            "en-US": "Whether a specific team's flag is being carried by a member of the opposing team in capture the flag."
-        },
+        "description": { "en-US": "Whether a specific team's flag is being carried by a member of the opposing team in capture the flag." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose flag to check."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose flag to check." },
+                "type": "Team",
             }
         ],
         "return": "bool",
@@ -9162,23 +6748,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Flag Being Carried"
     },
     "isGameInProgress": {
-        "description": {
-            "en-US": "Whether the main phase of the match is in progress during which time combat and scoring are allowed.",
-            "de-DE": "Ob die Hauptphase des Matches aktuell läuft die Zeit in der Kämpfe und Punkte erlaubt sind.",
-            "es-ES": "Si la partida está en su fase principal periodo durante el cual están permitidos el combate y la puntuación.",
-            "es-MX": "Verifica si la fase principal de la partida está en progreso durante este período el combate y la anotación de puntos están permitidos.",
-            "fr-FR": "Si la phase principale de la partie pendant laquelle le combat et le calcul des points est autorisé est en cours.",
-            "it-IT": "Specifica se la fase principale della partita è in atto durante la quale i combattimenti e l'avanzamento del punteggio è permesso.",
-            "ja-JP": "マッチのメインフェーズが進行しているかどうか（戦闘およびスコア集計が可能な時間）",
-            "ko-KR": "경기의 주요 단계전투 및 점수 산정이 허용되는 시기가 진행 중인지 여부입니다.",
-            "pl-PL": "Czy główna faza meczu jest w toku kiedy walka i zdobywanie punktów są dozwolone.",
-            "pt-BR": "Se a fase principal da partida está em andamento ou não o tempo durante o qual combate e pontuação são permitidos.",
-            "ru-RU": "Определяет находится ли матч в основной фазе в которой ведется бой и набираются очки.",
-            "th-TH": "Whether the main phase of the match is in progress during which time combat and scoring are allowed.",
-            "tr-TR": "Maçın ana safhasının çatışma ve skor kazanmaya izin verilen süre devam edip etmediği.",
-            "zh-CN": "此比赛是否正在主要阶段（可以进行战斗并获得分数的阶段）。",
-            "zh-TW": "Whether the main phase of the match is in progress during which time combat and scoring are allowed."
-        },
+        "description": { "en-US": "Whether the main phase of the match is in progress (during which time combat and scoring are allowed)." },
         "args": [],
         "return": "bool",
         "guid": "00000000B35E",
@@ -9199,49 +6769,27 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Game In Progress"
     },
     "isInLoS": {
-        "description": {
-            "en-US": "Whether two positions have line of sight with each other.",
-            "de-DE": "Ob zwei Positionen sich gegenseitig im Sichtfeld haben.",
-            "es-ES": "Si dos posiciones tienen línea de visión entre sí.",
-            "es-MX": "Verifica si las dos posiciones tienen línea de visión mutua.",
-            "fr-FR": "Si les deux positions partagent une ligne de vue.",
-            "it-IT": "Controlla se due posizioni hanno linea di tiro tra esse.",
-            "ja-JP": "2つの位置でお互い射線が通っているかどうか",
-            "ko-KR": "두 위치가 서로 보이는지 여부입니다.",
-            "pl-PL": "Czy dwie pozycje znajdują się w swoim polu widzenia.",
-            "pt-BR": "Se duas posições têm ou não linha de visão uma com a outra.",
-            "ru-RU": "Определяет находятся ли две точки в прямой видимости друг у друга.",
-            "th-TH": "Whether two positions have line of sight with each other.",
-            "tr-TR": "İki konumun birbirinin görüş alanında olup olmadığı.",
-            "zh-CN": "两个位置是否在彼此的视线内。",
-            "zh-TW": "Whether two positions have line of sight with each other."
-        },
+        "description": { "en-US": "Whether two positions have line of sight with each other." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "The start position for the line-of-sight check. If a player is provided, a position 2 meters above the player's feet is used."
-                },
+                "description": { "en-US": "The start position for the line-of-sight check. If a player is provided, a position 2 meters above the player's feet is used." },
                 "type": [
                     "Position",
                     "Player"
-                ]
+                ],
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "The end position for the line-of-sight check. If a player is provided, a position 2 meters above the player's feet is used."
-                },
+                "description": { "en-US": "The end position for the line-of-sight check. If a player is provided, a position 2 meters above the player's feet is used." },
                 "type": [
                     "Position",
                     "Player"
-                ]
+                ],
             },
             {
                 "name": "barriers",
-                "description": {
-                    "en-US": "Defines how barriers affect line of sight. When considering whether a barrier belongs to an enemy, the allegiance of the player provided to start pos (if any) is used."
-                },
+                "description": { "en-US": "Defines how barriers affect line of sight. When considering whether a barrier belongs to an enemy, the allegiance of the player provided to start pos (if any) is used." },
                 "type": "BarrierLos",
                 "default": "PASS_THROUGH_BARRIERS"
             }
@@ -9265,9 +6813,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is In Line of Sight"
     },
     "isInSetup": {
-        "description": {
-            "en-US": "Whether the match is currently in its setup phase."
-        },
+        "description": { "en-US": "Whether the match is currently in its setup phase." },
         "args": [],
         "return": "bool",
         "guid": "00000000B35D",
@@ -9288,9 +6834,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is In Setup"
     },
     "isInSuddenDeath": {
-        "description": {
-            "en-US": "Whether the current game of capture the flag is in sudden death."
-        },
+        "description": { "en-US": "Whether the current game of capture the flag is in sudden death." },
         "args": [],
         "return": "bool",
         "guid": "00000000B3A4",
@@ -9311,23 +6855,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is CTF Mode In Sudden Death"
     },
     "isMatchBetweenRounds": {
-        "description": {
-            "en-US": "Whether the match is between rounds.",
-            "de-DE": "Ob das Match aktuell zwischen zwei Runden ist.",
-            "es-ES": "Si la partida está entre rondas.",
-            "es-MX": "Verifica si la partida está entre rondas.",
-            "fr-FR": "Si la partie est en transition entre deux manches.",
-            "it-IT": "Specifica se la partita si trova tra un round e l'altro.",
-            "ja-JP": "マッチがラウンドの間かどうか",
-            "ko-KR": "경기 중 라운드 전환 시기인지 여부입니다.",
-            "pl-PL": "Czy mecz jest między rundami.",
-            "pt-BR": "Se a partida está entre rodadas ou não.",
-            "ru-RU": "Определяет происходит ли смена раундов в матче.",
-            "th-TH": "Whether the match is between rounds.",
-            "tr-TR": "Maçın turlar arasında olup olmadığı.",
-            "zh-CN": "此比赛是否正在两个回合之间。",
-            "zh-TW": "Whether the match is between rounds."
-        },
+        "description": { "en-US": "Whether the match is between rounds." },
         "args": [],
         "return": "bool",
         "guid": "00000000B35F",
@@ -9348,23 +6876,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Between Rounds"
     },
     "isMatchComplete": {
-        "description": {
-            "en-US": "Whether the match has finished.",
-            "de-DE": "Ob das Match beendet wurde.",
-            "es-ES": "Si la partida ha finalizado.",
-            "es-MX": "Verifica si la partida ha finalizado.",
-            "fr-FR": "Si la partie est terminée.",
-            "it-IT": "Specifica se la partita è terminata.",
-            "ja-JP": "マッチが終了したかどうか",
-            "ko-KR": "경기가 완료되었는지 여부입니다.",
-            "pl-PL": "Czy mecz się zakończył.",
-            "pt-BR": "Se a partida terminou ou não.",
-            "ru-RU": "Определяет завершен ли матч.",
-            "th-TH": "Whether the match has finished.",
-            "tr-TR": "Maçın sona erip ermediği.",
-            "zh-CN": "此比赛是否已经结束。",
-            "zh-TW": "Whether the match has finished."
-        },
+        "description": { "en-US": "Whether the match has finished." },
         "args": [],
         "return": "bool",
         "guid": "00000000B360",
@@ -9385,32 +6897,14 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Match Complete"
     },
     "isObjectiveComplete": {
-        "description": {
-            "en-US": "Whether the specified objective has been completed. Results in false if the game mode is not assault, escort, or hybrid."
-        },
+        "description": { "en-US": "Whether the specified objective has been completed. Results in false if the game mode is not assault, escort, or hybrid." },
         "args": [
             {
                 "name": "number",
-                "description": {
-                    "en-US": "The index of the objective to consider starting at 0 and counting up. Each control point payload checkpoint and payload destination has its own index.",
-                    "de-DE": "Der Index des zu berücksichtigenden Zielpunkts ab 0 gezählt. Jeder Kontrollpunkt Fracht-Checkpoint und Frachtzielpunkt hat seinen eigenen Index.",
-                    "es-ES": "Índice del objetivo que se considera empezando a contar desde 0. Cada punto del modo control punto de control de la carga y destino de la carga tiene su propio índice.",
-                    "es-MX": "El índice del objetivo que se considerará la cuenta comienza de 0 en adelante. Cada punto de captura punto de control de la carga y destino de la carga tiene su propio índice.",
-                    "fr-FR": "L’index de l’objectif à prendre en compte débutant à 0 et progressant. Chaque point de contrôle point de contrôle de convoi et destination de convoi possède son propre index.",
-                    "it-IT": "L'indice dell'obiettivo da considerare che incrementa a partire da 0. Ogni punto di controllo checkpoint del carico e destinazione del carico ha il suo indice specifico.",
-                    "ja-JP": "検討される目標のインデックス。カウントは0から開始される。各コントロール・ポイント、ペイロード・チェックポイント、ペイロード目的地にはそれぞれにインデックスがある",
-                    "ko-KR": "고려해야 하는 목표의 인덱스로서 0에서 시작하여 증가합니다. 각 거점 화물 경유지 화물 목적지에는 각기 고유의 인덱스가 있습니다.",
-                    "pl-PL": "Indeks zadania do uwzględnienia zaczynając od 0 i licząc w górę. Każdy punkt kontrolny punkt kontrolny ładunku i miejsce docelowe ładunku posiadają własny indeks.",
-                    "pt-BR": "O índice do objetivo a ser considerado iniciando em 0 e somando. Cada ponto de controle ponto de verificação de carga e destino de carga tem seu próprio índice.",
-                    "ru-RU": "Индекс рассматриваемой задачи от 0 и выше. Каждая контрольная точка объект контрольная или конечная точка доставки груза имеют свой индекс.",
-                    "th-TH": "The index of the objective to consider starting at 0 and counting up. Each control point payload checkpoint and payload destination has its own index.",
-                    "tr-TR": "Dikkate alınacak hedefin 0'dan başlanarak hesaplanan indeksi. Her kontrol noktasının navlun kontrol noktasının ve navlun varış noktasının indeksi vardır.",
-                    "zh-CN": "考察的目标点的索引，从0开始逐渐累加。每个控制点、运载目标检查点、运载目标目的地都有其独自的索引。",
-                    "zh-TW": "The index of the objective to consider starting at 0 and counting up. Each control point payload checkpoint and payload destination has its own index."
-                },
+                "description": { "en-US": "The index of the objective to consider, starting at 0 and counting up. Each control point, payload checkpoint, and payload destination has its own index." },
                 "type": "unsigned int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "return": "bool",
@@ -9432,16 +6926,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Objective Complete"
     },
     "isTeamOnDefense": {
-        "description": {
-            "en-US": "Whether the specified team is currently on defense. Results in false if the game mode is not assault, escort, or hybrid."
-        },
+        "description": { "en-US": "Whether the specified team is currently on defense. Results in false if the game mode is not assault, escort, or hybrid." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose role to check."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose role to check." },
+                "type": "Team",
             }
         ],
         "return": "bool",
@@ -9463,16 +6953,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Team On Defense"
     },
     "isTeamOnOffense": {
-        "description": {
-            "en-US": "Whether the specified team is currently on offense. Results in false if the game mode is not assault, escort, or hybrid."
-        },
+        "description": { "en-US": "Whether the specified team is currently on offense. Results in false if the game mode is not assault, escort, or hybrid." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose role to check."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose role to check." },
+                "type": "Team",
             }
         ],
         "return": "bool",
@@ -9494,9 +6980,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Team On Offense"
     },
     "isWaitingForPlayers": {
-        "description": {
-            "en-US": "Whether the match is waiting for players to join before starting."
-        },
+        "description": { "en-US": "Whether the match is waiting for players to join before starting." },
         "args": [],
         "return": "bool",
         "guid": "00000000B35B",
@@ -9517,30 +7001,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Is Waiting For Players"
     },
     "len": {
-        "description": {
-            "en-US": "The number of elements in the specified array. For strings, use `strLen`."
-        },
+        "description": { "en-US": "The number of elements in the specified array. For strings, use `strLen`." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose elements will be counted.",
-                    "de-DE": "Das Array dessen Elemente gezählt werden.",
-                    "es-ES": "Matriz cuyos elementos se cuentan.",
-                    "es-MX": "La matriz cuyos elementos serán contados.",
-                    "fr-FR": "Le tableau dont les éléments seront comptés.",
-                    "it-IT": "L'array i cui elementi saranno contati.",
-                    "ja-JP": "要素がカウントされる配列",
-                    "ko-KR": "요소의 개수를 셀 배열입니다.",
-                    "pl-PL": "Tabela której elementy zostaną policzone.",
-                    "pt-BR": "A Matriz cujos elementos serão contados.",
-                    "ru-RU": "Массив количество элементов в котором нужно подсчитать.",
-                    "th-TH": "The array whose elements will be counted.",
-                    "tr-TR": "Unsurların sayılacağı dizin.",
-                    "zh-CN": "计算此数组的元素个数。",
-                    "zh-TW": "The array whose elements will be counted."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose elements will be counted." },
+                "type": "Array",
             }
         ],
         "isConstant": true,
@@ -9563,9 +7029,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Count Of"
     },
     "localPlayer": {
-        "description": {
-            "en-US": "The player being controlled on the end user's computer. This value is different for each end user and thus can only be accessed in actions which affect visuals or the HUD. This value cannot be stored in variables."
-        },
+        "description": { "en-US": "The player being controlled on the end user's computer. This value is different for each end user and thus can only be accessed in actions which affect visuals or the HUD. This value cannot be stored in variables." },
         "args": null,
         "return": "Player",
         "guid": "000000012BB1",
@@ -9586,30 +7050,22 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Local Player"
     },
     "localVector": {
-        "description": {
-            "en-US": "The vector in local coordinates corresponding to the provided vector in world coordinates."
-        },
+        "description": { "en-US": "The vector in local coordinates corresponding to the provided vector in world coordinates." },
         "args": [
             {
                 "name": "worldVector",
-                "description": {
-                    "en-US": "The vector in world coordinates that will be converted to local coordinates."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector in world coordinates that will be converted to local coordinates." },
+                "type": "Vector",
             },
             {
                 "name": "relativePlayer",
-                "description": {
-                    "en-US": "The player to whom the resulting vector will be relative."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player to whom the resulting vector will be relative." },
+                "type": "Player",
             },
             {
                 "name": "transformation",
-                "description": {
-                    "en-US": "Specifies whether the vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities)."
-                },
-                "type": "Transform"
+                "description": { "en-US": "Specifies whether the vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities)." },
+                "type": "Transform",
             }
         ],
         "canBePutInBoolean": false,
@@ -9632,16 +7088,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Local Vector Of"
     },
     "magnitude": {
-        "description": {
-            "en-US": "The magnitude (length) of the specified vector"
-        },
+        "description": { "en-US": "The magnitude (length) of the specified vector" },
         "args": [
             {
                 "name": "vector",
-                "description": {
-                    "en-US": "The vector to calculate the magnitude of."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector to calculate the magnitude of." },
+                "type": "Vector",
             }
         ],
         "isConstant": true,
@@ -9665,27 +7117,21 @@ export const valueFuncKw: Record<string, Value> =
     },
     "max": {
         "guid": "00000000C418",
-        "description": {
-            "en-US": "The maximum of two numbers. Note: this function can take an infinite amount of arguments."
-        },
+        "description": { "en-US": "The maximum of two numbers. Note: this function can take an infinite amount of arguments." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -9708,27 +7154,21 @@ export const valueFuncKw: Record<string, Value> =
     },
     "min": {
         "guid": "00000000C416",
-        "description": {
-            "en-US": "The minimum of two or more numbers. Note: this function can take an infinite amount of arguments."
-        },
+        "description": { "en-US": "The minimum of two or more numbers. Note: this function can take an infinite amount of arguments." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The left-hand operand. May be any value that results in a number."
-                },
+                "description": { "en-US": "The left-hand operand. May be any value that results in a number." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The right-hand operand. May be any value that results in a number."
-                },
+                "description": { "en-US": "The right-hand operand. May be any value that results in a number." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "isConstant": true,
@@ -9750,44 +7190,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Min"
     },
     "nearestWalkablePosition": {
-        "description": {
-            "en-US": "The position closest to the specified position that can be stood on and is accessible from a spawn point.",
-            "de-DE": "Die der festgelegten Position nächstliegende Position auf der Spieler stehen können und die von einem Erscheinungspunkt aus zu erreichen ist.",
-            "es-ES": "Posición más cercana a la posición especificada sobre la que se puede estar de pie y es accesible desde un punto de aparición.",
-            "es-MX": "La posición más cercana a la posición especificada en la que los jugadores pueden caminar y a la que pueden acceder desde un punto de reaparición.",
-            "fr-FR": "La position la plus proche de celle spécifiée sur laquelle il est possible de se tenir et qui est accessible depuis un point d’apparition.",
-            "it-IT": "La posizione più vicina a quella specificata in cui è possibile trovarsi eo è accessibile da un'area di partenza.",
-            "ja-JP": "歩行可能かつスポーン地点から進入可能な指定位置に最も近い位置",
-            "ko-KR": "서 있을 수 있고 생성 지점에서 접근 가능하며 지정된 위치에서 가장 가까운 위치입니다.",
-            "pl-PL": "Pozycja najbliżej określonej pozycji na której można stanąć i jest dostępna z punktu startowego.",
-            "pt-BR": "A posição mais próxima da posição especificada onde se pode ficar de pé e à qual se pode chegar saindo de um ponto de ressurgimento.",
-            "ru-RU": "Ближайшее к указанной точке место на котором можно стоять и которое доступно с точки возрождения.",
-            "th-TH": "ตำแหน่งที่ใกล้กับตำแหน่งที่ระบุที่สุดที่สามารถยืนอยู่ได้และเข้าถึงได้จากจุดเกิด",
-            "tr-TR": "Üzerinde durulabilen ve başlangıç noktasından erişilebilen belirli konuma en yakın konum.",
-            "zh-CN": "与指定位置最接近的、可以站立且能够从一个重生点到达的位置。",
-            "zh-TW": "The position closest to the specified position that can be stood on and is accessible from a spawn point."
-        },
+        "description": { "en-US": "The position closest to the specified position that can be stood on and is accessible from a spawn point." },
         "args": [
             {
                 "name": "position",
-                "description": {
-                    "en-US": "The position from which to search for the nearest walkable position.",
-                    "de-DE": "Die Position deren nächstgelegene begehbare Position gesucht wird.",
-                    "es-ES": "Posición desde la que se busca la posición más cercana por la que se pueda andar.",
-                    "es-MX": "La posición desde la cual se buscará la posición caminable más cercana.",
-                    "fr-FR": "La position à partir de laquelle déterminer la surface la plus proche sur laquelle il est possible de marcher.",
-                    "it-IT": "La posizione dalla quale cercare la più vicina posizione accessibile.",
-                    "ja-JP": "最も近い歩行可能な位置の検索を行う位置",
-                    "ko-KR": "가장 가까운 도보 가능 위치를 검색할 대상 위치입니다.",
-                    "pl-PL": "Pozycja z której należy szukać najbliższej pozycji do której można dojść.",
-                    "pt-BR": "A posição de onde buscar a posição transitável mais próxima.",
-                    "ru-RU": "Точка от которой нужно искать ближайшую проходимую точку.",
-                    "th-TH": "The position from which to search for the nearest walkable position.",
-                    "tr-TR": "Yürünebilir en yakın konumun aranacağı konum.",
-                    "zh-CN": "寻找此位置附近最近的可行走位置。",
-                    "zh-TW": "The position from which to search for the nearest walkable position."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position from which to search for the nearest walkable position." },
+                "type": "Position",
             }
         ],
         "canBePutInBoolean": false,
@@ -9810,16 +7218,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Nearest Walkable Position"
     },
     "normalize": {
-        "description": {
-            "en-US": "The unit-length normalization of a vector."
-        },
+        "description": { "en-US": "The unit-length normalization of a vector." },
         "args": [
             {
                 "name": "vector",
-                "description": {
-                    "en-US": "The vector to normalize."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector to normalize." },
+                "type": "Vector",
             }
         ],
         "canBePutInBoolean": false,
@@ -9843,9 +7247,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Normalize"
     },
     "null": {
-        "description": {
-            "en-US": "The absence of a player. Used when no player is desired for a particular input. Equivalent to the real number 0 for the purposes of comparison and debugging."
-        },
+        "description": { "en-US": "The absence of a player. Used when no player is desired for a particular input. Equivalent to the real number 0 for the purposes of comparison and debugging." },
         "args": null,
         "isConstant": true,
         "canBePutInBoolean": false,
@@ -9868,16 +7270,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Null"
     },
     "random.choice": {
-        "description": {
-            "en-US": "A random value from the specified array."
-        },
+        "description": { "en-US": "A random value from the specified array." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array from which to randomly take a value. If a non-array value is provided, the result is simply the provided value."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array from which to randomly take a value. If a non-array value is provided, the result is simply the provided value." },
+                "type": "Array",
             }
         ],
         "return": [
@@ -9902,27 +7300,21 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Random Value In Array"
     },
     "random.randint": {
-        "description": {
-            "en-US": "A random integer between the specified min and max, inclusive."
-        },
+        "description": { "en-US": "A random integer between the specified min and max, inclusive." },
         "args": [
             {
                 "name": "min",
-                "description": {
-                    "en-US": "The smallest integer allowed. If a real number is provided to this input, it is rounded to the nearest integer."
-                },
+                "description": { "en-US": "The smallest integer allowed. If a real number is provided to this input, it is rounded to the nearest integer." },
                 "type": "int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "max",
-                "description": {
-                    "en-US": "The largest integer allowed. If a real number is provided to this input, it is rounded to the nearest integer."
-                },
+                "description": { "en-US": "The largest integer allowed. If a real number is provided to this input, it is rounded to the nearest integer." },
                 "type": "int",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "return": "int",
@@ -9944,30 +7336,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Random Integer"
     },
     "random.shuffle": {
-        "description": {
-            "en-US": "A copy of the specified array with the values in a random order."
-        },
+        "description": { "en-US": "A copy of the specified array with the values in a random order." },
         "args": [
             {
                 "name": "array",
-                "description": {
-                    "en-US": "The array whose copy will be randomized.",
-                    "de-DE": "Das Array dessen Kopie zufällig erstellt wird.",
-                    "es-ES": "Matriz cuya copia se hará aleatoria.",
-                    "es-MX": "La matriz cuya copia será aleatorizada.",
-                    "fr-FR": "Le tableau dont la copie sera randomisée.",
-                    "it-IT": "L'array la cui copia sarà ordinata casualmente.",
-                    "ja-JP": "ランダムなコピーを作成する配列",
-                    "ko-KR": "무작위 복사본을 만들 배열입니다.",
-                    "pl-PL": "Tabela której kopia ma kolejność losową.",
-                    "pt-BR": "A matriz cuja cópia será randomizada.",
-                    "ru-RU": "Массив копия которого будет создана со значениями в случайном порядке.",
-                    "th-TH": "อาร์เรย์ที่จะถูกสุ่มสําเนา",
-                    "tr-TR": "Kopyası rastgele olacak dizin.",
-                    "zh-CN": "对此数组的复制进行随机排列。",
-                    "zh-TW": "The array whose copy will be randomized."
-                },
-                "type": "Array"
+                "description": { "en-US": "The array whose copy will be randomized." },
+                "type": "Array",
             }
         ],
         "return": "Array",
@@ -9989,23 +7363,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Randomized Array"
     },
     "random.uniform": {
-        "description": {
-            "en-US": "A random real number between the specified min and max."
-        },
+        "description": { "en-US": "A random real number between the specified min and max." },
         "args": [
             {
                 "name": "min",
-                "description": {
-                    "en-US": "The smallest real number allowed."
-                },
-                "type": "float"
+                "description": { "en-US": "The smallest real number allowed." },
+                "type": "float",
             },
             {
                 "name": "max",
-                "description": {
-                    "en-US": "The largest real number allowed."
-                },
-                "type": "float"
+                "description": { "en-US": "The largest real number allowed." },
+                "type": "float",
             }
         ],
         "return": "float",
@@ -10027,36 +7395,26 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Random Real"
     },
     "rgb": {
-        "description": {
-            "en-US": "A custom color with the specified red, green, blue and alpha values."
-        },
+        "description": { "en-US": "A custom color with the specified red, green, blue and alpha values." },
         "args": [
             {
                 "name": "red",
-                "description": {
-                    "en-US": "The red component of a color, from 0 to 255."
-                },
-                "type": "unsigned int"
+                "description": { "en-US": "The red component of a color, from 0 to 255." },
+                "type": "unsigned int",
             },
             {
                 "name": "green",
-                "description": {
-                    "en-US": "The green component of a color, from 0 to 255."
-                },
-                "type": "unsigned int"
+                "description": { "en-US": "The green component of a color, from 0 to 255." },
+                "type": "unsigned int",
             },
             {
                 "name": "blue",
-                "description": {
-                    "en-US": "The blue component of a color, from 0 to 255."
-                },
-                "type": "unsigned int"
+                "description": { "en-US": "The blue component of a color, from 0 to 255." },
+                "type": "unsigned int",
             },
             {
                 "name": "alpha",
-                "description": {
-                    "en-US": "The alpha component of a color. 255 is perfectly opaque while 0 is perfectly invisible."
-                },
+                "description": { "en-US": "The alpha component of a color. 255 is perfectly opaque while 0 is perfectly invisible." },
                 "type": "unsigned int",
                 "default": 255
             }
@@ -10083,30 +7441,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Custom Color"
     },
     "sin": {
-        "description": {
-            "en-US": "Sine of the specified angle in radians."
-        },
+        "description": { "en-US": "Sine of the specified angle in radians." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "Angle in radians.",
-                    "de-DE": "Winkel in Radiant.",
-                    "es-ES": "Ángulo en radianes.",
-                    "es-MX": "Ángulo en radianes.",
-                    "fr-FR": "Angle en radians.",
-                    "it-IT": "L'Angolo in radianti.",
-                    "ja-JP": "ラジアンの角度",
-                    "ko-KR": "각단위: Rad입니다.",
-                    "pl-PL": "Kąt w radianach.",
-                    "pt-BR": "Ângulo em radianos.",
-                    "ru-RU": "Угол в радианах.",
-                    "th-TH": "Angle in radians.",
-                    "tr-TR": "Radyan cinsinden açı.",
-                    "zh-CN": "角度，以弧度为单位。",
-                    "zh-TW": "Angle in radians."
-                },
-                "type": "float"
+                "description": { "en-US": "Angle in radians." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -10129,30 +7469,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Sine From Radians"
     },
     "sinDeg": {
-        "description": {
-            "en-US": "Sine of the specified angle in degrees."
-        },
+        "description": { "en-US": "Sine of the specified angle in degrees." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "Angle in degrees.",
-                    "de-DE": "Winkel in Grad.",
-                    "es-ES": "Ángulo en grados.",
-                    "es-MX": "Ángulo en grados.",
-                    "fr-FR": "Angle en degrés.",
-                    "it-IT": "L'Angolo in gradi.",
-                    "ja-JP": "度単位の角度",
-                    "ko-KR": "각단위: 도입니다.",
-                    "pl-PL": "Kąt w stopniach.",
-                    "pt-BR": "Ângulo em graus.",
-                    "ru-RU": "Угол в градусах.",
-                    "th-TH": "Angle in degrees.",
-                    "tr-TR": "Derece cinsinden açı.",
-                    "zh-CN": "角度，以角度为单位。",
-                    "zh-TW": "Angle in degrees."
-                },
-                "type": "float"
+                "description": { "en-US": "Angle in degrees." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -10175,16 +7497,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Sine From Degrees"
     },
     "sqrt": {
-        "description": {
-            "en-US": "The square root of the specified value."
-        },
+        "description": { "en-US": "The square root of the specified value." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The real number value whose square root will be computed. Negative values result in zero."
-                },
-                "type": "unsigned float"
+                "description": { "en-US": "The real number value whose square root will be computed. Negative values result in zero." },
+                "type": "unsigned float",
             }
         ],
         "isConstant": true,
@@ -10207,25 +7525,19 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Square Root"
     },
     "strContains": {
-        "description": {
-            "en-US": "Whether the specified string contains the specified substring."
-        },
+        "description": { "en-US": "Whether the specified string contains the specified substring." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The string in which to search for the specified substring."
-                },
+                "description": { "en-US": "The string in which to search for the specified substring." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             },
             {
                 "name": "substring",
-                "description": {
-                    "en-US": "The substring for which to search."
-                },
+                "description": { "en-US": "The substring for which to search." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             }
         ],
         "isConstant": true,
@@ -10248,17 +7560,13 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "String Contains"
     },
     "strLen": {
-        "description": {
-            "en-US": "The length in characters of the provided string."
-        },
+        "description": { "en-US": "The length in characters of the provided string." },
         "args": [
             {
                 "name": "string",
-                "description": {
-                    "en-US": "The string whose characters to count."
-                },
+                "description": { "en-US": "The string whose characters to count." },
                 "type": "String",
-                "canReplaceEmptyStringByEmptyArray": true
+                canReplaceEmptyStringByEmptyArray: true,
             }
         ],
         "isConstant": true,
@@ -10281,30 +7589,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "String Length"
     },
     "tan": {
-        "description": {
-            "en-US": "Tangent of the specified angle in radians."
-        },
+        "description": { "en-US": "Tangent of the specified angle in radians." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "Angle in radians.",
-                    "de-DE": "Winkel in Radiant.",
-                    "es-ES": "Ángulo en radianes.",
-                    "es-MX": "Ángulo en radianes.",
-                    "fr-FR": "Angle en radians.",
-                    "it-IT": "L'Angolo in radianti.",
-                    "ja-JP": "ラジアンの角度",
-                    "ko-KR": "각단위: Rad입니다.",
-                    "pl-PL": "Kąt w radianach.",
-                    "pt-BR": "Ângulo em radianos.",
-                    "ru-RU": "Угол в радианах.",
-                    "th-TH": "Angle in radians.",
-                    "tr-TR": "Radyan cinsinden açı.",
-                    "zh-CN": "角度，以弧度为单位。",
-                    "zh-TW": "Angle in radians."
-                },
-                "type": "float"
+                "description": { "en-US": "Angle in radians." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -10327,30 +7617,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Tangent From Radians"
     },
     "tanDeg": {
-        "description": {
-            "en-US": "Tangent of the specified angle in degrees."
-        },
+        "description": { "en-US": "Tangent of the specified angle in degrees." },
         "args": [
             {
                 "name": "angle",
-                "description": {
-                    "en-US": "Angle in degrees.",
-                    "de-DE": "Winkel in Grad.",
-                    "es-ES": "Ángulo en grados.",
-                    "es-MX": "Ángulo en grados.",
-                    "fr-FR": "Angle en degrés.",
-                    "it-IT": "L'Angolo in gradi.",
-                    "ja-JP": "度単位の角度",
-                    "ko-KR": "각단위: 도입니다.",
-                    "pl-PL": "Kąt w stopniach.",
-                    "pt-BR": "Ângulo em graus.",
-                    "ru-RU": "Угол в градусах.",
-                    "th-TH": "Angle in degrees.",
-                    "tr-TR": "Derece cinsinden açı.",
-                    "zh-CN": "角度，以角度为单位。",
-                    "zh-TW": "Angle in degrees."
-                },
-                "type": "float"
+                "description": { "en-US": "Angle in degrees." },
+                "type": "float",
             }
         ],
         "isConstant": true,
@@ -10373,23 +7645,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Tangent From Degrees"
     },
     "isHeroBeingPlayed": {
-        "description": {
-            "en-US": "Whether a specific hero is being played (either on a team or in the match)."
-        },
+        "description": { "en-US": "Whether a specific hero is being played (either on a team or in the match)." },
         "args": [
             {
                 "name": "hero",
-                "description": {
-                    "en-US": "The hero to check for play."
-                },
-                "type": "Hero"
+                "description": { "en-US": "The hero to check for play." },
+                "type": "Hero",
             },
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team or teams on which to check for the hero being played."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team or teams on which to check for the hero being played." },
+                "type": "Team",
             }
         ],
         "return": "bool",
@@ -10412,16 +7678,12 @@ export const valueFuncKw: Record<string, Value> =
     },
     "teamScore": {
         "guid": "00000000B353",
-        "description": {
-            "en-US": "The current score for the specified team. Results in 0 in free-for-all game modes."
-        },
+        "description": { "en-US": "The current score for the specified team. Results in 0 in free-for-all game modes." },
         "args": [
             {
                 "name": "team",
-                "description": {
-                    "en-US": "The team whose score to acquire."
-                },
-                "type": "Team"
+                "description": { "en-US": "The team whose score to acquire." },
+                "type": "Team",
             }
         ],
         "return": "int",
@@ -10442,9 +7704,7 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Team Score"
     },
     "true": {
-        "description": {
-            "en-US": "The boolean value of true."
-        },
+        "description": { "en-US": "The boolean value of true." },
         "args": null,
         "isConstant": true,
         "return": "BoolLiteral",
@@ -10466,19 +7726,15 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "True"
     },
     "updateEveryFrame": {
-        "description": {
-            "en-US": "Increases the update frequency of the provided value to once per tick. Useful for smoothing the appearance of certain Values, such as getPosition(), that normally only update every few ticks. Applies to rule conditions as well as reevaluating action parameters. The value is interpolated client-side if the framerate is higher than the tick rate. May increase server load and/or lower frame rate."
-        },
+        "description": { "en-US": "Increases the update frequency of the provided value to once per tick. Useful for smoothing the appearance of certain Values, such as getPosition(), that normally only update every few ticks. Applies to rule conditions as well as reevaluating action parameters. The value is interpolated client-side if the framerate is higher than the tick rate. May increase server load and/or lower frame rate." },
         "args": [
             {
                 "name": "value",
-                "description": {
-                    "en-US": "The value that will be updated once per tick."
-                },
+                "description": { "en-US": "The value that will be updated once per tick." },
                 "type": [
                     "Object",
                     "Array"
-                ]
+                ],
             }
         ],
         "isConstant": true,
@@ -10505,36 +7761,28 @@ export const valueFuncKw: Record<string, Value> =
     },
     "vect": {
         "guid": "00000000B0F1",
-        "description": {
-            "en-US": "A vector composed of three real numbers (x, y, z) where x is left, y is up, and z is forward. Vectors are used for position, direction, and velocity."
-        },
+        "description": { "en-US": "A vector composed of three real numbers (x, y, z) where x is left, y is up, and z is forward. Vectors are used for position, direction, and velocity." },
         "args": [
             {
                 "name": "x",
-                "description": {
-                    "en-US": "The x value of the vector."
-                },
+                "description": { "en-US": "The x value of the vector." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "y",
-                "description": {
-                    "en-US": "The y value of the vector."
-                },
+                "description": { "en-US": "The y value of the vector." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             },
             {
                 "name": "z",
-                "description": {
-                    "en-US": "The z value of the vector."
-                },
+                "description": { "en-US": "The z value of the vector." },
                 "type": "float",
                 "canReplace0ByFalse": true,
-                "canReplace1ByTrue": true
+                "canReplace1ByTrue": true,
             }
         ],
         "canBePutInBoolean": false,
@@ -10558,23 +7806,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Vector"
     },
     "vectorTowards": {
-        "description": {
-            "en-US": "The displacement vector from one position to another."
-        },
+        "description": { "en-US": "The displacement vector from one position to another." },
         "args": [
             {
                 "name": "startPos",
-                "description": {
-                    "en-US": "The position from which the resulting displacement vector begins."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position from which the resulting displacement vector begins." },
+                "type": "Position",
             },
             {
                 "name": "endPos",
-                "description": {
-                    "en-US": "The position at which the resulting displacement vector ends."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position at which the resulting displacement vector ends." },
+                "type": "Position",
             }
         ],
         "isConstant": true,
@@ -10598,16 +7840,12 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Vector Towards"
     },
     "verticalAngleOfDirection": {
-        "description": {
-            "en-US": "The vertical angle in degrees corresponding to the specified direction vector."
-        },
+        "description": { "en-US": "The vertical angle in degrees corresponding to the specified direction vector." },
         "args": [
             {
                 "name": "direction",
-                "description": {
-                    "en-US": "The direction vector from which to acquire a vertical angle in degrees. The vector is unitized before calculation begins."
-                },
-                "type": "Direction"
+                "description": { "en-US": "The direction vector from which to acquire a vertical angle in degrees. The vector is unitized before calculation begins." },
+                "type": "Direction",
             }
         ],
         "isConstant": true,
@@ -10630,37 +7868,17 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Vertical Angle From Direction"
     },
     "verticalAngleTowards": {
-        "description": {
-            "en-US": "The vertical angle in degrees from a player's current forward direction to the specified position. The result is positive if the position is below the player. Otherwise, the result is zero or negative."
-        },
+        "description": { "en-US": "The vertical angle in degrees from a player's current forward direction to the specified position. The result is positive if the position is below the player. Otherwise, the result is zero or negative." },
         "args": [
             {
                 "name": "player",
-                "description": {
-                    "en-US": "The player from whose current facing the angle begins."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player from whose current facing the angle begins." },
+                "type": "Player",
             },
             {
                 "name": "position",
-                "description": {
-                    "en-US": "The position in the world where the angle ends.",
-                    "de-DE": "Die Position in der Welt bei der der Winkel endet.",
-                    "es-ES": "Posición en el mundo donde finaliza el ángulo.",
-                    "es-MX": "La posición en el mundo donde finaliza el ángulo.",
-                    "fr-FR": "La position dans le monde où l’angle prend fin.",
-                    "it-IT": "La posizione nel mondo di gioco dove termina l'angolo.",
-                    "ja-JP": "ワールドにおける、角度が終了する位置",
-                    "ko-KR": "각 각이 종료되는 월드 내 위치입니다.",
-                    "pl-PL": "Pozycja w świecie w której kończy się kąt.",
-                    "pt-BR": "A posição no mundo onde o ângulo termina.",
-                    "ru-RU": "Точка в игровом мире угол до которой нужно вычислить.",
-                    "th-TH": "The position in the world where the angle ends.",
-                    "tr-TR": "Açının uç kısmının dünyadaki konumu.",
-                    "zh-CN": "测定与地图中此位置的夹角。",
-                    "zh-TW": "The position in the world where the angle ends."
-                },
-                "type": "Position"
+                "description": { "en-US": "The position in the world where the angle ends." },
+                "type": "Position",
             }
         ],
         "return": "float",
@@ -10683,9 +7901,7 @@ export const valueFuncKw: Record<string, Value> =
     },
     "victim": {
         "guid": "00000000B330",
-        "description": {
-            "en-US": "The player that received the damage for the event currently being processed by this rule. May be the same as the attacker or the event player."
-        },
+        "description": { "en-US": "The player that received the damage for the event currently being processed by this rule. May be the same as the attacker or the event player." },
         "args": null,
         "canBePutInBoolean": false,
         "return": "Player",
@@ -10706,30 +7922,22 @@ export const valueFuncKw: Record<string, Value> =
         "zh-TW": "Victim"
     },
     "worldVector": {
-        "description": {
-            "en-US": "The vector in world coordinates corresponding to the provided vector in local coordinates."
-        },
+        "description": { "en-US": "The vector in world coordinates corresponding to the provided vector in local coordinates." },
         "args": [
             {
                 "name": "localVector",
-                "description": {
-                    "en-US": "The vector in local coordinates that will be converted to world coordinates."
-                },
-                "type": "Vector"
+                "description": { "en-US": "The vector in local coordinates that will be converted to world coordinates." },
+                "type": "Vector",
             },
             {
                 "name": "relativePlayer",
-                "description": {
-                    "en-US": "The player to whom the local vector is relative."
-                },
-                "type": "Player"
+                "description": { "en-US": "The player to whom the local vector is relative." },
+                "type": "Player",
             },
             {
                 "name": "transformation",
-                "description": {
-                    "en-US": "Specifies whether the vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities)."
-                },
-                "type": "Transform"
+                "description": { "en-US": "Specifies whether the vector should receive a rotation and a translation (usually applied to positions) or only a rotation (usually applied to directions and velocities)." },
+                "type": "Transform",
             }
         ],
         "canBePutInBoolean": false,

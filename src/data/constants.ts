@@ -107,9 +107,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "StartRuleBehavior": {
         "RESTART": {
             "guid": "000000010025",
-            "description": {
-                "en-US": "Restart the specified rule with new contextual values (including event player, attacker, victim, etc)."
-            },
+            "description": { "en-US": "Restart the specified rule with new contextual values (including event player, attacker, victim, etc)." },
+
             "en-US": "Restart Rule",
             "es-MX": "Reiniciar regla",
             "fr-FR": "Relancer la règle",
@@ -128,23 +127,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "NOOP": {
             "guid": "000000010026",
-            "description": {
-                "en-US": "Allow the rule to finish executing without changing its contextual values.",
-                "de-DE": "Ausführen der Regel ohne Änderung der Kontextwerte zulassen.",
-                "es-ES": "Permite que la regla termine de ejecutarse sin cambiar sus valores contextuales.",
-                "es-MX": "Permite que la regla termine de ejecutarse sin cambiar sus valores contextuales.",
-                "fr-FR": "Permettre à la règle de terminer son exécution sans changer ses valeurs contextuelles.",
-                "it-IT": "Permette alla regola di terminare l'esecuzione senza cambiare i propri valori contestuali.",
-                "ja-JP": "コンテキスト値を変更することなく、ルールの実行を終了可能にする",
-                "ko-KR": "해당 규칙 컨텍스트 값을 변경하지 않고 실행을 끝내도록 허용합니다.",
-                "pl-PL": "Pozwól na zakończenie wykonywania reguły bez zmiany jej wartości kontekstowych.",
-                "pt-BR": "Permitir que a regra termine de executar sem mudar os valores contextuais.",
-                "ru-RU": "Позволяет завершить выполнение правила без изменения его контекстных значений.",
-                "th-TH": "อนุญาตให้กฎดำเนินการจนเสร็จสิ้นโดยไม่ต้องเปลี่ยนค่าตามบริบท",
-                "tr-TR": "Kuralın bağlamsal değerlerini değiştirmeden uygulamayı bitirmesine izin ver.",
-                "zh-CN": "允许规则结束执行，而不改变情景变量的值。",
-                "zh-TW": "Allow the rule to finish executing without changing its contextual values."
-            },
+            "description": { "en-US": "Allow the rule to finish executing without changing its contextual values." },
+
             "en-US": "Do Nothing",
             "es-MX": "Hacer nada",
             "fr-FR": "Ne rien faire",
@@ -165,23 +149,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "BarrierLos": {
         "BLOCKED_BY_ENEMY_BARRIERS": {
             "guid": "00000000B1EE",
-            "description": {
-                "en-US": "Line of sight is blocked by barriers created by the enemy team.",
-                "de-DE": "Sichtfeld wird durch vom gegnerischen Team erstellte Barrieren eingeschränkt.",
-                "es-ES": "La línea de visión queda bloqueada por barreras creadas por el equipo enemigo.",
-                "es-MX": "La línea de visión está bloqueada por barreras creadas por el equipo enemigo.",
-                "fr-FR": "La ligne de vue est bloquée par des barrières créées par l’équipe adverse.",
-                "it-IT": "La linea di tiro è bloccata da barriere create dalla squadra avversaria.",
-                "ja-JP": "照準線は敵チームが作成した障害物に遮断される",
-                "ko-KR": "시야가 적 팀의 방벽으로 인해 가려집니다.",
-                "pl-PL": "Pole widzenia jest blokowane przez bariery stworzone przez wrogą drużynę.",
-                "pt-BR": "A linha de visão é bloqueada por barreiras criadas pela equipe inimiga.",
-                "ru-RU": "Поле зрения блокируется барьерами созданными вражеской командой.",
-                "th-TH": "แนวสายตาถูกบังโดยสิ่งกีดขวางที่ทีมศัตรูสร้างขึ้น",
-                "tr-TR": "Düşman takımın oluşturduğu bariyerler görüş alanını engeller.",
-                "zh-CN": "视线会被敌方队伍创建的屏障阻挡。",
-                "zh-TW": "Line of sight is blocked by barriers created by the enemy team."
-            },
+            "description": { "en-US": "Line of sight is blocked by barriers created by the enemy team." },
+
             "en-US": "Enemy Barriers Block LOS",
             "es-MX": "Las barreras enemigas bloquean la LDV",
             "fr-FR": "Les barrières ennemies bloquent la ligne de vue",
@@ -200,23 +169,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "BLOCKED_BY_ALL_BARRIERS": {
             "guid": "00000000B1EF",
-            "description": {
-                "en-US": "Line of sight is blocked by all barriers.",
-                "de-DE": "Sichtfeld wird durch alle Barrieren eingeschränkt.",
-                "es-ES": "La línea de visión queda bloqueada por todas las barreras.",
-                "es-MX": "La línea de visión está bloqueada por todas las barreras.",
-                "fr-FR": "La ligne de vue est bloquée par toutes les barrières.",
-                "it-IT": "La linea di tiro è bloccata da tutte le barriere.",
-                "ja-JP": "照準線はすべての障害物に遮断される",
-                "ko-KR": "시야가 모든 방벽으로 인해 가려집니다.",
-                "pl-PL": "Pole widzenia jest blokowane przez wszystkie bariery.",
-                "pt-BR": "A linha de visão é bloqueada por todas as barreiras.",
-                "ru-RU": "Поле зрения блокируется всеми барьерами.",
-                "th-TH": "แนวสายตาถูกบังโดยสิ่งกีดขวางทั้งหมด",
-                "tr-TR": "Tüm bariyerler görüş alanını engeller.",
-                "zh-CN": "视线会被所有屏障阻挡。",
-                "zh-TW": "Line of sight is blocked by all barriers."
-            },
+            "description": { "en-US": "Line of sight is blocked by all barriers." },
+
             "en-US": "All Barriers Block LOS",
             "es-MX": "Todas las barreras bloquean la LDV",
             "fr-FR": "Toutes les barrières bloquent la ligne de vue",
@@ -235,23 +189,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "PASS_THROUGH_BARRIERS": {
             "guid": "00000000B1ED",
-            "description": {
-                "en-US": "Line of sight is not blocked by any barriers.",
-                "de-DE": "Sichtfeld wird nicht durch Barrieren eingeschränkt.",
-                "es-ES": "La línea de visión no queda bloqueada por ninguna barrera.",
-                "es-MX": "La línea de visión no está bloqueada por ninguna barrera.",
-                "fr-FR": "La ligne de vue n’est bloquée par aucune barrière.",
-                "it-IT": "La linea di tiro non è bloccata da qualsiasi barriera.",
-                "ja-JP": "照準線は障害物に遮断されない",
-                "ko-KR": "어떤 방벽도 시야를 방해하지 않습니다.",
-                "pl-PL": "Pole widzenia nie jest blokowane przez żadne bariery.",
-                "pt-BR": "A linha de visão não é bloqueada por barreira alguma.",
-                "ru-RU": "Поле зрения не блокируется никакими барьерами.",
-                "th-TH": "แนวสายตาไม่ถูกสิ่งกีดขวางบัง",
-                "tr-TR": "Herhangi bir bariyer görüş alanını engellemez.",
-                "zh-CN": "视线不会被任何屏障阻挡。",
-                "zh-TW": "Line of sight is not blocked by any barriers."
-            },
+            "description": { "en-US": "Line of sight is not blocked by any barriers." },
+
             "en-US": "Barriers Do Not Block LOS",
             "es-MX": "Las barreras no bloquean la LDV",
             "fr-FR": "Les barrières ne bloquent pas la ligne de vue",
@@ -834,23 +773,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Clip": {
         "SURFACES": {
             "guid": "00000000BAF5",
-            "description": {
-                "en-US": "The text may be partially or completely obscured by walls floors ceilings players or other solid objects.",
-                "de-DE": "Der Text kann ganz oder teilweise durch Wände Böden Decken Spieler oder andere undurchsichtige Objekte verdeckt werden.",
-                "es-ES": "El texto puede estar parcial o completamente tapado por muros suelos techos jugadores u otros objetos sólidos.",
-                "es-MX": "El texto puede estar parcial o totalmente oculto por muros pisos techos jugadores u otros objetos sólidos.",
-                "fr-FR": "Le texte pourra être partiellement ou complètement obscurci par les murs sols plafonds joueurs et autres objets solides.",
-                "it-IT": "Il testo potrebbe essere parzialmente o completamente oscurato da muri pavimenti soffitti giocatori o altri oggetti solidi.",
-                "ja-JP": "壁、床、天井、プレイヤー、オブジェクトによってテキストの一部またはすべてが見えなくなる場合がある",
-                "ko-KR": "텍스트가 벽 바닥 천정 플레이어 또는 다른 솔리드 오브젝트에 의해 일부가 가려지거나 완전히 가려질 수 있습니다.",
-                "pl-PL": "Tekst może być częściowo lub całkowicie zasłonięty przez ściany podłogi sufity graczy lub inne jednolite obiekty.",
-                "pt-BR": "O texto pode ser total ou parcialmente obscurecido por paredes pisos tetos jogadores ou outros objetos sólidos.",
-                "ru-RU": "Текст может частично или полностью загораживаться стенами полом потолком игроками или другими твердыми объектами.",
-                "th-TH": "ข้อความอาจถูกบดบังบางส่วนหรือทั้งหมดโดยกำแพง พื้น เพดาน ผู้เล่น หรือวัตถุทึบอื่นๆ",
-                "tr-TR": "Duvar zemin tavan oyuncu veya diğer katı nesneler metni kısmen veya tamamen gizleyebilir.",
-                "zh-CN": "文本可能部分或全部被墙壁、地板、天花板、玩家或其他固定物体挡住。",
-                "zh-TW": "The text may be partially or completely obscured by walls floors ceilings players or other solid objects."
-            },
+            "description": { "en-US": "The text may be partially or completely obscured by walls, floors, ceilings, players, or other solid objects." },
+
             "en-US": "Clip Against Surfaces",
             "es-MX": "Atravesar las superficies",
             "fr-FR": "Masquer derrière les surfaces",
@@ -869,23 +793,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "NONE": {
             "guid": "00000000BAF4",
-            "description": {
-                "en-US": "The text will always be fully visible even if it is behind a wall or solid object.",
-                "de-DE": "Der Text wird immer vollständig sichtbar sein auch hinter einer Wand oder einem undurchsichtigen Objekt.",
-                "es-ES": "El texto siempre será completamente visible incluso si está detrás de un muro o un objeto sólido.",
-                "es-MX": "El texto siempre estará completamente visible incluso si se encuentra detrás de un muro o un objeto sólido.",
-                "fr-FR": "Le texte sera toujours entièrement visible même s’il est situé derrière un mur ou un objet solide.",
-                "it-IT": "Il testo sarà sempre e pienamente visibile anche se si trova dietro un muro o un oggetto solido.",
-                "ja-JP": "テキストは壁やオブジェクト越しでもすべて表示される",
-                "ko-KR": "텍스트가 벽 뒤에 있거나 솔리드 오브젝트 뒤에 있어도 항상 완전하게 표시됩니다.",
-                "pl-PL": "Tekst zawsze będzie w pełni widoczny nawet zza ściany lub nieprzezroczystego obiektu.",
-                "pt-BR": "O texto sempre ficará totalmente visível mesmo que esteja atrás de uma parede ou objeto sólido.",
-                "ru-RU": "Текст всегда будет отображаться полностью даже сквозь стену или твердый объект.",
-                "th-TH": "ข้อความจะมองเห็นได้ทั้งหมดแม้ว่าจะอยู่หลังกำแพงหรือวัตถุทึบก็ตาม",
-                "tr-TR": "Metin bir duvarın veya katı nesnenin ardında olsa bile her zaman tamamen görünürdür.",
-                "zh-CN": "文本将始终显示，不会被墙壁或固定物体挡住。",
-                "zh-TW": "The text will always be fully visible even if it is behind a wall or solid object."
-            },
+            "description": { "en-US": "The text will always be fully visible, even if it is behind a wall or solid object." },
+
             "en-US": "Do Not Clip",
             "es-MX": "No atravesar",
             "fr-FR": "Ne pas masquer",
@@ -912,7 +821,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "en-US": "White",
             "es-MX": "Blanco",
             "fr-FR": "Blanc",
-            "ja-JP": "白",
+            "ja-JP": "ホワイト",
             "pt-BR": "Branco",
             "th-TH": "ขาว",
             "tr-TR": "Beyaz",
@@ -1118,25 +1027,25 @@ export const constantValues: Record<string, { description?: import("../types").L
             "red": 255,
             "green": 112,
             "blue": 122,
-            "onlyInOverpy": true
+            "onlyInOverpy": true,
         },
         "LIGHT_PURPLE": {
             "red": 210,
             "green": 127,
             "blue": 243,
-            "onlyInOverpy": true
+            "onlyInOverpy": true,
         },
         "LIGHT_VIOLET": {
             "red": 203,
             "green": 135,
             "blue": 255,
-            "onlyInOverpy": true
+            "onlyInOverpy": true,
         },
         "LIGHT_GRAY": {
             "red": 168,
             "green": 168,
             "blue": 168,
-            "onlyInOverpy": true
+            "onlyInOverpy": true,
         },
         "ROSE": {
             "guid": "000000012550",
@@ -5512,9 +5421,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "HeroStat": {
         "DAMAGE_DEALT": {
             "guid": "0000000124B7",
-            "description": {
-                "en-US": "Specifies all damage dealt (to heroes, barriers, and pets)."
-            },
+            "description": { "en-US": "Specifies all damage dealt (to heroes, barriers, and pets)." },
+
             "en-US": "All Damage Dealt",
             "es-MX": "Todo el daño infligido",
             "fr-FR": "Dégâts infligés tous",
@@ -5767,9 +5675,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "HERO_DAMAGE_DEALT": {
             "guid": "0000000124D5",
-            "description": {
-                "en-US": "Specifies damage dealt to heroes, but not barriers or pets."
-            },
+            "description": { "en-US": "Specifies damage dealt to heroes, but not barriers or pets." },
+
             "en-US": "Hero Damage Dealt",
             "es-MX": "Daño infligido a héroes",
             "fr-FR": "Dégâts infligés aux héros",
@@ -6131,9 +6038,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Left"
         },
         "ACTUALLY_LEFT": {
-            "description": {
-                "en-US": "In OW2, HUDs are automatically centered. Specify this value if you actually want your HUD to be on the left of the screen.\n\nNote: this will make all other HUDs with a position of `HudPosition.LEFT` be centered on the screen."
-            },
+            "description": { "en-US": "In OW2, HUDs are automatically centered. Specify this value if you actually want your HUD to be on the left of the screen.\n\nNote: this will make all other HUDs with a position of `HudPosition.LEFT` be centered on the screen." },
             "guid": "00000000BAF6",
             "en-US": "Left",
             "es-MX": "Izquierda",
@@ -6231,7 +6136,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "es-MX": "Ninguno",
             "fr-FR": "Aucune",
             "ja-JP": "なし",
-            "pt-BR": "Nenhuma",
+            "pt-BR": "Ninguém",
             "th-TH": "ไม่มี",
             "tr-TR": "Yok",
             "zh-CN": "全部禁用",
@@ -6480,10 +6385,9 @@ export const constantValues: Record<string, { description?: import("../types").L
     },
     "Icon": {
         "ARROW_DOWN": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2C9",
+
             "en-US": "Arrow: Down",
             "es-MX": "Flecha: Hacia abajo",
             "fr-FR": "Flèche bas",
@@ -6501,10 +6405,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Arrow: Down"
         },
         "ARROW_LEFT": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2CA",
+
             "en-US": "Arrow: Left",
             "es-MX": "Flecha: Hacia la izquierda",
             "fr-FR": "Flèche gauche",
@@ -6522,10 +6425,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Arrow: Left"
         },
         "ARROW_RIGHT": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2CB",
+
             "en-US": "Arrow: Right",
             "es-MX": "Flecha: Hacia la derecha",
             "fr-FR": "Flèche droite",
@@ -6543,10 +6445,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Arrow: Right"
         },
         "ARROW_UP": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2CC",
+
             "en-US": "Arrow: Up",
             "es-MX": "Flecha: Hacia arriba",
             "fr-FR": "Flèche haut",
@@ -6564,10 +6465,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Arrow: Up"
         },
         "ASTERISK": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2CD",
+
             "en-US": "Asterisk",
             "es-MX": "Asterisco",
             "fr-FR": "Astérisque",
@@ -6585,10 +6485,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Asterisk"
         },
         "BOLT": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2CE",
+
             "en-US": "Bolt",
             "es-MX": "Rayo",
             "fr-FR": "Boulon",
@@ -6606,10 +6505,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Bolt"
         },
         "CHECKMARK": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2CF",
+
             "en-US": "Checkmark",
             "es-MX": "Marca de control",
             "fr-FR": "Coche",
@@ -6628,9 +6526,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "CIRCLE": {
             "guid": "00000000C2D0",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Circle",
             "es-MX": "Círculo",
             "fr-FR": "Cercle",
@@ -6649,9 +6546,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "CLUB": {
             "guid": "00000000C2D1",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Club",
             "es-MX": "Trébol",
             "fr-FR": "Trèfle",
@@ -6670,9 +6566,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "DIAMOND": {
             "guid": "00000000C2D2",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Diamond",
             "es-MX": "Diamante",
             "fr-FR": "Carreau",
@@ -6691,9 +6586,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "DIZZY": {
             "guid": "00000000C2D3",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Dizzy",
             "es-MX": "Mareado",
             "fr-FR": "Étourdi",
@@ -6711,10 +6605,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Dizzy"
         },
         "EXCLAMATION_MARK": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2D4",
+
             "en-US": "Exclamation Mark",
             "es-MX": "Signo de exclamación",
             "fr-FR": "Point d’exclamation",
@@ -6732,10 +6625,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Exclamation Mark"
         },
         "EYE": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2D5",
+
             "en-US": "Eye",
             "es-MX": "Ojo",
             "fr-FR": "Œil",
@@ -6753,10 +6645,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Eye"
         },
         "FIRE": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2D6",
+
             "en-US": "Fire",
             "es-MX": "Fuego",
             "fr-FR": "Flamme",
@@ -6774,10 +6665,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Fire"
         },
         "FLAG": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2F0",
+
             "en-US": "Flag",
             "es-MX": "Bandera",
             "fr-FR": "Drapeau",
@@ -6796,9 +6686,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "HALO": {
             "guid": "00000000C2D7",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Halo",
             "ja-JP": "光輪",
             "pt-BR": "Auréola",
@@ -6816,10 +6705,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Halo"
         },
         "HAPPY": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2D8",
+
             "en-US": "Happy",
             "es-MX": "Feliz",
             "fr-FR": "Smiley content",
@@ -6838,9 +6726,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "HEART": {
             "guid": "00000000C2D9",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Heart",
             "es-MX": "Corazón",
             "fr-FR": "Cœur",
@@ -6859,9 +6746,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "MOON": {
             "guid": "00000000C2DA",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Moon",
             "es-MX": "Luna",
             "fr-FR": "Lune",
@@ -6880,9 +6766,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "NO": {
             "guid": "00000000C2DB",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "No",
             "fr-FR": "Interdit",
             "ja-JP": "いいえ",
@@ -6900,10 +6785,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "No"
         },
         "PLUS": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2DC",
+
             "en-US": "Plus",
             "es-MX": "Signo de suma",
             "ja-JP": "プラス",
@@ -6921,10 +6805,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Plus"
         },
         "POISON": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2DD",
+
             "en-US": "Poison",
             "es-MX": "Veneno",
             "ja-JP": "ポイズン",
@@ -6942,10 +6825,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Poison"
         },
         "POISON_2": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2DE",
+
             "en-US": "Poison 2",
             "es-MX": "Veneno 2",
             "ja-JP": "ポイズン2",
@@ -6963,10 +6845,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Poison 2"
         },
         "QUESTION_MARK": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2DF",
+
             "en-US": "Question Mark",
             "es-MX": "Signo de interrogación",
             "fr-FR": "Point d’interrogation",
@@ -6984,10 +6865,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Question Mark"
         },
         "RADIOACTIVE": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2E4",
+
             "en-US": "Radioactive",
             "es-MX": "Radiactivo",
             "fr-FR": "Radioactif",
@@ -7005,10 +6885,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Radioactive"
         },
         "RECYCLE": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2E5",
+
             "en-US": "Recycle",
             "es-MX": "Reciclaje",
             "fr-FR": "Recyclage",
@@ -7026,10 +6905,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Recycle"
         },
         "RING_THICK": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2E6",
+
             "en-US": "Ring Thick",
             "es-MX": "Anillo grueso",
             "fr-FR": "Anneau épais",
@@ -7047,10 +6925,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Ring Thick"
         },
         "RING_THIN": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2E7",
+
             "en-US": "Ring Thin",
             "es-MX": "Anillo delgado",
             "fr-FR": "Anneau fin",
@@ -7068,10 +6945,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Ring Thin"
         },
         "SAD": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2E8",
+
             "en-US": "Sad",
             "es-MX": "Triste",
             "fr-FR": "Smiley triste",
@@ -7090,9 +6966,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "SKULL": {
             "guid": "00000000C2E9",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Skull",
             "es-MX": "Cráneo",
             "fr-FR": "Crâne",
@@ -7111,9 +6986,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "SPADE": {
             "guid": "00000000C2EA",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Spade",
             "es-MX": "Pica",
             "fr-FR": "Pique",
@@ -7131,10 +7005,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Spade"
         },
         "SPIRAL": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2EB",
+
             "en-US": "Spiral",
             "es-MX": "Espiral",
             "fr-FR": "Spirale",
@@ -7153,9 +7026,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "STOP": {
             "guid": "00000000C2EC",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Stop",
             "es-MX": "Detener",
             "ja-JP": "停止",
@@ -7173,10 +7045,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Stop"
         },
         "TRASHCAN": {
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
             "guid": "00000000C2ED",
+
             "en-US": "Trashcan",
             "es-MX": "Tacho de basura",
             "fr-FR": "Poubelle",
@@ -7195,9 +7066,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "WARNING": {
             "guid": "00000000C2EE",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "Warning",
             "es-MX": "Advertencia",
             "fr-FR": "Avertissement",
@@ -7216,9 +7086,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "CROSS": {
             "guid": "00000000C2EF",
-            "description": {
-                "en-US": "__iconDescription__"
-            },
+            "description": { "en-US": "__iconDescription__" },
+
             "en-US": "X",
             "fr-FR": "Croix",
             "de-DE": "X",
@@ -7385,9 +7254,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Impulse": {
         "CANCEL_CONTRARY_MOTION": {
             "guid": "00000000B520",
-            "description": {
-                "en-US": "**Legacy, use `CANCEL_CONTRARY_MOTION_XYZ` instead.**\n\nIf the target is moving against the direction of the impulse, this relative velocity is negated before the impulse is applied. Horizontal velocity (XZ) and vertical velocity (Y) are processed separately."
-            },
+            "description": { "en-US": "**Legacy, use `CANCEL_CONTRARY_MOTION_XYZ` instead.**\n\nIf the target is moving against the direction of the impulse, this relative velocity is negated before the impulse is applied. Horizontal velocity (XZ) and vertical velocity (Y) are processed separately." },
+
             "en-US": "Cancel Contrary Motion",
             "es-MX": "Cancelar movimiento contrario",
             "fr-FR": "Annuler le mouvement contraire",
@@ -7405,24 +7273,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Cancel Contrary Motion"
         },
         "CANCEL_CONTRARY_MOTION_XYZ": {
-            "description": {
-                "en-US": "If the target is moving against the direction of the impulse this relative velocity is negated before the impulse is applied. Horizontal and vertical velocity XYZ are processed together.",
-                "de-DE": "Wenn sich das Ziel entgegen der Impulsrichtung bewegt wird der relative Geschwindigkeitsvektor negiert bevor der Impuls angewendet wird. Horizontale und vertikale Vektoren XYZ werden zusammen verarbeitet.",
-                "es-ES": "Si el objetivo se está desplazando en dirección contraria al impulso esta velocidad direccional relativa se anula antes de aplicarse el impulso. Las velocidades horizontal y vertical XYZ se procesan juntas.",
-                "es-MX": "Si el objetivo se mueve en contra de la dirección del impulso esta rapidez relativa se negará antes de aplicar el impulso. La rapidez horizontal y vertical XYZ se procesan juntas.",
-                "fr-FR": "Si la cible se déplace dans la direction opposée à celle de l’impulsion sa vélocité sera annulée avant application de l’impulsion. La vitesse horizontale et la vitesse verticale XYZ sont traitées ensemble.",
-                "it-IT": "Se il bersaglio si sta muovendo contro la direzione dell'impulso questa velocità direzionale relativa viene negata prima che l'impulso venga applicato. Le velocità direzionali orizzontale e verticale XYZ sono elaborate insieme.",
-                "ja-JP": "ターゲットが推進力の方向に逆らって移動している場合、力が適用される前に速度が無効化される。水平方向と垂直方向の速度（XYZ）は合わせて処理される",
-                "ko-KR": "대상이 충격량이 가해진 방향의 반대로 움직이는 경우 상대 속도를 상쇄한 후 충격량을 적용합니다. 수평과 수직 속도XYZ가 함께 처리됩니다.",
-                "pl-PL": "Jeśli cel porusza się w przeciwnym kierunku do impulsu względna prędkość jest negowana przed zastosowaniem impulsu. Prędkości w pionie i poziomie XYZ są przetwarzane razem.",
-                "pt-BR": "Se o alvo estiver se movendo em direção contrária ao impulso esta velocidade relativa será negada antes de o impulso ser aplicado. Velocidades horizontal e vertical XYZ são processadas juntas.",
-                "ru-RU": "Если цель движется против направления импульса эта относительная скорость гасится до применения импульса. Горизонтальная XZ и вертикальная Y скорости рассчитываются вместе.",
-                "th-TH": "หากเป้าหมายเคลื่อนที่สวนทางกับทิศทางของพลังผลักดัน ความเร็วสัมพัทธ์นี้จะถูกลบออกก่อนที่จะใช้พลังผลักดัน ความเร็วแนวนอนและแนวตั้ง XYZ จะถูกประมวลผลร่วมกัน",
-                "tr-TR": "Hedef itiş gücünün tersi yönünde hareket ediyorsa itiş gücü uygulanmadan önce bu göreceli hız etkisizleştirilir. Dikey ve yatay hız XYZ birlikte işlenir.",
-                "zh-CN": "如果目标正在向推力的相反方向移动，则在施加此推力之前消除此相对速度。水平和垂直速度（XYY）会一同处理。",
-                "zh-TW": "If the target is moving against the direction of the impulse this relative velocity is negated before the impulse is applied. Horizontal and vertical velocity XYZ are processed together."
-            },
+            "description": { "en-US": "If the target is moving against the direction of the impulse, this relative velocity is negated before the impulse is applied. Horizontal and vertical velocity (XYZ) are processed together." },
             "guid": "0000000125A5",
+
             "en-US": "Cancel Contrary Motion XYZ",
             "es-MX": "Cancelar movimiento contrario XYZ",
             "fr-FR": "Annuler le mouvement contraire XYZ",
@@ -7441,23 +7294,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "INCORPORATE_CONTRARY_MOTION": {
             "guid": "00000000B521",
-            "description": {
-                "en-US": "The impulse is added directly to the velocity of the target so if the target is moving against the direction of the impulse it might seem like the impulse has less of an effect.",
-                "de-DE": "Der Impuls wird direkt dem Geschwindigkeitsvektor des Ziels hinzugefügt – wenn sich das Ziel also entgegen der Impulsrichtung bewegt kann es wirken als hätte der Impuls einen geringeren Effekt.",
-                "es-ES": "El impulso se añade directamente a la velocidad direccional del objetivo por lo que si el objetivo se está desplazando en dirección contraria al impulso es posible que parezca que el impulso tiene un efecto reducido.",
-                "es-MX": "El impulso se agrega directamente a la rapidez del objetivo de modo que si el objetivo se mueve en contra de la dirección del impulso podría parecer que el impulso tiene menos efecto.",
-                "fr-FR": "L’impulsion est ajoutée directement à la vélocité de la cible. Si la cible se déplace dans la direction opposée à celle de l’impulsion cette dernière pourra donc sembler moins efficace.",
-                "it-IT": "L'impulso è aggiunto direttamente alla velocità direzionale del bersaglio quindi se il bersaglio si sta muovendo contro la direzione dell'impulso potrebbe sembrare che l'impulso abbia avuto un effetto minore.",
-                "ja-JP": "ターゲットの速度に直接的に推進力を加えるため、ターゲットがその力の方向に向かって移動している場合、その影響が通常よりも小さく見える場合がある",
-                "ko-KR": "대상의 속도에 직접 충격량이 더해지므로 대상이 충격량이 가해진 방향의 반대로 움직이는 경우 충격 효과가 별로 없는 것처럼 보일 수 있습니다.",
-                "pl-PL": "Impuls jest dodawany bezpośrednio do prędkości celu. Jeśli więc cel porusza się w przeciwnym kierunku do impulsu może wydawać się że impuls ma słabsze działanie.",
-                "pt-BR": "O impulso é adicionado diretamente à velocidade do alvo; assim se o alvo estiver se movendo em direção contrária ao impulso pode parecer que o impulso tem menos efeito.",
-                "ru-RU": "Импульс прибавляемый непосредственно к векторной скорости цели. Если цель движется направлении противоположном импульсу то может показаться что импульс оказывает на нее меньшее влияние.",
-                "th-TH": "จะมีการเพิ่มพลังผลักดันให้กับความเร็วของเป้าหมายโดยตรง ดังนั้นเมื่อเป้าหมายเคลื่อนที่สวนทางกับทิศทางของพลังผลักดัน จึงอาจดูเหมือนพลังผลักดันมีผลกระทบน้อยลง",
-                "tr-TR": "İtiş gücü doğrudan hedefin hızına eklenir. Bu nedenle hedef itiş gücü yönünün tersine hareket ediyorsa itiş gücünün çok az etkisi olmuş gibi görünebilir.",
-                "zh-CN": "这个推力将会直接添加到目标的速度上，如果目标正在与推力相反的方向移动，此推力造成的效果可能会较小。",
-                "zh-TW": "The impulse is added directly to the velocity of the target so if the target is moving against the direction of the impulse it might seem like the impulse has less of an effect."
-            },
+            "description": { "en-US": "The impulse is added directly to the velocity of the target, so if the target is moving against the direction of the impulse, it might seem like the impulse has less of an effect." },
+
             "en-US": "Incorporate Contrary Motion",
             "es-MX": "Incorporar movimiento contrario",
             "fr-FR": "Incorporer un mouvement contraire",
@@ -7518,7 +7356,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "es-MX": "Ninguno",
             "fr-FR": "Aucune",
             "ja-JP": "なし",
-            "pt-BR": "Nenhuma",
+            "pt-BR": "Ninguém",
             "th-TH": "ไม่มี",
             "tr-TR": "Yok",
             "zh-CN": "全部禁用",
@@ -7534,23 +7372,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "LosCheck": {
         "OFF": {
             "guid": "00000000B1E2",
-            "description": {
-                "en-US": "Line of sight is never blocked allowing results through walls.",
-                "de-DE": "Sichtfeld wird nie blockiert sodass Ergebnisse durch Wände hindurch möglich sind.",
-                "es-ES": "La línea de visión nunca queda bloqueada lo cual permite obtener resultados a través de las paredes.",
-                "es-MX": "La línea de visión nunca está bloqueada lo cual permite ver los resultados a través de los muros.",
-                "fr-FR": "La ligne de vue n’est jamais bloquée ce qui permet de voir à travers les murs.",
-                "it-IT": "La linea di tiro non è mai bloccata permettendo risultati anche oltre i muri.",
-                "ja-JP": "照準線は遮断されず、すべて壁を通り抜ける",
-                "ko-KR": "벽을 뚫고 볼 수 있어 시야가 전혀 방해받지 않습니다.",
-                "pl-PL": "Pole widzenia nie jest nigdy blokowane co pozwala widzieć przez ściany.",
-                "pt-BR": "A linha de visão nunca é bloqueada permitindo resultados através das paredes.",
-                "ru-RU": "Поле зрения никогда не блокируется стены игнорируются.",
-                "th-TH": "แนวสายตาไม่ถูกบัง ทำให้ผลลัพธ์ทะลุกำแพงได้",
-                "tr-TR": "Görüş alanı hiçbir şekilde engellenmez duvarların arkası görülebilir.",
-                "zh-CN": "视线不会被阻挡，可以穿过墙壁。",
-                "zh-TW": "Line of sight is never blocked allowing results through walls."
-            },
+            "description": { "en-US": "Line of sight is never blocked, allowing results through walls." },
+
             "en-US": "Off",
             "es-MX": "No",
             "fr-FR": "Désactivé",
@@ -7569,23 +7392,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "SURFACES": {
             "guid": "00000000B1E3",
-            "description": {
-                "en-US": "Line of sight is blocked by ceilings walls floors platforms and any fixed object that blocks projectiles.",
-                "de-DE": "Sichtfeld wird durch Decken Wände Böden Plattformen und alle feststehenden Objekte die Projektile blockieren eingeschränkt.",
-                "es-ES": "La línea de visión queda bloqueada por techos muros suelos plataformas y cualquier objeto fijo que pare proyectiles.",
-                "es-MX": "La línea de visión está bloqueada por techos muros pisos plataformas y objetos fijos que bloqueen proyectiles.",
-                "fr-FR": "La ligne de vue est bloquée par les plafonds murs sols plateformes et objets fixes bloquant les projectiles.",
-                "it-IT": "La linea di tiro è bloccata da soffitti muri pavimenti piattaforme e qualsiasi oggetto fisso che blocca proiettili.",
-                "ja-JP": "照準線は天井、壁、床、プラットフォーム、投射物を遮断するオブジェクトに遮断される",
-                "ko-KR": "시야가 천정 벽 바닥 플랫폼에 의해 그리고 투사체를 막는 모든 고정 오브젝트로 인해 가려집니다.",
-                "pl-PL": "Pole widzenia jest blokowane przez sufity podłogi ściany platformy i każdy obiekt który blokuje pociski.",
-                "pt-BR": "A linha de visão é bloqueada por tetos paredes pisos plataformas e qualquer objeto fixo que bloqueie projéteis.",
-                "ru-RU": "Поле зрения блокируется потолками стенами полом платформами и закрепленными объектами блокирующими снаряды.",
-                "th-TH": "แนวสายตาถูกบังโดยเพดาน กำแพง พื้น แพลตฟอร์ม และวัตถุคงที่ใดๆ ที่กั้นกระสุนปืนได้",
-                "tr-TR": "Tavan duvar zemin platform ve atılır cismi engelleyen herhangi bir sabit nesne görüş alanını engeller.",
-                "zh-CN": "视线会被天花板、墙壁、地板、平台及任何可阻挡弹道的固定物体阻挡。",
-                "zh-TW": "Line of sight is blocked by ceilings walls floors platforms and any fixed object that blocks projectiles."
-            },
+            "description": { "en-US": "Line of sight is blocked by ceilings, walls, floors, platforms, and any fixed object that blocks projectiles." },
+
             "en-US": "Surfaces",
             "es-MX": "Superficies",
             "ja-JP": "表面",
@@ -7604,23 +7412,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "SURFACES_AND_ALL_BARRIERS": {
             "guid": "00000000B1E5",
-            "description": {
-                "en-US": "Line of sight is blocked by ceilings walls floors platforms any fixed object that blocks projectiles and all barriers.",
-                "de-DE": "Sichtfeld wird durch Decken Wände Böden Plattformen alle feststehenden Objekte die Projektile blockieren und alle Barrieren eingeschränkt.",
-                "es-ES": "La línea de visión queda bloqueada por techos muros suelos plataformas cualquier objeto fijo que pare proyectiles y todas las barreras.",
-                "es-MX": "La línea de visión está bloqueada por techos muros pisos plataformas objetos fijos que bloqueen proyectiles y todas las barreras.",
-                "fr-FR": "La ligne de vue est bloquée par les plafonds murs sols plateformes objets fixes bloquant les projectiles et toutes les barrières.",
-                "it-IT": "La linea di tiro è bloccata da soffitti muri pavimenti piattaforme qualsiasi oggetto fisso che blocca proiettili e tutte le barriere.",
-                "ja-JP": "照準線は天井、壁、床、プラットフォーム、投射物を遮断するオブジェクト、およびすべての障害物に遮断される",
-                "ko-KR": "시야가 천정 벽 바닥 플랫폼 투사체를 막는 모든 고정된 오브젝트 및 모든 방벽으로 인해 가려집니다.",
-                "pl-PL": "Pole widzenia jest blokowane przez sufity podłogi ściany platformy i każdy obiekt który blokuje pociski oraz przez wszystkie bariery.",
-                "pt-BR": "A linha de visão é bloqueada por tetos paredes pisos plataformas e qualquer objeto fixo que bloqueie projéteis além de todas as barreiras.",
-                "ru-RU": "Поле зрения блокируется потолками стенами полом платформами и закрепленными объектами блокирующими снаряды а также всеми барьерами.",
-                "th-TH": "แนวสายตาถูกบังโดยเพดาน กำแพง พื้น แพลตฟอร์ม วัตถุคงที่ใดๆ ที่กั้นกระสุนปืนได้ และสิ่งกีดขวางทั้งหมด",
-                "tr-TR": "Tavan duvar zemin platform atılır cismi engelleyen herhangi bir sabit nesne ve tüm bariyerler görüş alanını engeller.",
-                "zh-CN": "视线会被天花板、墙壁、地板、平台及任何可阻挡弹道的固定物体阻挡，也会被所有屏障阻挡。",
-                "zh-TW": "Line of sight is blocked by ceilings walls floors platforms any fixed object that blocks projectiles and all barriers."
-            },
+            "description": { "en-US": "Line of sight is blocked by ceilings, walls, floors, platforms, any fixed object that blocks projectiles, and all barriers." },
+
             "en-US": "Surfaces And All Barriers",
             "es-MX": "Superficies y todas las barreras",
             "fr-FR": "Surfaces et toutes les barrières",
@@ -7639,23 +7432,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "SURFACES_AND_ENEMY_BARRIERS": {
             "guid": "00000000B1E4",
-            "description": {
-                "en-US": "Line of sight is blocked by ceilings walls floors platforms any fixed object that blocks projectiles and barriers created by the enemy team.",
-                "de-DE": "Sichtfeld wird durch Decken Wände Böden Plattformen alle feststehenden Objekte die Projektile blockieren und vom gegnerischen Team erstellte Barrieren eingeschränkt.",
-                "es-ES": "La línea de visión queda bloqueada por techos muros suelos plataformas cualquier objeto fijo que pare proyectiles y las barreras creadas por el equipo enemigo.",
-                "es-MX": "La línea de visión está bloqueada por techos muros pisos plataformas objetos fijos que bloqueen proyectiles y barreras creadas por el equipo enemigo.",
-                "fr-FR": "La ligne de vue est bloquée par les plafonds murs sols plateformes objets fixes bloquant les projectiles et les barrières créées par l’équipe adverse.",
-                "it-IT": "La linea di tiro è bloccata da soffitti muri pavimenti piattaforme qualsiasi oggetto fisso che blocca proiettili e barriere create dalla squadra avversaria.",
-                "ja-JP": "照準線は天井、壁、床、プラットフォーム、投射物を遮断するオブジェクト、および敵チームが作成したすべての障害物に遮断される",
-                "ko-KR": "시야가 천정 벽 바닥 플랫폼 투사체를 막는 모든 고정된 오브젝트 및 적 팀이 만든 모든 방벽으로 인해 가려집니다.",
-                "pl-PL": "Pole widzenia jest blokowane przez sufity podłogi ściany platformy i każdy obiekt który blokuje pociski oraz przez bariery stworzone przez wrogą drużynę.",
-                "pt-BR": "A linha de visão é bloqueada por tetos paredes pisos plataformas e qualquer objeto fixo que bloqueie projéteis além de barreiras criadas pela equipe inimiga.",
-                "ru-RU": "Поле зрения блокируется потолками стенами полом платформами и закрепленными объектами блокирующими снаряды а также барьерами вражеской команды.",
-                "th-TH": "แนวสายตาถูกบังโดยเพดาน กำแพง พื้น แพลตฟอร์ม วัตถุคงที่ใดๆ ที่กั้นกระสุนปืนได้ และสิ่งกีดขวางที่ทีมศัตรูสร้างขึ้น",
-                "tr-TR": "Tavan duvar zemin platform atılır cismi engelleyen herhangi bir sabit nesne ve düşman takımın oluşturduğu bariyerler görüş alanını engeller.",
-                "zh-CN": "视线会被天花板、墙壁、地板、平台及任何可阻挡弹道的固定物体阻挡，也会被敌方队伍创建的屏障阻挡。",
-                "zh-TW": "Line of sight is blocked by ceilings walls floors platforms any fixed object that blocks projectiles and barriers created by the enemy team."
-            },
+            "description": { "en-US": "Line of sight is blocked by ceilings, walls, floors, platforms, any fixed object that blocks projectiles, and barriers created by the enemy team." },
+
             "en-US": "Surfaces And Enemy Barriers",
             "es-MX": "Superficies y barreras enemigas",
             "fr-FR": "Surfaces et barrières ennemies",
@@ -7675,24 +7453,9 @@ export const constantValues: Record<string, { description?: import("../types").L
     },
     "OutlineVisibility": {
         "DEFAULT": {
-            "description": {
-                "en-US": "Outlines are visible based on the default game settings.",
-                "de-DE": "Umrandungen sind basierend auf den Standardeinstellungen des Spiels sichtbar.",
-                "es-ES": "Los contornos son visibles en función de los ajustes de partida por defecto.",
-                "es-MX": "El contorno es visible según las configuraciones de las partidas predeterminadas.",
-                "fr-FR": "Les contours sont visibles selon les paramètres de jeu par défaut.",
-                "it-IT": "I contorni sono visibili secondo le impostazioni predefinite del gioco.",
-                "ja-JP": "デフォルトのゲーム設定に応じてアウトラインを表示する",
-                "ko-KR": "기본 게임 설정으로 외곽선이 보입니다.",
-                "pl-PL": "Obrysy są widoczne w oparciu o bieżące ustawienia gry.",
-                "pt-BR": "Contornos visíveis com base nas configurações-padrão do jogo.",
-                "ru-RU": "Контуры видны в зависимости от настроек по умолчанию.",
-                "th-TH": "มองเห็นเส้นขอบตามการตั้งค่าเริ่มต้นของเกม",
-                "tr-TR": "Vücut şekilleri varsayılan oyun ayarlarına göre görülebilir.",
-                "zh-CN": "根据默认游戏设置决定轮廓可见性。",
-                "zh-TW": "Outlines are visible based on the default game settings."
-            },
+            "description": { "en-US": "Outlines are visible based on the default game settings." },
             "guid": "000000011C50",
+
             "en-US": "Default",
             "es-MX": "Predeterminado",
             "fr-FR": "Par défaut",
@@ -7710,24 +7473,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Default"
         },
         "OCCLUDED": {
-            "description": {
-                "en-US": "Outlines are visible when occluded by the environment.",
-                "de-DE": "Umrandungen sind sichtbar wenn sie von der Umgebung verdeckt werden.",
-                "es-ES": "Los contornos son visibles cuando están ocluidos por el entorno.",
-                "es-MX": "El contorno es visible cuando queda ocluido por el entorno.",
-                "fr-FR": "Les contours sont visibles lorsqu’ils sont obstrués par l’environnement.",
-                "it-IT": "I contorni sono visibili quando occlusi dall'ambiente.",
-                "ja-JP": "環境によって遮られている場合にアウトラインを表示する",
-                "ko-KR": "환경에 가려 있을 때 외곽선이 보입니다.",
-                "pl-PL": "Obrysy są widoczne przy zasłonięciu przez otoczenie.",
-                "pt-BR": "Contornos visíveis quando ocultado pelo ambiente.",
-                "ru-RU": "Контуры видны если их закрывают объекты.",
-                "th-TH": "โครงร่างจะมองเห็นได้เมื่อถูกบดบังโดยสภาพแวดล้อม",
-                "tr-TR": "Vücut şekilleri ortam tarafından engellendiğinde görülebilir.",
-                "zh-CN": "被环境遮蔽时轮廓可见。",
-                "zh-TW": "Outlines are visible when occluded by the environment."
-            },
+            "description": { "en-US": "Outlines are visible when occluded by the environment." },
             "guid": "000000011C51",
+
             "en-US": "Occluded",
             "es-MX": "Ocluido",
             "fr-FR": "Obstrué",
@@ -7745,24 +7493,9 @@ export const constantValues: Record<string, { description?: import("../types").L
             "zh-TW": "Occluded"
         },
         "ALWAYS": {
-            "description": {
-                "en-US": "Outlines are always visible.",
-                "de-DE": "Umrandungen sind immer sichtbar.",
-                "es-ES": "Los contornos son siempre visibles.",
-                "es-MX": "El contorno es siempre visible.",
-                "fr-FR": "Les contours sont toujours visibles.",
-                "it-IT": "I contorni sono sempre visibili.",
-                "ja-JP": "常にアウトラインを表示する",
-                "ko-KR": "외곽선이 항상 보입니다.",
-                "pl-PL": "Obrysy są zawsze widoczne.",
-                "pt-BR": "Contornos sempre visíveis.",
-                "ru-RU": "Контуры всегда видны.",
-                "th-TH": "โครงร่างจะมองเห็นได้เสมอ",
-                "tr-TR": "Vücut şekilleri her zaman görülebilir.",
-                "zh-CN": "轮廓始终可见。",
-                "zh-TW": "Outlines are always visible."
-            },
+            "description": { "en-US": "Outlines are always visible." },
             "guid": "000000011C52",
+
             "en-US": "Always",
             "es-MX": "Siempre",
             "fr-FR": "Toujours",
@@ -7805,7 +7538,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "es-MX": "Ninguno",
             "fr-FR": "Aucune",
             "ja-JP": "なし",
-            "pt-BR": "Nenhuma",
+            "pt-BR": "Ninguém",
             "th-TH": "ไม่มี",
             "tr-TR": "Yok",
             "zh-CN": "全部禁用",
@@ -7951,7 +7684,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "es-MX": "Ninguno",
             "fr-FR": "Aucune",
             "ja-JP": "なし",
-            "pt-BR": "Nenhuma",
+            "pt-BR": "Ninguém",
             "th-TH": "ไม่มี",
             "tr-TR": "Yok",
             "zh-CN": "全部禁用",
@@ -8219,23 +7952,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Relativity": {
         "TO_PLAYER": {
             "guid": "00000000B16F",
-            "description": {
-                "en-US": "Relative to the player's local coordinate system which moves and rotates with the player.",
-                "de-DE": "Relativ zum lokalen Koordinatensystem des Spielers das sich mit dem Spieler bewegt und dreht.",
-                "es-ES": "Relativo al sistema de coordenadas locales del jugador que se mueve y rota con el jugador.",
-                "es-MX": "Vinculado al sistema de coordenadas locales del jugador el cual se mueve y rota con el jugador.",
-                "fr-FR": "Relatif au système de coordination local du joueur qui bouge et pivote avec lui.",
-                "it-IT": "Relativo al sistema di coordinate locali del Giocatore che si muove e ruota insieme al Giocatore.",
-                "ja-JP": "プレイヤーのローカルの座標システムプレイヤーと共に移動および回転に関連する",
-                "ko-KR": "플레이어의 로컬 좌표계플레이어와 함께 회전 및 이동함에 상대적입니다.",
-                "pl-PL": "W odniesieniu do lokalnego systemu współrzędnych gracza które poruszają się i obracają razem z graczem.",
-                "pt-BR": "Relativo ao sistema de coordenadas locais do jogador que se movem e giram com o jogador.",
-                "ru-RU": "Направление задается относительно локальной системы координат игрока она движется и вращается вместе с игроком.",
-                "th-TH": "สัมพันธ์กับระบบพิกัดในพื้นที่ของผู้เล่น ซึ่งเคลื่อนที่และหมุนไปพร้อมกับผู้เล่น",
-                "tr-TR": "Oyuncu'nun yerel koordinat sistemine göre oyuncuyla hareket eden ve dönen.",
-                "zh-CN": "相对玩家的坐标系统（会随着玩家移动旋转）。",
-                "zh-TW": "Relative to the player's local coordinate system which moves and rotates with the player."
-            },
+            "description": { "en-US": "Relative to the player's local coordinate system (which moves and rotates with the player)." },
+
             "en-US": "To Player",
             "es-MX": "Al jugador",
             "fr-FR": "Au joueur",
@@ -8254,23 +7972,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "TO_WORLD": {
             "guid": "00000000B170",
-            "description": {
-                "en-US": "Relative to the world's coordinate system.",
-                "de-DE": "Relativ zum Koordinatensystem der Welt.",
-                "es-ES": "Relativo al sistema de coordenadas del mundo.",
-                "es-MX": "Vinculado al sistema de coordenadas del mundo.",
-                "fr-FR": "Relatif au système de coordination du monde.",
-                "it-IT": "Relativo al sistema di coordinate del mondo di gioco.",
-                "ja-JP": "ワールドの座標システムに関連する",
-                "ko-KR": "월드 좌표계에 상대적입니다.",
-                "pl-PL": "W odniesieniu do systemu współrzędnych świata.",
-                "pt-BR": "Relativo ao sistema de coordenadas do mundo.",
-                "ru-RU": "Направление задается относительно глобальной системы координат.",
-                "th-TH": "สัมพันธ์กับระบบพิกัดของโลก",
-                "tr-TR": "Dünyanın koordinat sistemine göre.",
-                "zh-CN": "相对这个世界的坐标系统。",
-                "zh-TW": "Relative to the world's coordinate system."
-            },
+            "description": { "en-US": "Relative to the world's coordinate system." },
+
             "en-US": "To World",
             "es-MX": "Al mundo",
             "fr-FR": "Au monde",
@@ -8291,23 +7994,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "SpecVisibility": {
         "DEFAULT": {
             "guid": "00000000CE55",
-            "description": {
-                "en-US": "Non-team spectators can see text when all players can see it.",
-                "de-DE": "Teamlose Zuschauer können Text sehen wenn alle Spieler ihn sehen können.",
-                "es-ES": "Los observadores fuera del equipo ven el texto cuando todos los jugadores pueden verlo.",
-                "es-MX": "Los espectadores que no pertenecen al equipo solo pueden ver el texto cuando todos los jugadores pueden verlo.",
-                "fr-FR": "Les spectateurs neutres peuvent voir le texte lorsque tous les joueurs peuvent le voir.",
-                "it-IT": "Gli spettatori esterni vedono il testo quando tutti i giocatori possono vederlo.",
-                "ja-JP": "全プレイヤーがテキストを見ることができる場合、非チーム視点の観戦者はテキストを見ることができる",
-                "ko-KR": "모든 플레이어가 텍스트를 볼 수 있다면 외부 관전자도 볼 수 있습니다.",
-                "pl-PL": "Obserwatorzy spoza drużyny widzą tekst kiedy widzą go wszyscy gracze.",
-                "pt-BR": "Os espectadores fora do time verão o texto quando todos os jogadores puderem ver.",
-                "ru-RU": "Внекомандные зрители видят текст когда его видят все игроки.",
-                "th-TH": "ผู้ชมที่ไม่มีทีมจะเห็นข้อความเมื่อผู้เล่นทั้งหมดเห็น",
-                "tr-TR": "Tüm oyuncular metni görebiliyorsa takım dışı izleyiciler de görebilir.",
-                "zh-CN": "当所有玩家都可以看到文本时，无队伍观战者也能看到。",
-                "zh-TW": "Non-team spectators can see text when all players can see it."
-            },
+            "description": { "en-US": "Non-team spectators can see text when all players can see it." },
+
             "en-US": "Default Visibility",
             "es-MX": "Visibilidad predeterminada",
             "fr-FR": "Visibilité par défaut",
@@ -8326,23 +8014,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "ALWAYS": {
             "guid": "00000000CE56",
-            "description": {
-                "en-US": "Non-team spectators can always see text.",
-                "de-DE": "Teamlose Zuschauer können Text immer sehen.",
-                "es-ES": "Los observadores fuera del equipo siempre ven el texto.",
-                "es-MX": "Los espectadores que no pertenecen al equipo siempre pueden ver el texto.",
-                "fr-FR": "Les spectateurs neutres peuvent toujours voir le texte.",
-                "it-IT": "Gli spettatori esterni vedono sempre il testo.",
-                "ja-JP": "非チーム視点の観戦者は常にテキストを見ることができる",
-                "ko-KR": "외부 관전자가 항상 텍스트를 볼 수 있습니다.",
-                "pl-PL": "Obserwatorzy spoza drużyny zawsze widzą tekst.",
-                "pt-BR": "Os espectadores fora do time sempre verão o texto.",
-                "ru-RU": "Внекомандные зрители всегда видят текст.",
-                "th-TH": "ผู้ชมที่ไม่มีทีมจะเห็นข้อความเสมอ",
-                "tr-TR": "Takım dışı izleyiciler her zaman metni görebilir.",
-                "zh-CN": "无队伍观战者始终可以看到文本。",
-                "zh-TW": "Non-team spectators can always see text."
-            },
+            "description": { "en-US": "Non-team spectators can always see text." },
+
             "en-US": "Visible Always",
             "es-MX": "Siempre visible",
             "fr-FR": "Toujours visible",
@@ -8361,23 +8034,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "NEVER": {
             "guid": "00000000CE57",
-            "description": {
-                "en-US": "Non-team spectators can never see text.",
-                "de-DE": "Teamlose Zuschauer können Text nie sehen.",
-                "es-ES": "Los observadores fuera del equipo nunca ven el texto.",
-                "es-MX": "Los espectadores que no pertenecen al equipo nunca pueden ver el texto.",
-                "fr-FR": "Les spectateurs neutres ne peuvent jamais voir le texte.",
-                "it-IT": "Gli spettatori esterni non vedono mai il testo.",
-                "ja-JP": "非チーム視点の観戦者は一切テキストを見ることができない",
-                "ko-KR": "외부 관전자가 절대로 텍스트를 볼 수 없습니다.",
-                "pl-PL": "Obserwatorzy spoza drużyny nigdy nie widzą tekstu.",
-                "pt-BR": "Os espectadores fora do time nunca verão o texto.",
-                "ru-RU": "Внекомандные зрители никогда не видят текста.",
-                "th-TH": "ผู้ชมที่ไม่มีทีมจะไม่เห็นข้อความเลย",
-                "tr-TR": "Takım dışı izleyiciler hiçbir zaman metni göremez.",
-                "zh-CN": "无队伍观战者始终无法看到文本。",
-                "zh-TW": "Non-team spectators can never see text."
-            },
+            "description": { "en-US": "Non-team spectators can never see text." },
+
             "en-US": "Visible Never",
             "es-MX": "Nunca visible",
             "fr-FR": "Jamais visible",
@@ -8398,9 +8056,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Stat": {
         "DAMAGE_DEALT": {
             "guid": "0000000124B7",
-            "description": {
-                "en-US": "Specifies all damage dealt (to heroes, barriers, and pets)."
-            },
+            "description": { "en-US": "Specifies all damage dealt (to heroes, barriers, and pets)." },
+
             "en-US": "All Damage Dealt",
             "es-MX": "Todo el daño infligido",
             "fr-FR": "Dégâts infligés tous",
@@ -8581,9 +8238,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "HERO_DAMAGE_DEALT": {
             "guid": "0000000124D5",
-            "description": {
-                "en-US": "Specifies damage dealt to heroes, but not barriers or pets."
-            },
+            "description": { "en-US": "Specifies damage dealt to heroes, but not barriers or pets." },
+
             "en-US": "Hero Damage Dealt",
             "es-MX": "Daño infligido a héroes",
             "fr-FR": "Dégâts infligés aux héros",
@@ -8766,9 +8422,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Status": {
         "ASLEEP": {
             "guid": "00000000B36A",
-            "description": {
-                "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Ana's sleep dart causes this status."
-            },
+            "description": { "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Ana's sleep dart causes this status." },
+
             "en-US": "Asleep",
             "es-MX": "Dormido",
             "fr-FR": "Endormi",
@@ -8787,9 +8442,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "BURNING": {
             "guid": "00000000B36C",
-            "description": {
-                "en-US": "The player is burning. For example, Ashe's dynamite causes this status."
-            },
+            "description": { "en-US": "The player is burning. For example, Ashe's dynamite causes this status." },
+
             "en-US": "Burning",
             "es-MX": "En llamas",
             "fr-FR": "Enflammé",
@@ -8808,9 +8462,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "FROZEN": {
             "guid": "00000000B369",
-            "description": {
-                "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Mei's endothermic blaster causes this status."
-            },
+            "description": { "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Mei's endothermic blaster causes this status." },
+
             "en-US": "Frozen",
             "es-MX": "Congelado",
             "fr-FR": "Gelé",
@@ -8829,9 +8482,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "HACKED": {
             "guid": "00000000B36D",
-            "description": {
-                "en-US": "The player is unable to use abilities or ultimate abilities. Weapon attacks are unaffected. For example, Sombra can cause this status."
-            },
+            "description": { "en-US": "The player is unable to use abilities or ultimate abilities. Weapon attacks are unaffected. For example, Sombra can cause this status." },
+
             "en-US": "Hacked",
             "es-MX": "Hackeado",
             "fr-FR": "Piraté",
@@ -8850,9 +8502,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "INVINCIBLE": {
             "guid": "00000000B367",
-            "description": {
-                "en-US": "The player does not take damage."
-            },
+            "description": { "en-US": "The player does not take damage." },
+
             "en-US": "Invincible",
             "es-MX": "Invencible",
             "ja-JP": "無敵",
@@ -8871,9 +8522,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "KNOCKED_DOWN": {
             "guid": "00000000B36B",
-            "description": {
-                "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Reinhardt's Earthshatter causes this status."
-            },
+            "description": { "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Reinhardt's Earthshatter causes this status." },
+
             "en-US": "Knocked Down",
             "es-MX": "Derribado",
             "fr-FR": "Renversé",
@@ -8892,9 +8542,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "PHASED_OUT": {
             "guid": "00000000B366",
-            "description": {
-                "en-US": "The player passes through other players and avoids all enemy attacks. For example, Reaper's wraith form causes this status."
-            },
+            "description": { "en-US": "The player passes through other players and avoids all enemy attacks. For example, Reaper's wraith form causes this status." },
+
             "en-US": "Phased Out",
             "es-MX": "Forma etérea",
             "fr-FR": "Déphasé",
@@ -8913,9 +8562,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "ROOTED": {
             "guid": "00000000B365",
-            "description": {
-                "en-US": "The player cannot move unless moved by another player or object. Aiming is unaffected."
-            },
+            "description": { "en-US": "The player cannot move unless moved by another player or object. Aiming is unaffected." },
+
             "en-US": "Rooted",
             "es-MX": "Arraigado",
             "fr-FR": "Immobilisé",
@@ -8934,9 +8582,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "STUNNED": {
             "guid": "00000000B565",
-            "description": {
-                "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Cassidy's flashbang causes this status."
-            },
+            "description": { "en-US": "The player cannot move, aim, or use weapons or abilities. For example, Cassidy's flashbang causes this status." },
+
             "en-US": "Stunned",
             "es-MX": "Aturdido",
             "fr-FR": "Étourdi",
@@ -8955,9 +8602,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "UNKILLABLE": {
             "guid": "00000000B368",
-            "description": {
-                "en-US": "The player's health will not drop below 1."
-            },
+            "description": { "en-US": "The player's health will not drop below 1." },
+
             "en-US": "Unkillable",
             "es-MX": "Inmortal",
             "fr-FR": "Intuable",
@@ -9110,9 +8756,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Transform": {
         "ROTATION": {
             "guid": "00000000B33B",
-            "description": {
-                "en-US": "The resulting vector will be rotated to the new frame of reference. Use this option when the provided vector is a direction or velocity."
-            },
+            "description": { "en-US": "The resulting vector will be rotated to the new frame of reference. Use this option when the provided vector is a direction or velocity." },
+
             "en-US": "Rotation",
             "es-MX": "Rotación",
             "ja-JP": "回転",
@@ -9131,9 +8776,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "ROTATION_AND_TRANSLATION": {
             "guid": "00000000B33C",
-            "description": {
-                "en-US": "The resulting vector will be rotated and translated to the new frame of reference. Use this option when the provided vector is a position."
-            },
+            "description": { "en-US": "The resulting vector will be rotated and translated to the new frame of reference. Use this option when the provided vector is a position." },
+
             "en-US": "Rotation And Translation",
             "es-MX": "Rotación y traslación",
             "fr-FR": "Rotation et Translation",
@@ -9154,9 +8798,8 @@ export const constantValues: Record<string, { description?: import("../types").L
     "Wait": {
         "ABORT_WHEN_FALSE": {
             "guid": "00000000787D",
-            "description": {
-                "en-US": "The execution of the action list is aborted if any condition on this rule becomes false."
-            },
+            "description": { "en-US": "The execution of the action list is aborted if any condition on this rule becomes false." },
+
             "en-US": "Abort When False",
             "es-ES": "Abortar cuando sea falso",
             "es-MX": "Cancelar cuando es falso",
@@ -9175,9 +8818,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "IGNORE_CONDITION": {
             "guid": "00000000787C",
-            "description": {
-                "en-US": "The execution of the action list is never interrupted."
-            },
+            "description": { "en-US": "The execution of the action list is never interrupted." },
+
             "en-US": "Ignore Condition",
             "es-ES": "Ignorar condición",
             "es-MX": "Ignorar condición",
@@ -9196,9 +8838,8 @@ export const constantValues: Record<string, { description?: import("../types").L
         },
         "RESTART_WHEN_TRUE": {
             "guid": "00000000787E",
-            "description": {
-                "en-US": "The execution of the action list restarts from the first action if the condition list transitions from false to true or if the rule's event occurs again with true conditions."
-            },
+            "description": { "en-US": "The execution of the action list restarts from the first action if the condition list transitions from false to true or if the rule's event occurs again with true conditions." },
+
             "en-US": "Restart When True",
             "es-ES": "Reiniciar cuando sea verdadero",
             "es-MX": "Reiniciar cuando es verdadero",
@@ -9241,7 +8882,7 @@ export const constantValues: Record<string, { description?: import("../types").L
             "es-MX": "Ninguno",
             "fr-FR": "Aucune",
             "ja-JP": "なし",
-            "pt-BR": "Nenhuma",
+            "pt-BR": "Ninguém",
             "th-TH": "ไม่มี",
             "tr-TR": "Yok",
             "zh-CN": "全部禁用",
