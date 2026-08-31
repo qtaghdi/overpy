@@ -67,6 +67,18 @@ let types = fs.readFileSync(typesPath, "utf8");
 types = types.replace("type OWLanguage = `${ow_languages}`;", "export type OWLanguage = `${ow_languages}`;");
 fs.writeFileSync(typesPath, types);
 
+const globalVarsPath = path.join(root, "src", "globalVars.ts");
+let globalVars = fs.readFileSync(globalVarsPath, "utf8");
+globalVars = globalVars.replace(
+    'constantValues[key].description = "The built-in `"+key.substring(0, key.length-"Literal".length)+"` enum.";',
+    'constantValues[key].description = { "en-US": "The built-in `"+key.substring(0, key.length-"Literal".length)+"` enum." };',
+);
+globalVars = globalVars.replace(
+    'constantValues[key].description = "The built-in `"+key+"` enum.";',
+    'constantValues[key].description = { "en-US": "The built-in `"+key+"` enum." };',
+);
+fs.writeFileSync(globalVarsPath, globalVars);
+
 const generatorPath = path.join(root, "generate-the-other-languages-doc.js");
 let generator = fs.readFileSync(generatorPath, "utf8");
 generator = generator.replace("function iterateOnObject(content) {", "function iterateOnObject(content, isDescription = false) {");
@@ -95,17 +107,17 @@ const addTranslations = String.raw`function addTranslations(content, persistGuid
 
     let guidGlob = guidToLocaleMap.get(guid);
     if (!guidGlob) {
-        console.warn(`GUID ${guid} for ${JSON.stringify(content)} appears to have become invalid! Attempting to rectify by finding the GUID again...`);
+        console.warn("GUID " + guid + " for " + JSON.stringify(content) + " appears to have become invalid! Attempting to rectify by finding the GUID again...");
         guid = fuzzyMatch
             ? enUSFuzzyToGuidMap.get(content["en-US"].replace(/[\.,;'\s()-]/g, "").toLowerCase())
             : enUSToGuidMap.get(content["en-US"]);
         if (persistGuid && guid !== undefined) content.guid = guid;
         guidGlob = guid === undefined ? undefined : guidToLocaleMap.get(guid);
         if (!guidGlob) {
-            console.error(`No valid GUID found for content ${JSON.stringify(content)}`);
+            console.error("No valid GUID found for content " + JSON.stringify(content));
             return content;
         }
-        console.log(`New GUID found: ${guid}, proceeding...`);
+        console.log("New GUID found: " + guid + ", proceeding...");
     }
 
     for (let localeEntry of Object.entries(guidGlob)) {
